@@ -1,15 +1,34 @@
 #+TITLE: unis grime thign
-#+OPTIONS: H:6
-#+OPTIONS: todo:t
-#+OPTIONS: timestamp:nil
+#+OPTIONS: timestamp:nil author:nil todo:t H:6
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="grime_style.css" />
 #+INFOJS_OPT: view:info toc:nil
 #+begin_src emacs-lisp :exports none
 (map! "C-c l n l" #'org-super-links-store-link)
 (map! "C-c l l l" #'org-super-links-link)
+(setq! yt-iframe-format
+  ;; You may want to change your width and height.
+  (concat "<p><iframe width=\"440\""
+          " height=\"335\""
+          " src=\"https://www.youtube.com/embed/%s\""
+          " frameborder=\"0\""
+          " allowfullscreen>%s</iframe></p>"))
+
+(org-add-link-type
+ "yt"
+ (lambda (handle)
+   (browse-url
+    (concat "https://www.youtube.com/embed/"
+            handle)))
+ (lambda (path desc backend)
+   (cl-case backend
+     (html (format yt-iframe-format
+                   path (or desc "")))
+     (latex (format "\href{%s}{%s}"
+                    path (or desc "video"))))))
 #+end_src
 
 #+RESULTS:
+: Created yt link.
 
 * Grime Tunes
 not ordered by importance or date or literally anything but vibes and my motivation to do this.
@@ -17,6 +36,8 @@ i also have no credentials at all to do this ive been into this music for a year
 
 i try to refer to the date of production when possible, if artists arent listed in a crew or a set its probably because
 they havent appeared anywhere else yet and i dont know them well enough to write much.
+
+backlinks with the arrows are a little fucked due to how i automatically insert them idk
 ** Tracks
 *** [[id:169c9c6a-17b0-42a8-8711-15f6d3aed821][Musical Mob]] - Pulse X (January 2002)
 :PROPERTIES:
@@ -26,7 +47,7 @@ they havent appeared anywhere else yet and i dont know them well enough to write
 [2024-02-21 Mi 13:37] <- [[id:f27014c2-4348-4ae3-85db-992f69d7ac38][Mystry - Pulse 8 (~2014)]]
 [2024-02-21 Mi 13:32] <- [[id:7fb00a7e-678b-4567-a3c5-d6242f4e8031][Musical Mob - Pulse XYZ (~2003)]]
 :END:
-https://www.youtube.com/watch?v=4bMQTU2iI1E
+[[yt:4bMQTU2iI1E]]
 Produced by [[id:6ce16e9c-9780-40ce-9911-4c0c700fb86f][Youngstar]], this is probably one of the most well-known and most important grime beats to ever
 exist and for sure the most iconic [[id:80502fbb-07f8-4ef8-a180-3f717d0fd037][8-bar]] tune. Heavy bass, 5 minutes of pretty much the same 16-bars,
 but people rinse it and the dozens of tracks it inspired (see backlinks). The kick drum/bass sound/whatever is
@@ -35,26 +56,26 @@ probably the most iconic bit of it all.
 :PROPERTIES:
 :ID:       6d767e0e-2ee8-470e-aca5-531a6d5e757c
 :END:
-https://www.youtube.com/watch?v=HX2pGg6606M
+[[yt:HX2pGg6606M]]
 pure fire, the intro and first couple bars pop up in my head like twice a day
 *** [[id:169c9c6a-17b0-42a8-8711-15f6d3aed821][Musical Mob ]]- Pulse XYZ (~2003)
 :PROPERTIES:
 :ID:       7fb00a7e-678b-4567-a3c5-d6242f4e8031
 :END:
-https://www.youtube.com/watch?v=cYijGpdqWzY
+[[yt:cYijGpdqWzY]]
 [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]] edit with about 2 billion switch ups prod. [[id:6ce16e9c-9780-40ce-9911-4c0c700fb86f][Youngstar]]. Not my favorite one but its alright
 *** [[id:f7f2d318-fb6a-458a-b69f-cd436435fd31][Mystry]] - Pulse 8 (~2014)
 :PROPERTIES:
 :ID:       f27014c2-4348-4ae3-85db-992f69d7ac38
 :END:
-https://www.youtube.com/watch?v=LVCUqd5izt8
+[[yt:LVCUqd5izt8]]
 One of the best somewhat more recent [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]]-type riddims. The kick's there,, the "automatic" makes for a
 great voice sample, the tonal bweeeh type bass every couple bars makes it singable too somehow.
 **** [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]] - Pulse 8 (2014)
 :PROPERTIES:
 :ID:       147b6914-bf44-4148-be37-8bcb0ceb9fdd
 :END:
-https://www.youtube.com/watch?v=ecgFjnPFnZQ
+[[yt:ecgFjnPFnZQ]]
 Slight variation of the beat I think, definitely one of the most fun tracks on the album. Lots of the
 silliness [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]] is known for, couple of great bars though.
 *** [[id:38e88ed5-9248-47b1-8a07-96bd069a7aea][DJ Wonder]] - What (~2002)
@@ -64,21 +85,21 @@ silliness [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]] is known for, couple 
 :BACKLINKS:
 [2024-02-21 Mi 00:22] <- [[id:662407b5-6218-494f-bc5f-69c965dfc378][Wiley - Morgue (~2004?)]]
 :END:
-https://www.youtube.com/watch?v=bBiN5tQX7Ro
-Absurd bass heavy weight, still
+[[yt:bBiN5tQX7Ro]]
+Absurd bass heavy weight
 **** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Respect Me
 *** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] - Morgue (~2004?)
 :PROPERTIES:
 :ID:       662407b5-6218-494f-bc5f-69c965dfc378
 :END:
-https://www.youtube.com/watch?v=z0cV9p2-VOg
+[[yt:z0cV9p2-VOg]]
 obviously very much, uh, inspired by [[id:0fd18fe7-9f5c-4a38-b607-310097a60eb8][DJ Wonder - What (~2002)]], as far as i know thats related to some relationship
 drama related to him and [[id:38e88ed5-9248-47b1-8a07-96bd069a7aea][DJ Wonder]], at least according to [[https://genius.com/Wiley-morgue-lyrics][Genius]] which also states it was banned from [[id:cecf3e92-5439-4892-ae83-5da3d7715e3a][rinse.fm]] due to that.
 **** [[id:8026c704-3324-4ccf-afa8-ed49e789e6a1][Roll Deep]] - Morgue
 :PROPERTIES:
 :ID:       50249c49-f85c-400e-b420-cfbd6077f225
 :END:
-https://www.youtube.com/watch?v=kYWuhGG6QcQ
+[[yt:kYWuhGG6QcQ]]
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Pied Piper
 :PROPERTIES:
 :ID:       ffe993e6-d8ae-4a0c-a0ae-f3e01b177be7
@@ -86,7 +107,7 @@ https://www.youtube.com/watch?v=kYWuhGG6QcQ
 :BACKLINKS:
 [2024-02-21 Mi 13:48] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
 :END:
-https://www.youtube.com/watch?v=SDnOwNCrEu8
+[[yt:SDnOwNCrEu8]]
 Great tune, love the blown out square lead and the eskibeat type beeps and boops. Prod. by [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]].
 
 also this sells for almost triple digit prices, pretty absurd
@@ -97,7 +118,7 @@ also this sells for almost triple digit prices, pretty absurd
 :BACKLINKS:
 [2024-02-21 Mi 13:51] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
 :END:
-https://www.youtube.com/watch?v=69reF45Ok_I
+[[yt:69reF45Ok_I]]
 great guitar bit, choppy 2-step drums, thick square basses to complement it all
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Functions on the Low
 :PROPERTIES:
@@ -106,7 +127,7 @@ great guitar bit, choppy 2-step drums, thick square basses to complement it all
 :BACKLINKS:
 [2024-02-21 Mi 13:53] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
 :END:
-https://www.youtube.com/watch?v=-uy0XIlnz4U
+[[yt:-uy0XIlnz4U]]
 very close to just being cheesy with the chords and all that
 
 part of the record [[id:3c90393f-e5e0-431a-a280-1a9124c9e785][Ruff Sqwad - Misty Cold (XTC Remix) (~2003-2004)]] is on
@@ -117,7 +138,7 @@ part of the record [[id:3c90393f-e5e0-431a-a280-1a9124c9e785][Ruff Sqwad - Misty
 :BACKLINKS:
 [2024-02-21 Mi 13:58] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
 :END:
-https://www.youtube.com/watch?v=-2dRMGVJwrg
+[[yt:-2dRMGVJwrg]]
 Heavy one especially with these eight note cymbals and the ever present bassline
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Tings in Boots (2002-2003)
 :PROPERTIES:
@@ -126,21 +147,21 @@ Heavy one especially with these eight note cymbals and the ever present bassline
 :BACKLINKS:
 [2024-02-21 Mi 14:03] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
 :END:
-https://www.youtube.com/watch?v=ppR0lOC2rfU
+[[yt:ppR0lOC2rfU]]
 first [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] track as far I know. very raw and kind of carceral, great bassline but not their best
 **** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad -]] Tings in Boots (vocal ver) (2002-2003)
 :PROPERTIES:
 :ID:       20a31a00-54a2-4695-a17f-2184a307927f
 :END:
-https://www.youtube.com/watch?v=pMDHjMagG0Y
+[[yt:pMDHjMagG0Y]]
 featurs (according to discogs at least) [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]], [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]], [[id:3ae5799d-c040-42c0-8749-eaa720b6b831][Slix]].
 sadly not very good tbh, its also notable how young tinchy sounds despite being at least 16 or 17
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad ]]- Misty Cold (~2003)
 :PROPERTIES:
 :ID:       ff56cbfe-87ea-4a8f-8e6b-e7856abc8116
 :END:
-https://www.youtube.com/watch?v=B8tMF191Fd0
-alright one
+[[yt:B8tMF191Fd0]]
+alright one but also very well known for some reason
 **** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Misty Cold ([[id:fba039e5-f752-4635-9c90-7771361485e6][XTC]] Remix) (~2003-2004)
 :PROPERTIES:
 :ID:       3c90393f-e5e0-431a-a280-1a9124c9e785
@@ -148,7 +169,7 @@ alright one
 :BACKLINKS:
 [2024-02-21 Mi 14:11] <- [[id:d2c64036-da6a-493e-8bda-20d27206780e][Ruff Sqwad - Functions on the Low]]
 :END:
-https://www.youtube.com/watch?v=3NLOA9bQbEc
+[[yt:3NLOA9bQbEc]]
 outstandingly good, especially with that reversed and cut up sound every 2 bars. classic square bass
 shines too
 
@@ -160,7 +181,7 @@ also one of the most expensive grime records, see https://www.discogs.com/releas
 :BACKLINKS:
 [2024-02-21 Mi 14:26] <- [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Flirta D - Shottaz Riddim]]
 :END:
-https://www.youtube.com/watch?v=ayME3Zy0vG8
+[[yt:ayME3Zy0vG8]]
 prod. by [[id:c27f77cc-993d-4211-b801-e554c527d4b9][Jiggalo]].
 definitely the most iconic flirta tune and a fun riddim too.
 *** [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] - Shottaz Riddim
@@ -170,7 +191,7 @@ definitely the most iconic flirta tune and a fun riddim too.
 :BACKLINKS:
 [2024-02-21 Mi 14:27] <- [[id:22fc4961-511e-44f7-9c52-e45665ed56f5][Neffa-T - Keep Hush Bristol: Dr. Dubplate's Birthday Bash (2022)]]
 :END:
-https://www.youtube.com/watch?v=vIcL1N5BdvE
+[[yt:vIcL1N5BdvE]]
 prod. [[id:6ce16e9c-9780-40ce-9911-4c0c700fb86f][Youngstar]].
 This was a dubplate until like 2012 when it got released on https://pitchcontrollerrecords.bandcamp.com/album/slk-the-lost-tapes-2.
 
@@ -194,7 +215,7 @@ than [[id:ba2b4c13-c11e-4501-8535-2958da840179][Warp Speed]] (especially due to 
 :BACKLINKS:
 [2024-02-21 Mi 22:30] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
 :END:
-https://www.youtube.com/watch?v=TZ5ug15enjg
+[[yt:TZ5ug15enjg]]
 
 Deep and dark tune and definitely a classic. Somewhere on the edge between grime and dubstep like a lot of
 the things Plastician made back in the day. [[https://twitter.com/Plastician/status/1755725501908304208][Interestingly]] it wasnt played out all that much around its release, more like a classic in hindsight.
@@ -218,13 +239,13 @@ still around on [[https://rinse.fm/]]! established as a jungle pirate radio by [
 :PROPERTIES:
 :ID:       a8b9226a-8f9b-49e9-be01-65a44d746087
 :END:
-https://www.youtube.com/watch?v=V4jWCe73Pv8
+[[yt:V4jWCe73Pv8]]
 kind of low quality and not the very best mc work of those two but some crazy garage and 2-step tunes in particular
 **** [[id:e4ae951e-aff6-4da8-a9f4-5aee31903621][Oblig]] with Big Zuu, [[id:c4029910-ba36-4700-8ca8-0758764f5bb8][Manga Saint Hilare]], [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]], Sox, Jafro & More (2024)
 :PROPERTIES:
 :ID:       475ff64d-7f36-4663-99ce-630f737cc0e1
 :END:
-https://www.youtube.com/watch?v=T5AETXnQD6o
+[[yt:T5AETXnQD6o]]
 - crazy [[id:942ea114-c758-4708-a4f9-1f08a870a4d8][Shallow Grave]] around 8:20
 - [[id:53d91147-92b4-4497-92b8-8e6232d8fd8f][Juggernaut]] around 13:00 pops off too
 ** Misc. Sets
@@ -232,8 +253,8 @@ https://www.youtube.com/watch?v=T5AETXnQD6o
 :PROPERTIES:
 :ID:       22fc4961-511e-44f7-9c52-e45665ed56f5
 :END:
-https://www.youtube.com/watch?v=-ZNQmjfhYF0
-absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddim]] at like 160 bpm mixed into [[https://www.youtube.com/watch?v=uubDhcd6Ty0][this]] banger [[id:a31c6645-671f-49c7-8a41-9ff337b68e67][Night]] remix back into [[https://www.youtube.com/watch?v=sOQA6oli2jc][the Body Groove]] instrumental
+[[yt:-ZNQmjfhYF0]]
+absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddim]] at like 160 bpm mixed into [[yt:uubDhcd6Ty0][this]] banger [[id:a31c6645-671f-49c7-8a41-9ff337b68e67][Night]] remix back into [[yt:sOQA6oli2jc][the Body Groove]] instrumental
 ** Artists
 *** TODO Wiley
 :PROPERTIES:
@@ -450,7 +471,7 @@ One of the dubstep goats for sure
 :PROPERTIES:
 :ID:       5fe29ba7-a76f-4345-924d-48c588c5ae6e
 :END:
-https://www.youtube.com/watch?v=JI501loMDjE&list=OLAK5uy_mC776hXD43TTbvSjDTB9K9fGytbwVVsCk
+[[yt:JI501loMDjE&list=OLAK5uy_mC776hXD43TTbvSjDTB9K9fGytbwVVsCk]]
 Lots of classic instrumentals, imo chill and almost melancholic vibes compared to the cold eskibeat sounds
 for example, but there's lots of overlap too with tunes like [[id:ffe993e6-d8ae-4a0c-a0ae-f3e01b177be7][Ruff Sqwad - Pied Piper]].
 Also included:
