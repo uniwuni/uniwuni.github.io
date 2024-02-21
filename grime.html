@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>unis grime thign</title>
+<meta name="author" content="uni Marx" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="grime_style.css" />
+
+<script src="https://orgmode.org/org-info.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
+<script>
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "6");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "0");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "0");
+org_html_manager.set("TOC", "0");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">unis grime thign</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org8b256ee">1. Grime Tunes</a>
+<ul>
+<li><a href="#org1e592ab">1.1. Tracks</a>
+<ul>
+<li><a href="#orgc2b8a9c">1.1.1. Musical Mob - Pulse X (January 2002)</a>
+<ul>
+<li><a href="#orge89bb23">1.1.1.1. Dizzee Rascal - Pulse X Dubplate</a></li>
+</ul>
+</li>
+<li><a href="#org7a6eae9">1.1.2. Musical Mob - Pulse XYZ (~2003)</a></li>
+<li><a href="#org4bc8ab9">1.1.3. Mystry - Pulse 8 (~2014)</a>
+<ul>
+<li><a href="#org9bd5734">1.1.3.1. JME - Pulse 8 (2014)</a></li>
+</ul>
+</li>
+<li><a href="#org258906b">1.1.4. DJ Wonder - What (~2002)</a>
+<ul>
+<li><a href="#orgebdca8e">1.1.4.1. Dizzee Rascal - Respect Me</a></li>
+</ul>
+</li>
+<li><a href="#org42598c6">1.1.5. Wiley - Morgue (~2004?)</a>
+<ul>
+<li><a href="#orgfe6a93d">1.1.5.1. Roll Deep - Morgue</a></li>
+</ul>
+</li>
+<li><a href="#orga79a291">1.1.6. Ruff Sqwad - Pied Piper</a></li>
+<li><a href="#orgdeeae44">1.1.7. Ruff Sqwad - Together</a></li>
+<li><a href="#org80cafe9">1.1.8. Ruff Sqwad - Functions on the Low</a></li>
+<li><a href="#orgf9b3ed4">1.1.9. Ruff Sqwad - Xtra (2004-2005)</a></li>
+<li><a href="#org3907198">1.1.10. Ruff Sqwad - Tings in Boots (2002-2003)</a>
+<ul>
+<li><a href="#org4f8fd12">1.1.10.1. Ruff Sqwad - Tings in Boots (vocal ver) (2002-2003)</a></li>
+</ul>
+</li>
+<li><a href="#org5489609">1.1.11. Ruff Sqwad - Misty Cold (~2003)</a>
+<ul>
+<li><a href="#orgf966214">1.1.11.1. Ruff Sqwad - Misty Cold (XTC Remix) (~2003-2004)</a></li>
+</ul>
+</li>
+<li><a href="#org5a5bbcb">1.1.12. Flirta D - Warp Speed (2004)</a></li>
+<li><a href="#orge43b98c">1.1.13. Flirta D - Shottaz Riddim</a></li>
+<li><a href="#org2a3a15b">1.1.14. <span class="todo TODO">TODO</span> Coki &amp; Benga - Night</a></li>
+<li><a href="#org593b384">1.1.15. Plastician - Shallow Grave (2004 Edit)</a></li>
+<li><a href="#org09bfca2">1.1.16. Joker - Juggernaut (released 2024, made years before that idk)</a></li>
+</ul>
+</li>
+<li><a href="#org202183b">1.2. Radio</a>
+<ul>
+<li><a href="#org38bacb5">1.2.1. Rinse.fm</a>
+<ul>
+<li><a href="#orged85ac1">1.2.1.1. Wiley + Flowdan set (2001)</a></li>
+<li><a href="#orgf7774af">1.2.1.2. Oblig with Big Zuu, Manga Saint Hilare, Flirta D, Sox, Jafro &amp; More (2024)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orge4af737">1.3. Misc. Sets</a>
+<ul>
+<li><a href="#org05f5710">1.3.1. Neffa-T - Keep Hush Bristol: Dr. Dubplate&rsquo;s Birthday Bash (2022)</a></li>
+</ul>
+</li>
+<li><a href="#org32b8dac">1.4. Artists</a>
+<ul>
+<li><a href="#orgd552e56">1.4.1. <span class="todo TODO">TODO</span> Wiley</a></li>
+<li><a href="#org3328a59">1.4.2. <span class="todo TODO">TODO</span> DJ Wonder</a></li>
+<li><a href="#org682e0a5">1.4.3. <span class="todo TODO">TODO</span> Flowdan</a></li>
+<li><a href="#org92d3f78">1.4.4. <span class="todo TODO">TODO</span> Dizzee Rascal</a></li>
+<li><a href="#org5ea206e">1.4.5. <span class="todo TODO">TODO</span> Slimzee</a></li>
+<li><a href="#org574761d">1.4.6. <span class="todo TODO">TODO</span> Youngstar</a></li>
+<li><a href="#org2a080fd">1.4.7. <span class="todo TODO">TODO</span> Mystry</a></li>
+<li><a href="#org14628da">1.4.8. <span class="todo TODO">TODO</span> JME</a></li>
+<li><a href="#orge82b2f4">1.4.9. <span class="todo TODO">TODO</span> Rapid</a></li>
+<li><a href="#org04e31c1">1.4.10. <span class="todo TODO">TODO</span> Slix</a></li>
+<li><a href="#orgb2c217b">1.4.11. <span class="todo TODO">TODO</span> Tinchy Stryder</a></li>
+<li><a href="#org944a29d">1.4.12. <span class="todo TODO">TODO</span> XTC</a></li>
+<li><a href="#org2a62922">1.4.13. <span class="todo TODO">TODO</span> Flirta D</a></li>
+<li><a href="#org4552fec">1.4.14. <span class="todo TODO">TODO</span> Jiggalo</a></li>
+<li><a href="#orgccfa455">1.4.15. <span class="todo TODO">TODO</span> Neffa-T</a></li>
+<li><a href="#orgdae7b36">1.4.16. <span class="todo TODO">TODO</span> Plastician</a></li>
+<li><a href="#orgfe7b303">1.4.17. <span class="todo TODO">TODO</span> Oblig</a></li>
+<li><a href="#orga8f6a01">1.4.18. <span class="todo TODO">TODO</span> Manga Saint Hilare</a></li>
+<li><a href="#org255d0b1">1.4.19. <span class="todo TODO">TODO</span> Joker</a></li>
+</ul>
+</li>
+<li><a href="#orgf2790c3">1.5. Albums etc.</a>
+<ul>
+<li><a href="#org094b5f3">1.5.1. Ruff Sqwad - White Label Classics</a></li>
+</ul>
+</li>
+<li><a href="#org0073d06">1.6. Crews</a>
+<ul>
+<li><a href="#org350a5ec">1.6.1. <span class="todo TODO">TODO</span> Roll Deep</a></li>
+<li><a href="#org1ff5a91">1.6.2. <span class="todo TODO">TODO</span> Musical Mob</a></li>
+<li><a href="#orgc30d392">1.6.3. <span class="todo TODO">TODO</span> Ruff Sqwad</a></li>
+</ul>
+</li>
+<li><a href="#org8383e59">1.7. Styles</a>
+<ul>
+<li><a href="#orge42e281">1.7.1. <span class="todo TODO">TODO</span> 8-bar</a></li>
+<li><a href="#org778d99e">1.7.2. <span class="todo TODO">TODO</span> Weightless</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8b256ee" class="outline-2">
+<h2 id="org8b256ee"><span class="section-number-2">1.</span> Grime Tunes</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+not ordered by importance or date or literally anything but vibes and my motivation to do this.
+i also have no credentials at all to do this ive been into this music for a year or something but i feel like im sufficiently well informed to explain some of it to friends
+</p>
+
+<p>
+i try to refer to the date of production when possible, if artists arent listed in a crew or a set its probably because
+they havent appeared anywhere else yet and i dont know them well enough to write much.
+</p>
+</div>
+<div id="outline-container-org1e592ab" class="outline-3">
+<h3 id="org1e592ab"><span class="section-number-3">1.1.</span> Tracks</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-orgc2b8a9c" class="outline-4">
+<h4 id="orgc2b8a9c"><span class="section-number-4">1.1.1.</span> <a href="#org1ff5a91">Musical Mob</a> - Pulse X (January 2002)</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:37] </span></span> &lt;- <a href="#org4bc8ab9">Mystry - Pulse 8 (~2014)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:32] </span></span> &lt;- <a href="#org7a6eae9">Musical Mob - Pulse XYZ (~2003)</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=4bMQTU2iI1E">https://www.youtube.com/watch?v=4bMQTU2iI1E</a>
+Produced by <a href="#org574761d">Youngstar</a>, this is probably one of the most well-known and most important grime beats to ever
+exist and for sure the most iconic <a href="#orge42e281">8-bar</a> tune. Heavy bass, 5 minutes of pretty much the same 16-bars,
+but people rinse it and the dozens of tracks it inspired (see backlinks). The kick drum/bass sound/whatever is
+probably the most iconic bit of it all.
+</p>
+</div>
+<div id="outline-container-orge89bb23" class="outline-5">
+<h5 id="orge89bb23"><span class="section-number-5">1.1.1.1.</span> <a href="#org92d3f78">Dizzee Rascal</a> - Pulse X Dubplate</h5>
+<div class="outline-text-5" id="text-1-1-1-1">
+<p>
+<a href="https://www.youtube.com/watch?v=HX2pGg6606M">https://www.youtube.com/watch?v=HX2pGg6606M</a>
+pure fire, the intro and first couple bars pop up in my head like twice a day
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7a6eae9" class="outline-4">
+<h4 id="org7a6eae9"><span class="section-number-4">1.1.2.</span> <a href="#org1ff5a91">Musical Mob </a>- Pulse XYZ (~2003)</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+<a href="https://www.youtube.com/watch?v=cYijGpdqWzY">https://www.youtube.com/watch?v=cYijGpdqWzY</a>
+<a href="#orgc2b8a9c">Pulse X</a> edit with about 2 billion switch ups prod. <a href="#org574761d">Youngstar</a>. Not my favorite one but its alright
+</p>
+</div>
+</div>
+<div id="outline-container-org4bc8ab9" class="outline-4">
+<h4 id="org4bc8ab9"><span class="section-number-4">1.1.3.</span> <a href="#org2a080fd">Mystry</a> - Pulse 8 (~2014)</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<p>
+<a href="https://www.youtube.com/watch?v=LVCUqd5izt8">https://www.youtube.com/watch?v=LVCUqd5izt8</a>
+One of the best somewhat more recent <a href="#orgc2b8a9c">Pulse X</a>-type riddims. The kick&rsquo;s there,, the &ldquo;automatic&rdquo; makes for a
+great voice sample, the tonal bweeeh type bass every couple bars makes it singable too somehow.
+</p>
+</div>
+<div id="outline-container-org9bd5734" class="outline-5">
+<h5 id="org9bd5734"><span class="section-number-5">1.1.3.1.</span> <a href="#org14628da">JME</a> - Pulse 8 (2014)</h5>
+<div class="outline-text-5" id="text-1-1-3-1">
+<p>
+<a href="https://www.youtube.com/watch?v=ecgFjnPFnZQ">https://www.youtube.com/watch?v=ecgFjnPFnZQ</a>
+Slight variation of the beat I think, definitely one of the most fun tracks on the album. Lots of the
+silliness <a href="#org14628da">JME</a> is known for, couple of great bars though.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org258906b" class="outline-4">
+<h4 id="org258906b"><span class="section-number-4">1.1.4.</span> <a href="#org3328a59">DJ Wonder</a> - What (~2002)</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:22] </span></span> &lt;- <a href="#org42598c6">Wiley - Morgue (~2004?)</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=bBiN5tQX7Ro">https://www.youtube.com/watch?v=bBiN5tQX7Ro</a>
+Absurd bass heavy weight, still
+</p>
+</div>
+<div id="outline-container-orgebdca8e" class="outline-5">
+<h5 id="orgebdca8e"><span class="section-number-5">1.1.4.1.</span> <a href="#org92d3f78">Dizzee Rascal</a> - Respect Me</h5>
+</div>
+</div>
+<div id="outline-container-org42598c6" class="outline-4">
+<h4 id="org42598c6"><span class="section-number-4">1.1.5.</span> <a href="#orgd552e56">Wiley</a> - Morgue (~2004?)</h4>
+<div class="outline-text-4" id="text-1-1-5">
+<p>
+<a href="https://www.youtube.com/watch?v=z0cV9p2-VOg">https://www.youtube.com/watch?v=z0cV9p2-VOg</a>
+obviously very much, uh, inspired by <a href="#org258906b">DJ Wonder - What (~2002)</a>, as far as i know thats related to some relationship
+drama related to him and <a href="#org3328a59">DJ Wonder</a>, at least according to <a href="https://genius.com/Wiley-morgue-lyrics">Genius</a> which also states it was banned from <a href="#org38bacb5">rinse.fm</a> due to that.
+</p>
+</div>
+<div id="outline-container-orgfe6a93d" class="outline-5">
+<h5 id="orgfe6a93d"><span class="section-number-5">1.1.5.1.</span> <a href="#org350a5ec">Roll Deep</a> - Morgue</h5>
+<div class="outline-text-5" id="text-1-1-5-1">
+<p>
+<a href="https://www.youtube.com/watch?v=kYWuhGG6QcQ">https://www.youtube.com/watch?v=kYWuhGG6QcQ</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga79a291" class="outline-4">
+<h4 id="orga79a291"><span class="section-number-4">1.1.6.</span> <a href="#orgc30d392">Ruff Sqwad</a> - Pied Piper</h4>
+<div class="outline-text-4" id="text-1-1-6">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:48] </span></span> &lt;- <a href="#org094b5f3">Ruff Sqwad - White Label Classics</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=SDnOwNCrEu8">https://www.youtube.com/watch?v=SDnOwNCrEu8</a>
+Great tune, love the blown out square lead and the eskibeat type beeps and boops. Prod. by <a href="#orge82b2f4">Rapid</a>.
+</p>
+
+<p>
+also this sells for almost triple digit prices, pretty absurd
+</p>
+</div>
+</div>
+<div id="outline-container-orgdeeae44" class="outline-4">
+<h4 id="orgdeeae44"><span class="section-number-4">1.1.7.</span> <a href="#orgc30d392">Ruff Sqwad</a> - Together</h4>
+<div class="outline-text-4" id="text-1-1-7">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:51] </span></span> &lt;- <a href="#org094b5f3">Ruff Sqwad - White Label Classics</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=69reF45Ok_I">https://www.youtube.com/watch?v=69reF45Ok_I</a>
+great guitar bit, choppy 2-step drums, thick square basses to complement it all
+</p>
+</div>
+</div>
+<div id="outline-container-org80cafe9" class="outline-4">
+<h4 id="org80cafe9"><span class="section-number-4">1.1.8.</span> <a href="#orgc30d392">Ruff Sqwad</a> - Functions on the Low</h4>
+<div class="outline-text-4" id="text-1-1-8">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:53] </span></span> &lt;- <a href="#org094b5f3">Ruff Sqwad - White Label Classics</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=-uy0XIlnz4U">https://www.youtube.com/watch?v=-uy0XIlnz4U</a>
+very close to just being cheesy with the chords and all that
+</p>
+
+<p>
+part of the record <a href="#orgf966214">Ruff Sqwad - Misty Cold (XTC Remix) (~2003-2004)</a> is on
+</p>
+</div>
+</div>
+<div id="outline-container-orgf9b3ed4" class="outline-4">
+<h4 id="orgf9b3ed4"><span class="section-number-4">1.1.9.</span> <a href="#orgc30d392">Ruff Sqwad</a> - Xtra (2004-2005)</h4>
+<div class="outline-text-4" id="text-1-1-9">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:58] </span></span> &lt;- <a href="#org094b5f3">Ruff Sqwad - White Label Classics</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=-2dRMGVJwrg">https://www.youtube.com/watch?v=-2dRMGVJwrg</a>
+Heavy one especially with these eight note cymbals and the ever present bassline
+</p>
+</div>
+</div>
+<div id="outline-container-org3907198" class="outline-4">
+<h4 id="org3907198"><span class="section-number-4">1.1.10.</span> <a href="#orgc30d392">Ruff Sqwad</a> - Tings in Boots (2002-2003)</h4>
+<div class="outline-text-4" id="text-1-1-10">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:03] </span></span> &lt;- <a href="#org094b5f3">Ruff Sqwad - White Label Classics</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=ppR0lOC2rfU">https://www.youtube.com/watch?v=ppR0lOC2rfU</a>
+first <a href="#orgc30d392">Ruff Sqwad</a> track as far I know. very raw and kind of carceral, great bassline but not their best
+</p>
+</div>
+<div id="outline-container-org4f8fd12" class="outline-5">
+<h5 id="org4f8fd12"><span class="section-number-5">1.1.10.1.</span> <a href="#orgc30d392">Ruff Sqwad -</a> Tings in Boots (vocal ver) (2002-2003)</h5>
+<div class="outline-text-5" id="text-1-1-10-1">
+<p>
+<a href="https://www.youtube.com/watch?v=pMDHjMagG0Y">https://www.youtube.com/watch?v=pMDHjMagG0Y</a>
+featurs (according to discogs at least) <a href="#orge82b2f4">Rapid</a>, <a href="#orgb2c217b">Tinchy Stryder</a>, <a href="#org04e31c1">Slix</a>.
+sadly not very good tbh, its also notable how young tinchy sounds despite being at least 16 or 17
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5489609" class="outline-4">
+<h4 id="org5489609"><span class="section-number-4">1.1.11.</span> <a href="#orgc30d392">Ruff Sqwad </a>- Misty Cold (~2003)</h4>
+<div class="outline-text-4" id="text-1-1-11">
+<p>
+<a href="https://www.youtube.com/watch?v=B8tMF191Fd0">https://www.youtube.com/watch?v=B8tMF191Fd0</a>
+alright one
+</p>
+</div>
+<div id="outline-container-orgf966214" class="outline-5">
+<h5 id="orgf966214"><span class="section-number-5">1.1.11.1.</span> <a href="#orgc30d392">Ruff Sqwad</a> - Misty Cold (<a href="#org944a29d">XTC</a> Remix) (~2003-2004)</h5>
+<div class="outline-text-5" id="text-1-1-11-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:11] </span></span> &lt;- <a href="#org80cafe9">Ruff Sqwad - Functions on the Low</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=3NLOA9bQbEc">https://www.youtube.com/watch?v=3NLOA9bQbEc</a>
+outstandingly good, especially with that reversed and cut up sound every 2 bars. classic square bass
+shines too
+</p>
+
+<p>
+also one of the most expensive grime records, see <a href="https://www.discogs.com/release/1698948-XTC-Misty-Cold-Remix">https://www.discogs.com/release/1698948-XTC-Misty-Cold-Remix</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5a5bbcb" class="outline-4">
+<h4 id="org5a5bbcb"><span class="section-number-4">1.1.12.</span> <a href="#org2a62922">Flirta D</a> - Warp Speed (2004)</h4>
+<div class="outline-text-4" id="text-1-1-12">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:26] </span></span> &lt;- <a href="#orge43b98c">Flirta D - Shottaz Riddim</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=ayME3Zy0vG8">https://www.youtube.com/watch?v=ayME3Zy0vG8</a>
+prod. by <a href="#org4552fec">Jiggalo</a>.
+definitely the most iconic flirta tune and a fun riddim too.
+</p>
+</div>
+</div>
+<div id="outline-container-orge43b98c" class="outline-4">
+<h4 id="orge43b98c"><span class="section-number-4">1.1.13.</span> <a href="#org2a62922">Flirta D</a> - Shottaz Riddim</h4>
+<div class="outline-text-4" id="text-1-1-13">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:27] </span></span> &lt;- <a href="#org05f5710">Neffa-T - Keep Hush Bristol: Dr. Dubplate&rsquo;s Birthday Bash (2022)</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=vIcL1N5BdvE">https://www.youtube.com/watch?v=vIcL1N5BdvE</a>
+prod. <a href="#org574761d">Youngstar</a>.
+This was a dubplate until like 2012 when it got released on <a href="https://pitchcontrollerrecords.bandcamp.com/album/slk-the-lost-tapes-2">https://pitchcontrollerrecords.bandcamp.com/album/slk-the-lost-tapes-2</a>.
+</p>
+
+<p>
+feels like an early weightless tune given the lack of real drums and all the sfx, absolute banger
+though. also has the characteristic youngstar bass, might be the best flirta track, bit more leftfield
+than <a href="#org5a5bbcb">Warp Speed</a> (especially due to flip. riddim. gymnastics).
+</p>
+</div>
+</div>
+<div id="outline-container-org2a3a15b" class="outline-4">
+<h4 id="org2a3a15b"><span class="section-number-4">1.1.14.</span> <span class="todo TODO">TODO</span> Coki &amp; Benga - Night</h4>
+<div class="outline-text-4" id="text-1-1-14">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:31] </span></span> &lt;- <a href="#org05f5710">Neffa-T - Keep Hush Bristol: Dr. Dubplate&rsquo;s Birthday Bash (2022)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org593b384" class="outline-4">
+<h4 id="org593b384"><span class="section-number-4">1.1.15.</span> <a href="#orgdae7b36">Plastician</a> - Shallow Grave (2004 Edit)</h4>
+<div class="outline-text-4" id="text-1-1-15">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 22:30] </span></span> &lt;- <a href="#orgf7774af">Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro &amp; More (2024)</a>
+</p>
+<p>
+<a href="https://www.youtube.com/watch?v=TZ5ug15enjg">https://www.youtube.com/watch?v=TZ5ug15enjg</a>
+</p>
+
+<p>
+Deep and dark tune and definitely a classic. Somewhere on the edge between grime and dubstep like a lot of
+the things Plastician made back in the day. <a href="https://twitter.com/Plastician/status/1755725501908304208">Interestingly</a> it wasnt played out all that much around its release, more like a classic in hindsight.
+</p>
+</div>
+</div>
+<div id="outline-container-org09bfca2" class="outline-4">
+<h4 id="org09bfca2"><span class="section-number-4">1.1.16.</span> <a href="#org255d0b1">Joker</a> - Juggernaut (released 2024, made years before that idk)</h4>
+<div class="outline-text-4" id="text-1-1-16">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 22:46] </span></span> &lt;- <a href="#orgf7774af">Oblig with Big Zuu, Manga Saint Hilare, Flirta D, Sox, Jafro &amp; More (2024)</a>
+</p>
+<p>
+<a href="https://soundcloud.com/jokerkapsize/juggernaut">https://soundcloud.com/jokerkapsize/juggernaut</a>
+More of a dubstep tune but its been used as a beat so it counts. great way for joker to return and amazing
+example of his sound.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org202183b" class="outline-3">
+<h3 id="org202183b"><span class="section-number-3">1.2.</span> Radio</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-org38bacb5" class="outline-4">
+<h4 id="org38bacb5"><span class="section-number-4">1.2.1.</span> Rinse.fm</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+still around on <a href="https://rinse.fm/">https://rinse.fm/</a>! established as a jungle pirate radio by <a href="#org5ea206e">Slimzee</a> around 95 and helped push garage, grime and dubstep
+</p>
+</div>
+<div id="outline-container-orged85ac1" class="outline-5">
+<h5 id="orged85ac1"><span class="section-number-5">1.2.1.1.</span> <a href="#orgd552e56">Wiley</a> + <a href="#org682e0a5">Flowdan</a> set (2001)</h5>
+<div class="outline-text-5" id="text-1-2-1-1">
+<p>
+<a href="https://www.youtube.com/watch?v=V4jWCe73Pv8">https://www.youtube.com/watch?v=V4jWCe73Pv8</a>
+kind of low quality and not the very best mc work of those two but some crazy garage and 2-step tunes in particular
+</p>
+</div>
+</div>
+<div id="outline-container-orgf7774af" class="outline-5">
+<h5 id="orgf7774af"><span class="section-number-5">1.2.1.2.</span> <a href="#orgfe7b303">Oblig</a> with Big Zuu, <a href="#orga8f6a01">Manga Saint Hilare</a>, <a href="#org2a62922">Flirta D</a>, Sox, Jafro &amp; More (2024)</h5>
+<div class="outline-text-5" id="text-1-2-1-2">
+<p>
+<a href="https://www.youtube.com/watch?v=T5AETXnQD6o">https://www.youtube.com/watch?v=T5AETXnQD6o</a>
+</p>
+<ul class="org-ul">
+<li>crazy <a href="#org593b384">Shallow Grave</a> around 8:20</li>
+<li><a href="#org09bfca2">Juggernaut</a> around 13:00 pops off too</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orge4af737" class="outline-3">
+<h3 id="orge4af737"><span class="section-number-3">1.3.</span> Misc. Sets</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-org05f5710" class="outline-4">
+<h4 id="org05f5710"><span class="section-number-4">1.3.1.</span> <a href="#orgccfa455">Neffa-T</a> - Keep Hush Bristol: Dr. Dubplate&rsquo;s Birthday Bash (2022)</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+<a href="https://www.youtube.com/watch?v=-ZNQmjfhYF0">https://www.youtube.com/watch?v=-ZNQmjfhYF0</a>
+absurd opening. Guy got <a href="#orge43b98c">Shottaz Riddim</a> at like 160 bpm mixed into <a href="https://www.youtube.com/watch?v=uubDhcd6Ty0">this</a> banger <a href="#org2a3a15b">Night</a> remix back into <a href="https://www.youtube.com/watch?v=sOQA6oli2jc">the Body Groove</a> instrumental
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org32b8dac" class="outline-3">
+<h3 id="org32b8dac"><span class="section-number-3">1.4.</span> Artists</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-orgd552e56" class="outline-4">
+<h4 id="orgd552e56"><span class="section-number-4">1.4.1.</span> <span class="todo TODO">TODO</span> Wiley</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:34] </span></span> &lt;- <a href="#orged85ac1">+ Flowdan set (2001)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:33] </span></span> &lt;- <a href="#org42598c6">- Morgue (~2004?)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org3328a59" class="outline-4">
+<h4 id="org3328a59"><span class="section-number-4">1.4.2.</span> <span class="todo TODO">TODO</span> DJ Wonder</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:34] </span></span> &lt;- <a href="#org42598c6">Wiley - Morgue (~2004?)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:33] </span></span> &lt;- <a href="#org258906b">DJ Wonder - What (~2002)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org682e0a5" class="outline-4">
+<h4 id="org682e0a5"><span class="section-number-4">1.4.3.</span> <span class="todo TODO">TODO</span> Flowdan</h4>
+<div class="outline-text-4" id="text-1-4-3">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:34] </span></span> &lt;- <a href="#orged85ac1">Wiley +  set (2001)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org92d3f78" class="outline-4">
+<h4 id="org92d3f78"><span class="section-number-4">1.4.4.</span> <span class="todo TODO">TODO</span> Dizzee Rascal</h4>
+<div class="outline-text-4" id="text-1-4-4">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:27] </span></span> &lt;- <a href="#orge89bb23">Pulse X Dubplate</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:33] </span></span> &lt;- <a href="#org258906b">DJ Wonder - What (~2002)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org5ea206e" class="outline-4">
+<h4 id="org5ea206e"><span class="section-number-4">1.4.5.</span> <span class="todo TODO">TODO</span> Slimzee</h4>
+<div class="outline-text-4" id="text-1-4-5">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:34] </span></span> &lt;- <a href="#org38bacb5">Rinse.fm</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org574761d" class="outline-4">
+<h4 id="org574761d"><span class="section-number-4">1.4.6.</span> <span class="todo TODO">TODO</span> Youngstar</h4>
+<div class="outline-text-4" id="text-1-4-6">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:23] </span></span> &lt;- <a href="#orge43b98c">Flirta D - Shottaz Riddim</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:34] </span></span> &lt;- <a href="#org7a6eae9">Musical Mob - Pulse XYZ (~2003)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:24] </span></span> &lt;- <a href="#orgc2b8a9c">Musical Mob - Pulse X (January 2002)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org2a080fd" class="outline-4">
+<h4 id="org2a080fd"><span class="section-number-4">1.4.7.</span> <span class="todo TODO">TODO</span> Mystry</h4>
+<div class="outline-text-4" id="text-1-4-7">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:36] </span></span> &lt;- <a href="#org4bc8ab9">Pulse 8 (~2014)</a>
+</p>
+<p>
+Grime and somehow also riddim dubstep producer
+</p>
+</div>
+</div>
+<div id="outline-container-org14628da" class="outline-4">
+<h4 id="org14628da"><span class="section-number-4">1.4.8.</span> <span class="todo TODO">TODO</span> JME</h4>
+<div class="outline-text-4" id="text-1-4-8">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:41] </span></span> &lt;- <a href="#org9bd5734">JME - Pulse 8 (2014)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:39] </span></span> &lt;- <a href="#org9bd5734">- Pulse 8 (2014)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orge82b2f4" class="outline-4">
+<h4 id="orge82b2f4"><span class="section-number-4">1.4.9.</span> <span class="todo TODO">TODO</span> Rapid</h4>
+<div class="outline-text-4" id="text-1-4-9">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:05] </span></span> &lt;- <a href="#org4f8fd12">Ruff Sqwad - Tings in Boots (vocal ver)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:47] </span></span> &lt;- <a href="#orga79a291">Ruff Sqwad - Pied Piper</a>
+</p>
+<p>
+Member of <a href="#orgc30d392">Ruff Sqwad</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org04e31c1" class="outline-4">
+<h4 id="org04e31c1"><span class="section-number-4">1.4.10.</span> <span class="todo TODO">TODO</span> Slix</h4>
+<div class="outline-text-4" id="text-1-4-10">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:05] </span></span> &lt;- <a href="#org4f8fd12">Ruff Sqwad - Tings in Boots (vocal ver)</a>
+</p>
+<p>
+Member of <a href="#orgc30d392">Ruff Sqwad</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgb2c217b" class="outline-4">
+<h4 id="orgb2c217b"><span class="section-number-4">1.4.11.</span> <span class="todo TODO">TODO</span> Tinchy Stryder</h4>
+<div class="outline-text-4" id="text-1-4-11">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:05] </span></span> &lt;- <a href="#org4f8fd12">Ruff Sqwad - Tings in Boots (vocal ver)</a>
+</p>
+<p>
+Member of <a href="#orgc30d392">Ruff Sqwad</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org944a29d" class="outline-4">
+<h4 id="org944a29d"><span class="section-number-4">1.4.12.</span> <span class="todo TODO">TODO</span> XTC</h4>
+<div class="outline-text-4" id="text-1-4-12">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:10] </span></span> &lt;- <a href="#orgf966214">Ruff Sqwad - Misty Cold (</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org2a62922" class="outline-4">
+<h4 id="org2a62922"><span class="section-number-4">1.4.13.</span> <span class="todo TODO">TODO</span> Flirta D</h4>
+<div class="outline-text-4" id="text-1-4-13">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 22:29] </span></span> &lt;- <a href="#orgf7774af">Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro &amp; More (2024)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:23] </span></span> &lt;- <a href="#orge43b98c">- Shottaz Riddim</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:16] </span></span> &lt;- <a href="#org5a5bbcb">- Warp Speed (2004)</a>
+</p>
+<p>
+probably one of the most underrated MCs in grime. absolutely wild what this man can do in a single take,
+from ad libs to the backwards flow to the characteristic f to the l i thing and so on. not the best
+lyrically but definitely one of the most creative and technically impressive MCs
+</p>
+</div>
+</div>
+<div id="outline-container-org4552fec" class="outline-4">
+<h4 id="org4552fec"><span class="section-number-4">1.4.14.</span> <span class="todo TODO">TODO</span> Jiggalo</h4>
+<div class="outline-text-4" id="text-1-4-14">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:17] </span></span> &lt;- <a href="#org5a5bbcb">Flirta D - Warp Speed (2004)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgccfa455" class="outline-4">
+<h4 id="orgccfa455"><span class="section-number-4">1.4.15.</span> <span class="todo TODO">TODO</span> Neffa-T</h4>
+<div class="outline-text-4" id="text-1-4-15">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:21] </span></span> &lt;- <a href="#org05f5710">- Keep Hush Bristol: Dr. Dubplate&rsquo;s Birthday Bash</a>
+</p>
+<p>
+techno, grime and dubstep DJ from bristol, one of the most technically well-versed djs not only in the genre but probably in all of bass music
+</p>
+</div>
+</div>
+<div id="outline-container-orgdae7b36" class="outline-4">
+<h4 id="orgdae7b36"><span class="section-number-4">1.4.16.</span> <span class="todo TODO">TODO</span> Plastician</h4>
+<div class="outline-text-4" id="text-1-4-16">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 22:23] </span></span> &lt;- <a href="#org593b384">- Shallow Grave (2004 Edit)</a>
+</p>
+<p>
+FKA Plasticman, had to change names due to trademark issues. Very influential guy in grime, dubstep and wave (a decade later!).
+</p>
+</div>
+</div>
+<div id="outline-container-orgfe7b303" class="outline-4">
+<h4 id="orgfe7b303"><span class="section-number-4">1.4.17.</span> <span class="todo TODO">TODO</span> Oblig</h4>
+<div class="outline-text-4" id="text-1-4-17">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 22:29] </span></span> &lt;- <a href="#orgf7774af">with Big Zuu, Manga, Flirta D, Sox, Jafro &amp; More (2024)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orga8f6a01" class="outline-4">
+<h4 id="orga8f6a01"><span class="section-number-4">1.4.18.</span> <span class="todo TODO">TODO</span> Manga Saint Hilare</h4>
+<div class="outline-text-4" id="text-1-4-18">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 22:34] </span></span> &lt;- <a href="#orgf7774af">Oblig with Big Zuu, , Flirta D, Sox, Jafro &amp; More (2024)</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org255d0b1" class="outline-4">
+<h4 id="org255d0b1"><span class="section-number-4">1.4.19.</span> <span class="todo TODO">TODO</span> Joker</h4>
+<div class="outline-text-4" id="text-1-4-19">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 22:45] </span></span> &lt;- <a href="#org09bfca2">Joker - Juggernaut</a>
+</p>
+<p>
+One of the dubstep goats for sure
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf2790c3" class="outline-3">
+<h3 id="orgf2790c3"><span class="section-number-3">1.5.</span> Albums etc.</h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-org094b5f3" class="outline-4">
+<h4 id="org094b5f3"><span class="section-number-4">1.5.1.</span> <a href="#orgc30d392">Ruff Sqwad</a> - White Label Classics</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<p>
+<a href="https://www.youtube.com/watch?v=JI501loMDjE&amp;list=OLAK5uy_mC776hXD43TTbvSjDTB9K9fGytbwVVsCk">https://www.youtube.com/watch?v=JI501loMDjE&amp;list=OLAK5uy_mC776hXD43TTbvSjDTB9K9fGytbwVVsCk</a>
+Lots of classic instrumentals, imo chill and almost melancholic vibes compared to the cold eskibeat sounds
+for example, but there&rsquo;s lots of overlap too with tunes like <a href="#orga79a291">Ruff Sqwad - Pied Piper</a>.
+Also included:
+</p>
+<ul class="org-ul">
+<li><a href="#orgdeeae44">Ruff Sqwad - Together</a></li>
+<li><a href="#org80cafe9">Ruff Sqwad - Functions on the Low</a></li>
+<li><a href="#orgf9b3ed4">Ruff Sqwad - Xtra</a></li>
+<li><a href="#org3907198">Ruff Sqwad - Tings in Boots</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0073d06" class="outline-3">
+<h3 id="org0073d06"><span class="section-number-3">1.6.</span> Crews</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-org350a5ec" class="outline-4">
+<h4 id="org350a5ec"><span class="section-number-4">1.6.1.</span> <span class="todo TODO">TODO</span> Roll Deep</h4>
+<div class="outline-text-4" id="text-1-6-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 00:35] </span></span> &lt;- <a href="#orgfe6a93d">- Morgue</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org1ff5a91" class="outline-4">
+<h4 id="org1ff5a91"><span class="section-number-4">1.6.2.</span> <span class="todo TODO">TODO</span> Musical Mob</h4>
+<div class="outline-text-4" id="text-1-6-2">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:32] </span></span> &lt;- <a href="#org7a6eae9">- Pulse XYZ</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:21] </span></span> &lt;- <a href="#orgc2b8a9c">Musical Mob - Pulse X</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgc30d392" class="outline-4">
+<h4 id="orgc30d392"><span class="section-number-4">1.6.3.</span> <span class="todo TODO">TODO</span> Ruff Sqwad</h4>
+<div class="outline-text-4" id="text-1-6-3">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:10] </span></span> &lt;- <a href="#orgf966214">Misty Cold</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:09] </span></span> &lt;- <a href="#org5489609">- Misty Cold (~2003)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:05] </span></span> &lt;- <a href="#orgb2c217b">Tinchy Stryder</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:05] </span></span> &lt;- <a href="#org04e31c1">Slix</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:04] </span></span> &lt;- <a href="#org4f8fd12">Tings in Boots (vocal ver)</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:02] </span></span> &lt;- <a href="#org3907198">Ruff Sqwad - Tings in Boots</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 14:02] </span></span> &lt;- <a href="#org3907198">- Tings in Boots</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:55] </span></span> &lt;- <a href="#orgf9b3ed4">- Xtra</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:51] </span></span> &lt;- <a href="#org80cafe9">- Functions on the Low</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:49] </span></span> &lt;- <a href="#orgdeeae44">- Together</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:48] </span></span> &lt;- <a href="#orge82b2f4">Rapid</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:46] </span></span> &lt;- <a href="#orga79a291">- Pied Piper</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:44] </span></span> &lt;- <a href="#org094b5f3">White Label Classics</a>
+</p>
+<p>
+Formed around 2001, pretty influential instrumentals.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8383e59" class="outline-3">
+<h3 id="org8383e59"><span class="section-number-3">1.7.</span> Styles</h3>
+<div class="outline-text-3" id="text-1-7">
+</div>
+<div id="outline-container-orge42e281" class="outline-4">
+<h4 id="orge42e281"><span class="section-number-4">1.7.1.</span> <span class="todo TODO">TODO</span> 8-bar</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-02-21 Mi 13:25] </span></span> &lt;- <a href="#orgc2b8a9c">Musical Mob - Pulse X (January 2002)</a>
+</p>
+<p>
+Early 2000s style from the transitionary period between garage and grime.
+Named after its A/B structure with each part 8 bars long which lended itself very well to fast-paced MCing in larger crews with 8 or 16-bar verses for each member.
+</p>
+</div>
+</div>
+<div id="outline-container-org778d99e" class="outline-4">
+<h4 id="org778d99e"><span class="section-number-4">1.7.2.</span> <span class="todo TODO">TODO</span> Weightless</h4>
+<div class="outline-text-4" id="text-1-7-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: uni Marx</p>
+</div>
+</body>
+</html>

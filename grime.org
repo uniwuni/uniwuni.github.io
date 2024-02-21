@@ -1,0 +1,523 @@
+#+TITLE: unis grime thign
+#+OPTIONS: H:6
+#+OPTIONS: todo:t
+#+OPTIONS: timestamp:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="grime_style.css" />
+#+INFOJS_OPT: view:info toc:nil
+#+begin_src emacs-lisp :exports none
+(map! "C-c l n l" #'org-super-links-store-link)
+(map! "C-c l l l" #'org-super-links-link)
+#+end_src
+
+#+RESULTS:
+
+* Grime Tunes
+not ordered by importance or date or literally anything but vibes and my motivation to do this.
+i also have no credentials at all to do this ive been into this music for a year or something but i feel like im sufficiently well informed to explain some of it to friends
+
+i try to refer to the date of production when possible, if artists arent listed in a crew or a set its probably because
+they havent appeared anywhere else yet and i dont know them well enough to write much.
+** Tracks
+*** [[id:169c9c6a-17b0-42a8-8711-15f6d3aed821][Musical Mob]] - Pulse X (January 2002)
+:PROPERTIES:
+:ID:       45f6ceee-3145-42da-8afa-4aea5969e23d
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:37] <- [[id:f27014c2-4348-4ae3-85db-992f69d7ac38][Mystry - Pulse 8 (~2014)]]
+[2024-02-21 Mi 13:32] <- [[id:7fb00a7e-678b-4567-a3c5-d6242f4e8031][Musical Mob - Pulse XYZ (~2003)]]
+:END:
+https://www.youtube.com/watch?v=4bMQTU2iI1E
+Produced by [[id:6ce16e9c-9780-40ce-9911-4c0c700fb86f][Youngstar]], this is probably one of the most well-known and most important grime beats to ever
+exist and for sure the most iconic [[id:80502fbb-07f8-4ef8-a180-3f717d0fd037][8-bar]] tune. Heavy bass, 5 minutes of pretty much the same 16-bars,
+but people rinse it and the dozens of tracks it inspired (see backlinks). The kick drum/bass sound/whatever is
+probably the most iconic bit of it all.
+**** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Pulse X Dubplate
+:PROPERTIES:
+:ID:       6d767e0e-2ee8-470e-aca5-531a6d5e757c
+:END:
+https://www.youtube.com/watch?v=HX2pGg6606M
+pure fire, the intro and first couple bars pop up in my head like twice a day
+*** [[id:169c9c6a-17b0-42a8-8711-15f6d3aed821][Musical Mob ]]- Pulse XYZ (~2003)
+:PROPERTIES:
+:ID:       7fb00a7e-678b-4567-a3c5-d6242f4e8031
+:END:
+https://www.youtube.com/watch?v=cYijGpdqWzY
+[[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]] edit with about 2 billion switch ups prod. [[id:6ce16e9c-9780-40ce-9911-4c0c700fb86f][Youngstar]]. Not my favorite one but its alright
+*** [[id:f7f2d318-fb6a-458a-b69f-cd436435fd31][Mystry]] - Pulse 8 (~2014)
+:PROPERTIES:
+:ID:       f27014c2-4348-4ae3-85db-992f69d7ac38
+:END:
+https://www.youtube.com/watch?v=LVCUqd5izt8
+One of the best somewhat more recent [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]]-type riddims. The kick's there,, the "automatic" makes for a
+great voice sample, the tonal bweeeh type bass every couple bars makes it singable too somehow.
+**** [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]] - Pulse 8 (2014)
+:PROPERTIES:
+:ID:       147b6914-bf44-4148-be37-8bcb0ceb9fdd
+:END:
+https://www.youtube.com/watch?v=ecgFjnPFnZQ
+Slight variation of the beat I think, definitely one of the most fun tracks on the album. Lots of the
+silliness [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]] is known for, couple of great bars though.
+*** [[id:38e88ed5-9248-47b1-8a07-96bd069a7aea][DJ Wonder]] - What (~2002)
+:PROPERTIES:
+:ID:       0fd18fe7-9f5c-4a38-b607-310097a60eb8
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 00:22] <- [[id:662407b5-6218-494f-bc5f-69c965dfc378][Wiley - Morgue (~2004?)]]
+:END:
+https://www.youtube.com/watch?v=bBiN5tQX7Ro
+Absurd bass heavy weight, still
+**** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Respect Me
+*** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] - Morgue (~2004?)
+:PROPERTIES:
+:ID:       662407b5-6218-494f-bc5f-69c965dfc378
+:END:
+https://www.youtube.com/watch?v=z0cV9p2-VOg
+obviously very much, uh, inspired by [[id:0fd18fe7-9f5c-4a38-b607-310097a60eb8][DJ Wonder - What (~2002)]], as far as i know thats related to some relationship
+drama related to him and [[id:38e88ed5-9248-47b1-8a07-96bd069a7aea][DJ Wonder]], at least according to [[https://genius.com/Wiley-morgue-lyrics][Genius]] which also states it was banned from [[id:cecf3e92-5439-4892-ae83-5da3d7715e3a][rinse.fm]] due to that.
+**** [[id:8026c704-3324-4ccf-afa8-ed49e789e6a1][Roll Deep]] - Morgue
+:PROPERTIES:
+:ID:       50249c49-f85c-400e-b420-cfbd6077f225
+:END:
+https://www.youtube.com/watch?v=kYWuhGG6QcQ
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Pied Piper
+:PROPERTIES:
+:ID:       ffe993e6-d8ae-4a0c-a0ae-f3e01b177be7
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:48] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
+:END:
+https://www.youtube.com/watch?v=SDnOwNCrEu8
+Great tune, love the blown out square lead and the eskibeat type beeps and boops. Prod. by [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]].
+
+also this sells for almost triple digit prices, pretty absurd
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Together
+:PROPERTIES:
+:ID:       a86da663-a355-47fa-9330-3dbcb9c307e9
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:51] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
+:END:
+https://www.youtube.com/watch?v=69reF45Ok_I
+great guitar bit, choppy 2-step drums, thick square basses to complement it all
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Functions on the Low
+:PROPERTIES:
+:ID:       d2c64036-da6a-493e-8bda-20d27206780e
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:53] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
+:END:
+https://www.youtube.com/watch?v=-uy0XIlnz4U
+very close to just being cheesy with the chords and all that
+
+part of the record [[id:3c90393f-e5e0-431a-a280-1a9124c9e785][Ruff Sqwad - Misty Cold (XTC Remix) (~2003-2004)]] is on
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Xtra (2004-2005)
+:PROPERTIES:
+:ID:       8b3c9363-7ab5-440a-a4ab-7ca446806203
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:58] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
+:END:
+https://www.youtube.com/watch?v=-2dRMGVJwrg
+Heavy one especially with these eight note cymbals and the ever present bassline
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Tings in Boots (2002-2003)
+:PROPERTIES:
+:ID:       15ebbd03-2d4d-4759-8f6f-1e1acf394871
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:03] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][Ruff Sqwad - White Label Classics]]
+:END:
+https://www.youtube.com/watch?v=ppR0lOC2rfU
+first [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] track as far I know. very raw and kind of carceral, great bassline but not their best
+**** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad -]] Tings in Boots (vocal ver) (2002-2003)
+:PROPERTIES:
+:ID:       20a31a00-54a2-4695-a17f-2184a307927f
+:END:
+https://www.youtube.com/watch?v=pMDHjMagG0Y
+featurs (according to discogs at least) [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]], [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]], [[id:3ae5799d-c040-42c0-8749-eaa720b6b831][Slix]].
+sadly not very good tbh, its also notable how young tinchy sounds despite being at least 16 or 17
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad ]]- Misty Cold (~2003)
+:PROPERTIES:
+:ID:       ff56cbfe-87ea-4a8f-8e6b-e7856abc8116
+:END:
+https://www.youtube.com/watch?v=B8tMF191Fd0
+alright one
+**** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Misty Cold ([[id:fba039e5-f752-4635-9c90-7771361485e6][XTC]] Remix) (~2003-2004)
+:PROPERTIES:
+:ID:       3c90393f-e5e0-431a-a280-1a9124c9e785
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:11] <- [[id:d2c64036-da6a-493e-8bda-20d27206780e][Ruff Sqwad - Functions on the Low]]
+:END:
+https://www.youtube.com/watch?v=3NLOA9bQbEc
+outstandingly good, especially with that reversed and cut up sound every 2 bars. classic square bass
+shines too
+
+also one of the most expensive grime records, see https://www.discogs.com/release/1698948-XTC-Misty-Cold-Remix
+*** [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] - Warp Speed (2004)
+:PROPERTIES:
+:ID:       ba2b4c13-c11e-4501-8535-2958da840179
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:26] <- [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Flirta D - Shottaz Riddim]]
+:END:
+https://www.youtube.com/watch?v=ayME3Zy0vG8
+prod. by [[id:c27f77cc-993d-4211-b801-e554c527d4b9][Jiggalo]].
+definitely the most iconic flirta tune and a fun riddim too.
+*** [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] - Shottaz Riddim
+:PROPERTIES:
+:ID:       2b86fc13-143a-4620-a4ca-3fde9e1bb310
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:27] <- [[id:22fc4961-511e-44f7-9c52-e45665ed56f5][Neffa-T - Keep Hush Bristol: Dr. Dubplate's Birthday Bash (2022)]]
+:END:
+https://www.youtube.com/watch?v=vIcL1N5BdvE
+prod. [[id:6ce16e9c-9780-40ce-9911-4c0c700fb86f][Youngstar]].
+This was a dubplate until like 2012 when it got released on https://pitchcontrollerrecords.bandcamp.com/album/slk-the-lost-tapes-2.
+
+feels like an early weightless tune given the lack of real drums and all the sfx, absolute banger
+though. also has the characteristic youngstar bass, might be the best flirta track, bit more leftfield
+than [[id:ba2b4c13-c11e-4501-8535-2958da840179][Warp Speed]] (especially due to flip. riddim. gymnastics).
+*** TODO Coki & Benga - Night
+:PROPERTIES:
+:ID:       a31c6645-671f-49c7-8a41-9ff337b68e67
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:31] <- [[id:22fc4961-511e-44f7-9c52-e45665ed56f5][Neffa-T - Keep Hush Bristol: Dr. Dubplate's Birthday Bash (2022)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 14:31]
+:END:
+*** [[id:b4a11e57-425a-4850-8426-443a0ab0be39][Plastician]] - Shallow Grave (2004 Edit)
+:PROPERTIES:
+:ID:       942ea114-c758-4708-a4f9-1f08a870a4d8
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 22:30] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
+:END:
+https://www.youtube.com/watch?v=TZ5ug15enjg
+
+Deep and dark tune and definitely a classic. Somewhere on the edge between grime and dubstep like a lot of
+the things Plastician made back in the day. [[https://twitter.com/Plastician/status/1755725501908304208][Interestingly]] it wasnt played out all that much around its release, more like a classic in hindsight.
+*** [[id:1a5b02ed-7882-4238-9501-9c0233b7a247][Joker]] - Juggernaut (released 2024, made years before that idk)
+:PROPERTIES:
+:ID:       53d91147-92b4-4497-92b8-8e6232d8fd8f
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 22:46] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga Saint Hilare, Flirta D, Sox, Jafro & More (2024)]]
+:END:
+https://soundcloud.com/jokerkapsize/juggernaut
+More of a dubstep tune but its been used as a beat so it counts. great way for joker to return and amazing
+example of his sound.
+** Radio
+*** Rinse.fm
+:PROPERTIES:
+:ID:       cecf3e92-5439-4892-ae83-5da3d7715e3a
+:END:
+still around on [[https://rinse.fm/]]! established as a jungle pirate radio by [[id:3f7813d5-5bfc-4b3d-b988-285650ef98eb][Slimzee]] around 95 and helped push garage, grime and dubstep
+**** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] + [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]] set (2001)
+:PROPERTIES:
+:ID:       a8b9226a-8f9b-49e9-be01-65a44d746087
+:END:
+https://www.youtube.com/watch?v=V4jWCe73Pv8
+kind of low quality and not the very best mc work of those two but some crazy garage and 2-step tunes in particular
+**** [[id:e4ae951e-aff6-4da8-a9f4-5aee31903621][Oblig]] with Big Zuu, [[id:c4029910-ba36-4700-8ca8-0758764f5bb8][Manga Saint Hilare]], [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]], Sox, Jafro & More (2024)
+:PROPERTIES:
+:ID:       475ff64d-7f36-4663-99ce-630f737cc0e1
+:END:
+https://www.youtube.com/watch?v=T5AETXnQD6o
+- crazy [[id:942ea114-c758-4708-a4f9-1f08a870a4d8][Shallow Grave]] around 8:20
+- [[id:53d91147-92b4-4497-92b8-8e6232d8fd8f][Juggernaut]] around 13:00 pops off too
+** Misc. Sets
+*** [[id:0bfa500b-a50a-408c-92a1-b3b2a7abab48][Neffa-T]] - Keep Hush Bristol: Dr. Dubplate's Birthday Bash (2022)
+:PROPERTIES:
+:ID:       22fc4961-511e-44f7-9c52-e45665ed56f5
+:END:
+https://www.youtube.com/watch?v=-ZNQmjfhYF0
+absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddim]] at like 160 bpm mixed into [[https://www.youtube.com/watch?v=uubDhcd6Ty0][this]] banger [[id:a31c6645-671f-49c7-8a41-9ff337b68e67][Night]] remix back into [[https://www.youtube.com/watch?v=sOQA6oli2jc][the Body Groove]] instrumental
+** Artists
+*** TODO Wiley
+:PROPERTIES:
+:ID:       6758cd23-96f2-4de5-9b48-7fbe270e76f2
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 00:34] <- [[id:a8b9226a-8f9b-49e9-be01-65a44d746087][+ Flowdan set (2001)]]
+[2024-02-21 Mi 00:33] <- [[id:662407b5-6218-494f-bc5f-69c965dfc378][- Morgue (~2004?)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 00:32]
+:END:
+*** TODO DJ Wonder
+:PROPERTIES:
+:ID:       38e88ed5-9248-47b1-8a07-96bd069a7aea
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 00:34] <- [[id:662407b5-6218-494f-bc5f-69c965dfc378][Wiley - Morgue (~2004?)]]
+[2024-02-21 Mi 00:33] <- [[id:0fd18fe7-9f5c-4a38-b607-310097a60eb8][DJ Wonder - What (~2002)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 00:32]
+:END:
+*** TODO Flowdan
+:PROPERTIES:
+:ID:       d08bf74c-93bc-4cf7-ad7e-6db66f58d409
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 00:34] <- [[id:a8b9226a-8f9b-49e9-be01-65a44d746087][Wiley +  set (2001)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 00:32]
+:END:
+*** TODO Dizzee Rascal
+:PROPERTIES:
+:ID:       35137126-ceaf-41b4-9411-748c987fa834
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:27] <- [[id:6d767e0e-2ee8-470e-aca5-531a6d5e757c][Pulse X Dubplate]]
+[2024-02-21 Mi 00:33] <- [[id:0fd18fe7-9f5c-4a38-b607-310097a60eb8][DJ Wonder - What (~2002)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 00:33]
+:END:
+*** TODO Slimzee
+:PROPERTIES:
+:ID:       3f7813d5-5bfc-4b3d-b988-285650ef98eb
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 00:34] <- [[id:cecf3e92-5439-4892-ae83-5da3d7715e3a][Rinse.fm]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 00:34]
+:END:
+*** TODO Youngstar
+:PROPERTIES:
+:ID:       6ce16e9c-9780-40ce-9911-4c0c700fb86f
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:23] <- [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Flirta D - Shottaz Riddim]]
+[2024-02-21 Mi 13:34] <- [[id:7fb00a7e-678b-4567-a3c5-d6242f4e8031][Musical Mob - Pulse XYZ (~2003)]]
+[2024-02-21 Mi 13:24] <- [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Musical Mob - Pulse X (January 2002)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 13:24]
+:END:
+*** TODO Mystry
+:PROPERTIES:
+:ID:       f7f2d318-fb6a-458a-b69f-cd436435fd31
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:36] <- [[id:f27014c2-4348-4ae3-85db-992f69d7ac38][Pulse 8 (~2014)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 13:35]
+:END:
+Grime and somehow also riddim dubstep producer
+*** TODO JME
+:PROPERTIES:
+:ID:       0f87032e-78c4-4123-aa37-4fe7f1b0bd51
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:41] <- [[id:147b6914-bf44-4148-be37-8bcb0ceb9fdd][JME - Pulse 8 (2014)]]
+[2024-02-21 Mi 13:39] <- [[id:147b6914-bf44-4148-be37-8bcb0ceb9fdd][- Pulse 8 (2014)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 13:39]
+:END:
+*** TODO Rapid
+:PROPERTIES:
+:ID:       dff70188-c585-4b0b-9010-1cdc16d854cd
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
+[2024-02-21 Mi 13:47] <- [[id:ffe993e6-d8ae-4a0c-a0ae-f3e01b177be7][Ruff Sqwad - Pied Piper]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 13:47]
+:END:
+Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
+*** TODO Slix
+:PROPERTIES:
+:ID:       3ae5799d-c040-42c0-8749-eaa720b6b831
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
+:END:
+:LOGBOOK:
+
+- State "TODO"       from              [2024-02-21 Mi 14:04]
+:END:
+Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
+*** TODO Tinchy Stryder
+:PROPERTIES:
+:ID:       24be3842-8c5e-43ad-885e-83925646a5fa
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 14:04]
+:END:
+Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
+*** TODO XTC
+:PROPERTIES:
+:ID:       fba039e5-f752-4635-9c90-7771361485e6
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:10] <- [[id:3c90393f-e5e0-431a-a280-1a9124c9e785][Ruff Sqwad - Misty Cold (]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 14:08]
+:END:
+*** TODO Flirta D
+:PROPERTIES:
+:ID:       1b9a8b0e-42fa-4044-a62e-f69038ba1a86
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 22:29] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
+[2024-02-21 Mi 14:23] <- [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][- Shottaz Riddim]]
+[2024-02-21 Mi 14:16] <- [[id:ba2b4c13-c11e-4501-8535-2958da840179][- Warp Speed (2004)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 14:14]
+:END:
+probably one of the most underrated MCs in grime. absolutely wild what this man can do in a single take,
+from ad libs to the backwards flow to the characteristic f to the l i thing and so on. not the best
+lyrically but definitely one of the most creative and technically impressive MCs
+*** TODO Jiggalo
+:PROPERTIES:
+:ID:       c27f77cc-993d-4211-b801-e554c527d4b9
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:17] <- [[id:ba2b4c13-c11e-4501-8535-2958da840179][Flirta D - Warp Speed (2004)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 14:16]
+:END:
+*** TODO Neffa-T
+:PROPERTIES:
+:ID:       0bfa500b-a50a-408c-92a1-b3b2a7abab48
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:21] <- [[id:22fc4961-511e-44f7-9c52-e45665ed56f5][- Keep Hush Bristol: Dr. Dubplate's Birthday Bash]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 14:19]
+:END:
+techno, grime and dubstep DJ from bristol, one of the most technically well-versed djs not only in the genre but probably in all of bass music
+*** TODO Plastician
+:PROPERTIES:
+:ID:       b4a11e57-425a-4850-8426-443a0ab0be39
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 22:23] <- [[id:942ea114-c758-4708-a4f9-1f08a870a4d8][- Shallow Grave (2004 Edit)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 22:22]
+:END:
+FKA Plasticman, had to change names due to trademark issues. Very influential guy in grime, dubstep and wave (a decade later!).
+*** TODO Oblig
+:PROPERTIES:
+:ID:       e4ae951e-aff6-4da8-a9f4-5aee31903621
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 22:29] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 22:29]
+:END:
+*** TODO Manga Saint Hilare
+:PROPERTIES:
+:ID:       c4029910-ba36-4700-8ca8-0758764f5bb8
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 22:34] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, , Flirta D, Sox, Jafro & More (2024)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 22:33]
+:END:
+*** TODO Joker
+:PROPERTIES:
+:ID:       1a5b02ed-7882-4238-9501-9c0233b7a247
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 22:45] <- [[id:53d91147-92b4-4497-92b8-8e6232d8fd8f][Joker - Juggernaut]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 22:44]
+:END:
+One of the dubstep goats for sure
+** Albums etc.
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - White Label Classics
+:PROPERTIES:
+:ID:       5fe29ba7-a76f-4345-924d-48c588c5ae6e
+:END:
+https://www.youtube.com/watch?v=JI501loMDjE&list=OLAK5uy_mC776hXD43TTbvSjDTB9K9fGytbwVVsCk
+Lots of classic instrumentals, imo chill and almost melancholic vibes compared to the cold eskibeat sounds
+for example, but there's lots of overlap too with tunes like [[id:ffe993e6-d8ae-4a0c-a0ae-f3e01b177be7][Ruff Sqwad - Pied Piper]].
+Also included:
+- [[id:a86da663-a355-47fa-9330-3dbcb9c307e9][Ruff Sqwad - Together]]
+- [[id:d2c64036-da6a-493e-8bda-20d27206780e][Ruff Sqwad - Functions on the Low]]
+- [[id:8b3c9363-7ab5-440a-a4ab-7ca446806203][Ruff Sqwad - Xtra]]
+- [[id:15ebbd03-2d4d-4759-8f6f-1e1acf394871][Ruff Sqwad - Tings in Boots]]
+
+** Crews
+*** TODO Roll Deep
+:PROPERTIES:
+:ID:       8026c704-3324-4ccf-afa8-ed49e789e6a1
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 00:35] <- [[id:50249c49-f85c-400e-b420-cfbd6077f225][- Morgue]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 00:32]
+:END:
+*** TODO Musical Mob
+:PROPERTIES:
+:ID:       169c9c6a-17b0-42a8-8711-15f6d3aed821
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:32] <- [[id:7fb00a7e-678b-4567-a3c5-d6242f4e8031][- Pulse XYZ]]
+[2024-02-21 Mi 13:21] <- [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Musical Mob - Pulse X]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 13:20]
+:END:
+*** TODO Ruff Sqwad
+:PROPERTIES:
+:ID:       17fa50df-855c-4f29-ae5d-cfe318908dec
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 14:10] <- [[id:3c90393f-e5e0-431a-a280-1a9124c9e785][Misty Cold]]
+[2024-02-21 Mi 14:09] <- [[id:ff56cbfe-87ea-4a8f-8e6b-e7856abc8116][- Misty Cold (~2003)]]
+[2024-02-21 Mi 14:05] <- [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]]
+[2024-02-21 Mi 14:05] <- [[id:3ae5799d-c040-42c0-8749-eaa720b6b831][Slix]]
+[2024-02-21 Mi 14:04] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Tings in Boots (vocal ver)]]
+[2024-02-21 Mi 14:02] <- [[id:15ebbd03-2d4d-4759-8f6f-1e1acf394871][Ruff Sqwad - Tings in Boots]]
+[2024-02-21 Mi 14:02] <- [[id:15ebbd03-2d4d-4759-8f6f-1e1acf394871][- Tings in Boots]]
+[2024-02-21 Mi 13:55] <- [[id:8b3c9363-7ab5-440a-a4ab-7ca446806203][- Xtra]]
+[2024-02-21 Mi 13:51] <- [[id:d2c64036-da6a-493e-8bda-20d27206780e][- Functions on the Low]]
+[2024-02-21 Mi 13:49] <- [[id:a86da663-a355-47fa-9330-3dbcb9c307e9][- Together]]
+[2024-02-21 Mi 13:48] <- [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]]
+[2024-02-21 Mi 13:46] <- [[id:ffe993e6-d8ae-4a0c-a0ae-f3e01b177be7][- Pied Piper]]
+[2024-02-21 Mi 13:44] <- [[id:5fe29ba7-a76f-4345-924d-48c588c5ae6e][White Label Classics]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 13:42]
+:END:
+Formed around 2001, pretty influential instrumentals.
+** Styles
+*** TODO 8-bar
+:PROPERTIES:
+:ID:       80502fbb-07f8-4ef8-a180-3f717d0fd037
+:END:
+:BACKLINKS:
+[2024-02-21 Mi 13:25] <- [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Musical Mob - Pulse X (January 2002)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 13:25]
+:END:
+Early 2000s style from the transitionary period between garage and grime.
+Named after its A/B structure with each part 8 bars long which lended itself very well to fast-paced MCing in larger crews with 8 or 16-bar verses for each member.
+*** TODO Weightless
+:LOGBOOK:
+- State "TODO"       from              [2024-02-21 Mi 14:27]
+:END:
