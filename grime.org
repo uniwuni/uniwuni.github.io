@@ -7,11 +7,7 @@
 (map! "C-c l l l" #'org-super-links-link)
 (setq! yt-iframe-format
   ;; You may want to change your width and height.
-  (concat "<p><iframe width=\"440\""
-          " height=\"335\""
-          " src=\"https://www.youtube.com/embed/%s\""
-          " frameborder=\"0\""
-          " allowfullscreen>%s</iframe></p>"))
+  (concat "<a href=%s> link </a><br/>"))
 
 (org-add-link-type
  "yt"
@@ -229,6 +225,28 @@ the things Plastician made back in the day. [[https://twitter.com/Plastician/sta
 https://soundcloud.com/jokerkapsize/juggernaut
 More of a dubstep tune but its been used as a beat so it counts. great way for joker to return and amazing
 example of his sound.
+*** [[id:625824cf-787d-4647-8661-4940390976dc][Danny Weed]] - Creeper (~2001)
+:PROPERTIES:
+:ID:       0b64ad0c-eb84-4552-b62d-235dfa4db2de
+:END:
+yt:Ok4UHXhA9Gc
+Relatively early eskibeat tune, danny weeds first track and an absolute banger. apparently this just kind
+of came to life while wiley was teaching him how to produce. great bassline and weird ass atomosphere
+just how i like it
+**** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Creeper Freestyle
+:PROPERTIES:
+:ID:       6992bd51-f4fc-4a96-8a25-62731905726c
+:END:
+yt:ctuFC0FNVwI
+scholar in the english scholar in the math
+back from when dizzee was still a part of [[id:8026c704-3324-4ccf-afa8-ed49e789e6a1][Roll Deep]]
+**** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] & [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Creeper Freestyle (2002)
+:PROPERTIES:
+:ID:       0cc7cf39-56cc-4eea-9d1a-102ebdd21f41
+:END:
+yt:jiF_PQQqSrA
+part of [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][the Sidewinder Promo Mix]]
+kind of captures the vibe of grime very well in ways i cant properly explain
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
@@ -255,12 +273,23 @@ kind of low quality and not the very best mc work of those two but some crazy ga
 :END:
 [[yt:-ZNQmjfhYF0]]
 absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddim]] at like 160 bpm mixed into [[yt:uubDhcd6Ty0][this]] banger [[id:a31c6645-671f-49c7-8a41-9ff337b68e67][Night]] remix back into [[yt:sOQA6oli2jc][the Body Groove]] instrumental
+*** [[id:3f7813d5-5bfc-4b3d-b988-285650ef98eb][Slimzee]], [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] & [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]], Sidewinder Promo Mix (2002)
+:PROPERTIES:
+:ID:       befe65c0-dfbf-4d14-93b5-8e01be8e46a7
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 15:40] <- [[id:0cc7cf39-56cc-4eea-9d1a-102ebdd21f41][Wiley & Dizzee Rascal - Creeper Freestyle (2002)]]
+:END:
+yt:EXQgLYs9PuE
+classic, one of the essentials for sure
 ** Artists
 *** TODO Wiley
 :PROPERTIES:
 :ID:       6758cd23-96f2-4de5-9b48-7fbe270e76f2
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 15:40] <- [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][Slimzee,  & Dizzee Rascal, Sidewinder Promo Mix (2002)]]
+[2024-02-23 Fr 15:38] <- [[id:0cc7cf39-56cc-4eea-9d1a-102ebdd21f41][& Dizzee Rascal - Creeper Freestyle]]
 [2024-02-21 Mi 00:34] <- [[id:a8b9226a-8f9b-49e9-be01-65a44d746087][+ Flowdan set (2001)]]
 [2024-02-21 Mi 00:33] <- [[id:662407b5-6218-494f-bc5f-69c965dfc378][- Morgue (~2004?)]]
 :END:
@@ -293,6 +322,9 @@ absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddi
 :ID:       35137126-ceaf-41b4-9411-748c987fa834
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 15:40] <- [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][Slimzee, Wiley & , Sidewinder Promo Mix (2002)]]
+[2024-02-23 Fr 15:38] <- [[id:0cc7cf39-56cc-4eea-9d1a-102ebdd21f41][Wiley &]]
+[2024-02-23 Fr 15:37] <- [[id:6992bd51-f4fc-4a96-8a25-62731905726c][Dizzee Rascal - Creeper Freestyle]]
 [2024-02-21 Mi 13:27] <- [[id:6d767e0e-2ee8-470e-aca5-531a6d5e757c][Pulse X Dubplate]]
 [2024-02-21 Mi 00:33] <- [[id:0fd18fe7-9f5c-4a38-b607-310097a60eb8][DJ Wonder - What (~2002)]]
 :END:
@@ -304,6 +336,7 @@ absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddi
 :ID:       3f7813d5-5bfc-4b3d-b988-285650ef98eb
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 15:40] <- [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][, Wiley & Dizzee Rascal, Sidewinder Promo Mix (2002)]]
 [2024-02-21 Mi 00:34] <- [[id:cecf3e92-5439-4892-ae83-5da3d7715e3a][Rinse.fm]]
 :END:
 :LOGBOOK:
@@ -466,6 +499,17 @@ FKA Plasticman, had to change names due to trademark issues. Very influential gu
 - State "TODO"       from              [2024-02-21 Mi 22:44]
 :END:
 One of the dubstep goats for sure
+*** TODO Danny Weed
+:PROPERTIES:
+:ID:       625824cf-787d-4647-8661-4940390976dc
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 15:35] <- [[id:0b64ad0c-eb84-4552-b62d-235dfa4db2de][- Creeper (~2001)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 15:35]
+:END:
+
 ** Albums etc.
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - White Label Classics
 :PROPERTIES:
@@ -486,6 +530,7 @@ Also included:
 :ID:       8026c704-3324-4ccf-afa8-ed49e789e6a1
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 15:38] <- [[id:6992bd51-f4fc-4a96-8a25-62731905726c][Dizzee Rascal - Creeper Freestyle]]
 [2024-02-21 Mi 00:35] <- [[id:50249c49-f85c-400e-b420-cfbd6077f225][- Morgue]]
 :END:
 :LOGBOOK:
