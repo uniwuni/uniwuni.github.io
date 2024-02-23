@@ -1,5 +1,5 @@
 #+TITLE: unis grime thign
-#+OPTIONS: timestamp:nil author:nil todo:t H:6
+#+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="grime_style.css" />
 #+INFOJS_OPT: view:info toc:nil
 #+begin_src emacs-lisp :exports none
@@ -40,6 +40,7 @@ backlinks with the arrows are a little fucked due to how i automatically insert 
 :ID:       45f6ceee-3145-42da-8afa-4aea5969e23d
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 18:15] <- [[id:970ad49c-4f56-4636-b493-a69fcd8044d6][Jammer - Feedback (2003)]]
 [2024-02-21 Mi 13:37] <- [[id:f27014c2-4348-4ae3-85db-992f69d7ac38][Mystry - Pulse 8 (~2014)]]
 [2024-02-21 Mi 13:32] <- [[id:7fb00a7e-678b-4567-a3c5-d6242f4e8031][Musical Mob - Pulse XYZ (~2003)]]
 :END:
@@ -105,7 +106,6 @@ drama related to him and [[id:38e88ed5-9248-47b1-8a07-96bd069a7aea][DJ Wonder]],
 :END:
 [[yt:SDnOwNCrEu8]]
 Great tune, love the blown out square lead and the eskibeat type beeps and boops. Prod. by [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]].
-
 also this sells for almost triple digit prices, pretty absurd
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - Together
 :PROPERTIES:
@@ -150,7 +150,7 @@ first [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] track as far I kno
 :ID:       20a31a00-54a2-4695-a17f-2184a307927f
 :END:
 [[yt:pMDHjMagG0Y]]
-featurs (according to discogs at least) [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]], [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]], [[id:3ae5799d-c040-42c0-8749-eaa720b6b831][Slix]].
+features (according to discogs at least) [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]], [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]], [[id:3ae5799d-c040-42c0-8749-eaa720b6b831][Slix]].
 sadly not very good tbh, its also notable how young tinchy sounds despite being at least 16 or 17
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad ]]- Misty Cold (~2003)
 :PROPERTIES:
@@ -168,7 +168,6 @@ alright one but also very well known for some reason
 [[yt:3NLOA9bQbEc]]
 outstandingly good, especially with that reversed and cut up sound every 2 bars. classic square bass
 shines too
-
 also one of the most expensive grime records, see https://www.discogs.com/release/1698948-XTC-Misty-Cold-Remix
 *** [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] - Warp Speed (2004)
 :PROPERTIES:
@@ -209,6 +208,7 @@ than [[id:ba2b4c13-c11e-4501-8535-2958da840179][Warp Speed]] (especially due to 
 :ID:       942ea114-c758-4708-a4f9-1f08a870a4d8
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 20:06] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
 [2024-02-21 Mi 22:30] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
 :END:
 [[yt:TZ5ug15enjg]]
@@ -247,10 +247,124 @@ back from when dizzee was still a part of [[id:8026c704-3324-4ccf-afa8-ed49e789e
 yt:jiF_PQQqSrA
 part of [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][the Sidewinder Promo Mix]]
 kind of captures the vibe of grime very well in ways i cant properly explain
+*** [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]] - Feedback (2003)
+:PROPERTIES:
+:ID:       970ad49c-4f56-4636-b493-a69fcd8044d6
+:END:
+yt:bB2GjLSWRmI
+absurd bass heavyweight. just the most fucked up sustained squares for 4 minutes interrupted by
+occassional orchestral hits and [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]]-ass bass/kick hits.
+*** [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]] - Street Fighter Riddim (2010)
+:PROPERTIES:
+:ID:       f3bd4da5-43e9-446d-bd0f-a780fcdf76e3
+:END:
+yt:tKljEHPUjnk
+prod. by [[id:37d3cf4f-fd34-4ff0-8b0f-4953c9ad8596][DJ Swerve]], probably the definite D Double tune. great riddim, definitely influential
+for the new grime wave from around the time. one of the first proper grime tracks ive heard i
+think? catchy one and all the silly d double madness so definitely a good one
+*** [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]] - Fresh n Clean (2019)
+:PROPERTIES:
+:ID:       1a6e5545-9b76-48a9-b85d-8088ed09b1a5
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:35] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
+:END:
+yt:2QYv6hVEMSo
+prod. star one. originated in an ikea ad campaign but it kinda slaps
+*** [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]] - Big Mic Man (2002)
+:PROPERTIES:
+:ID:       4bc16c79-d11a-4346-ab9d-212d25dd0373
+:END:
+yt:jNhuHYqK3_4 prod. [[id:36d98142-ba9d-4dfd-99db-24752b998374][Maxwell D]]
+
+he sounds younger in this than even older stuff which is kind of interesting
+
+anyways its the first flowdan solo single, still holds up fairly well imo.
+
+lots of bars in there he still uses, like "i am the big flowdan otherwise known as mr. sandman" or the whole "drive uh drive uh transit van" ordeal i think both of these are in [[id:d6928c15-d8d9-4b9b-8360-c5ca0669a7ef][Horror Show Style]] too
+*** [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]] - Horror Show Style
+:PROPERTIES:
+:ID:       d6928c15-d8d9-4b9b-8360-c5ca0669a7ef
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 19:32] <- [[id:a80695e1-f492-469c-8e05-b03a6646b3f3][Flowdan - Disaster Piece (2016)]]
+[2024-02-23 Fr 19:03] <- [[id:4bc16c79-d11a-4346-ab9d-212d25dd0373][Flowdan - Big Mic Man (2002)]]
+:END:
+yt:RcE0xW-kGZ0 prod. Splurgeboys
+
+absolutely fire
+*** [[id:8026c704-3324-4ccf-afa8-ed49e789e6a1][Roll Deep]] - When I'm 'ere
+:PROPERTIES:
+:ID:       22d757b7-f824-42be-9650-f60706f9fbca
+:END:
+yt:HK1SpAy_cR4 prod. [[id:625824cf-787d-4647-8661-4940390976dc][Danny Weed]] feat. Roachee, [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]], Scratchy, Trim, [[id:c4029910-ba36-4700-8ca8-0758764f5bb8][Manga]], Breeze, [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]], Jet Lee.
+
+pretty popular roll deep track and just overall fun. mixing kinda sucks but both riddim and overall
+vibe make up for it
+*** Rebound X - Rhythm 'n' Gash (~2007?)
+yt:tSTK8W-Cs-s
+
+maybe the most well known instrumental from that time. pretty garagey imo and not as bass focused as one
+gets used to in grime, holds up absurdly well though.
+
+nobody really knows who rebound x or the singing woman is afaik, the former just released a couple riddims
+on grime forums back in the day and kinda stopped due to reasons i forgot about
+
+**** [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]], [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]] - Spaceship (2007)
+:PROPERTIES:
+:ID:       c1d1fdfb-a23a-4c68-9878-164caf174ec0
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:14] <- [[id:3fded78c-f44c-4a06-ad23-7147a791c2c4][Tempa T - RBX (2007)]]
+:END:
+yt:P7GpEBbROyA
+
+very famous freestyle from some unidentified radio set. i dont think its all that good though honestly
+but the vibes are definitely there
+**** [[id:e86bd24b-3f6b-4a51-ab64-82b69f979f2a][Tempa T]] - RBX (2007)
+:PROPERTIES:
+:ID:       3fded78c-f44c-4a06-ad23-7147a791c2c4
+:END:
+yt:jV-nX9wSVQo
+
+wayyy better than [[id:c1d1fdfb-a23a-4c68-9878-164caf174ec0][Spaceship]] imo, noone can match the energy and pure rage this guy has on the mic
+and this tunes a great example
+**** [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]] feat. [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]] - I Spy (2007)
+:PROPERTIES:
+:ID:       c1663fcf-cb65-45d4-b9ac-2fefae20f2e5
+:END:
+yt:Hy_u7OI5Euo
+
+pretty great, super catchy hook and some great bars here and there
+**** Rhythm 'n' Gash ([[id:319ea6c7-c4c5-4d90-abfb-78f0df9dbcdb][Sir Spyro]] Remix)
+:PROPERTIES:
+:ID:       dd0cbde0-eaca-44d6-9989-47c21d9d5f91
+:END:
+yt:wQlu_6Rhl9I
+great remix, catchy and captures the vibe
+***** [[id:b2593654-8f13-4730-83e0-38aa0633f801][P Money ]]feat. [[id:fe6220b2-4960-491f-8bfe-695903761a60][Newham Generals]] - Sounds of the Sir (~2015)
+:PROPERTIES:
+:ID:       54571c43-3dd8-4666-a4f8-b779feb9be73
+:END:
+yt:LssboVlvvGE
+
+in particular feat. [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]] and [[id:0fd0eac3-09b8-4b79-a5a8-353c02af24a4][Footsie]].
+might honestly be my fav dub of this their flows just fit the track so well
+
+named after the [[id:319ea6c7-c4c5-4d90-abfb-78f0df9dbcdb][Sir Spyro]] producer tag
+**** [[id:e86bd24b-3f6b-4a51-ab64-82b69f979f2a][Tempa T]] + [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] over Rhythm 'n' Gash
+:PROPERTIES:
+:ID:       31b08eea-d45a-4544-9cc5-8b281b95252f
+:END:
+yt:QeDd5F1iwFI
+tempz screaming over this works way better than dizzees bits at the end lmao
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
 :ID:       cecf3e92-5439-4892-ae83-5da3d7715e3a
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:52] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
 :END:
 still around on [[https://rinse.fm/]]! established as a jungle pirate radio by [[id:3f7813d5-5bfc-4b3d-b988-285650ef98eb][Slimzee]] around 95 and helped push garage, grime and dubstep
 **** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] + [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]] set (2001)
@@ -283,11 +397,13 @@ absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddi
 yt:EXQgLYs9PuE
 classic, one of the essentials for sure
 ** Artists
-*** TODO Wiley
+*** Wiley
 :PROPERTIES:
 :ID:       6758cd23-96f2-4de5-9b48-7fbe270e76f2
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 19:59] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
+[2024-02-23 Fr 18:07] <- [[id:8ca5a63e-cb56-4adf-855e-c18d2d3890f4][Dizzee Rascal - Boy in the Corner]]
 [2024-02-23 Fr 15:40] <- [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][Slimzee,  & Dizzee Rascal, Sidewinder Promo Mix (2002)]]
 [2024-02-23 Fr 15:38] <- [[id:0cc7cf39-56cc-4eea-9d1a-102ebdd21f41][& Dizzee Rascal - Creeper Freestyle]]
 [2024-02-21 Mi 00:34] <- [[id:a8b9226a-8f9b-49e9-be01-65a44d746087][+ Flowdan set (2001)]]
@@ -296,6 +412,26 @@ classic, one of the essentials for sure
 :LOGBOOK:
 - State "TODO"       from              [2024-02-21 Mi 00:32]
 :END:
+aka wiley kat aka eskiboy
+
+the godfather of grime and also the absolute idiot of grime.
+got started in the late 90s with garage and dnb on [[id:cecf3e92-5439-4892-ae83-5da3d7715e3a][Rinse.fm]] as far as i know, found his first success with [[id:02c395c1-040e-4767-b645-fc9830dbd612][Pay as U Go Cartel]], then founded [[id:8026c704-3324-4ccf-afa8-ed49e789e6a1][Roll Deep]] and has been more or less
+the most well-known member since [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] left.
+
+helped a lot of people ([[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] and [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]]) for example blow up and just seemed to have been
+an overall very supportive force in grime.
+
+also got the whole [[id:f636658f-a81e-423d-97ef-ee93384a55aa][Eskibeat]] ordeal started (eskiboy is a nickname he often uses in his songs i guess,
+there's a lot of weird themes built around the arctic and ice in his music) and has been one of the most
+innovative producers and talented mcs in the game.
+
+however there's also a long history of erratic behavior that made him hard to work with, a fairly
+recent and disgusting arc of him being absurdly antisemitic, and assault and burglary
+acts a couple years ago so maybe dont pay this guy money i think
+
+honestly he seems mentally very much unwell in ways people dont really acknowledge online but that
+doesnt excuse all the horrible shit of course, its kind of similar to the kanye situation though not
+quite /that/ bad yet
 *** TODO DJ Wonder
 :PROPERTIES:
 :ID:       38e88ed5-9248-47b1-8a07-96bd069a7aea
@@ -312,6 +448,10 @@ classic, one of the essentials for sure
 :ID:       d08bf74c-93bc-4cf7-ad7e-6db66f58d409
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 20:00] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
+[2024-02-23 Fr 19:43] <- [[id:d6928c15-d8d9-4b9b-8360-c5ca0669a7ef][- Horror Show Style]]
+[2024-02-23 Fr 19:31] <- [[id:a80695e1-f492-469c-8e05-b03a6646b3f3][- Disaster Piece (2016)]]
+[2024-02-23 Fr 19:00] <- [[id:4bc16c79-d11a-4346-ab9d-212d25dd0373][- Big Mic Man]]
 [2024-02-21 Mi 00:34] <- [[id:a8b9226a-8f9b-49e9-be01-65a44d746087][Wiley +  set (2001)]]
 :END:
 :LOGBOOK:
@@ -322,6 +462,11 @@ classic, one of the essentials for sure
 :ID:       35137126-ceaf-41b4-9411-748c987fa834
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 20:22] <- [[id:31b08eea-d45a-4544-9cc5-8b281b95252f][Rhythm 'n' Gash (Tempa T +]]
+[2024-02-23 Fr 18:42] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
+[2024-02-23 Fr 18:41] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
+[2024-02-23 Fr 18:31] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
+[2024-02-23 Fr 18:04] <- [[id:8ca5a63e-cb56-4adf-855e-c18d2d3890f4][- Boy in the Corner]]
 [2024-02-23 Fr 15:40] <- [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][Slimzee, Wiley & , Sidewinder Promo Mix (2002)]]
 [2024-02-23 Fr 15:38] <- [[id:0cc7cf39-56cc-4eea-9d1a-102ebdd21f41][Wiley &]]
 [2024-02-23 Fr 15:37] <- [[id:6992bd51-f4fc-4a96-8a25-62731905726c][Dizzee Rascal - Creeper Freestyle]]
@@ -370,6 +515,7 @@ Grime and somehow also riddim dubstep producer
 :ID:       0f87032e-78c4-4123-aa37-4fe7f1b0bd51
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 20:11] <- [[id:c1d1fdfb-a23a-4c68-9878-164caf174ec0][, Skepta - Spaceship (2007)]]
 [2024-02-21 Mi 13:41] <- [[id:147b6914-bf44-4148-be37-8bcb0ceb9fdd][JME - Pulse 8 (2014)]]
 [2024-02-21 Mi 13:39] <- [[id:147b6914-bf44-4148-be37-8bcb0ceb9fdd][- Pulse 8 (2014)]]
 :END:
@@ -405,6 +551,7 @@ Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 :ID:       24be3842-8c5e-43ad-885e-83925646a5fa
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 18:11] <- [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 [2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
 :END:
 :LOGBOOK:
@@ -462,6 +609,7 @@ techno, grime and dubstep DJ from bristol, one of the most technically well-vers
 :ID:       b4a11e57-425a-4850-8426-443a0ab0be39
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 20:02] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][- Beg to Differ (2007)]]
 [2024-02-21 Mi 22:23] <- [[id:942ea114-c758-4708-a4f9-1f08a870a4d8][- Shallow Grave (2004 Edit)]]
 :END:
 :LOGBOOK:
@@ -483,6 +631,7 @@ FKA Plasticman, had to change names due to trademark issues. Very influential gu
 :ID:       c4029910-ba36-4700-8ca8-0758764f5bb8
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 19:59] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
 [2024-02-21 Mi 22:34] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, , Flirta D, Sox, Jafro & More (2024)]]
 :END:
 :LOGBOOK:
@@ -504,10 +653,159 @@ One of the dubstep goats for sure
 :ID:       625824cf-787d-4647-8661-4940390976dc
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 19:59] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
 [2024-02-23 Fr 15:35] <- [[id:0b64ad0c-eb84-4552-b62d-235dfa4db2de][- Creeper (~2001)]]
 :END:
 :LOGBOOK:
 - State "TODO"       from              [2024-02-23 Fr 15:35]
+:END:
+*** TODO Jammer
+:PROPERTIES:
+:ID:       12551dfd-c0c4-45f0-8264-1be2224f090a
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:17] <- [[id:c1663fcf-cb65-45d4-b9ac-2fefae20f2e5][Skepta feat.  - I Spy (2007)]]
+[2024-02-23 Fr 18:13] <- [[id:970ad49c-4f56-4636-b493-a69fcd8044d6][Feedback]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:12]
+:END:
+*** D Double E
+:PROPERTIES:
+:ID:       02dda295-8f4e-4830-9578-5aae422feac3
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][P Money feat. Newham Generals - Sounds of the Sir]]
+[2024-02-23 Fr 18:34] <- [[id:1a6e5545-9b76-48a9-b85d-8088ed09b1a5][***]]
+[2024-02-23 Fr 18:18] <- [[id:f3bd4da5-43e9-446d-bd0f-a780fcdf76e3][- Street Fighter Riddim (2010)]]
+:END:
+been in the game since 1994 (according to [[https://www.youtube.com/watch?v=hC-pAl-i5UA ][this sets]] description at least), started off with jungle,
+later moved on to garage, at some point he joined [[id:374f1c48-1c39-4e9b-9cdf-1374ae49a679][Nasty Crew]] and became probably the most famous mc
+of the crew.
+
+often described as your favorite's mc favorite's mc and so on, a lot of grime artists and fans consider him one of, if not the goat. has a lot of characteristic bars and ad libs as well as pretty much absurd
+crowd control that lead to him becoming what i think is the mc with the highest [[id:ee996d9c-0fce-4881-acfd-3c84459721d5][reload]] density.
+
+afaik he got somewhat big on the first international [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] tour (or at least any of the earlier ones), which he participated in under the condition he could bring [[id:0fd0eac3-09b8-4b79-a5a8-353c02af24a4][Footsie]] and [[id:347cffda-feb5-43dc-9681-5f39c213f2da][Monkstar]] which pretty much lead to the [[id:fe6220b2-4960-491f-8bfe-695903761a60][Newham Generals]] establishing.
+
+moved on to a focus on his solo career and songwriting around 2015 but hes mostly doing drill now and
+its all just not very good as much as i would like it to be
+
+also had an ad campaign with ikea??? see [[id:1a6e5545-9b76-48a9-b85d-8088ed09b1a5][D Double E - Fresh n Clean (2019)]]
+
+was originally just called Dee or D or something but the radio station he mced on had another MC D join
+at some point so he had to distinguish himself i guess
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:18]
+:END:
+*** TODO DJ Swerve
+:PROPERTIES:
+:ID:       37d3cf4f-fd34-4ff0-8b0f-4953c9ad8596
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:19] <- [[id:f3bd4da5-43e9-446d-bd0f-a780fcdf76e3][D Double E - Street Fighter Riddim (2010)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:19]
+:END:
+*** TODO Footsie
+:PROPERTIES:
+:ID:       0fd0eac3-09b8-4b79-a5a8-353c02af24a4
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][P Money feat. Newham Generals - Sounds of the Sir]]
+[2024-02-23 Fr 18:32] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:31]
+:END:
+*** TODO Monkstar
+:PROPERTIES:
+:ID:       347cffda-feb5-43dc-9681-5f39c213f2da
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:32] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:31]
+:END:
+*** TODO Skepta
+:PROPERTIES:
+:ID:       8220134f-151e-4548-b442-47128ee9e2d3
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:17] <- [[id:c1663fcf-cb65-45d4-b9ac-2fefae20f2e5][feat. Jammer - I Spy (2007)]]
+[2024-02-23 Fr 20:11] <- [[id:c1d1fdfb-a23a-4c68-9878-164caf174ec0][JME,  - Spaceship (2007)]]
+[2024-02-23 Fr 20:08] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
+[2024-02-23 Fr 20:03] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
+[2024-02-23 Fr 18:42] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:42]
+:END:
+*** TODO Maxwell D
+:PROPERTIES:
+:ID:       36d98142-ba9d-4dfd-99db-24752b998374
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 19:01] <- [[id:4bc16c79-d11a-4346-ab9d-212d25dd0373][Flowdan - Big Mic Man (2002)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 19:01]
+:END:
+*** TODO Frisco
+:PROPERTIES:
+:ID:       121e6266-0fe2-41b4-881b-89187f4f07f6
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:03] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 20:03]
+:END:
+*** TODO Esco
+:PROPERTIES:
+:ID:       7afc45bc-41b7-4319-9221-51ab4be5f660
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:03] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 20:03]
+:END:
+*** TODO Tempa T
+:PROPERTIES:
+:ID:       e86bd24b-3f6b-4a51-ab64-82b69f979f2a
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:22] <- [[id:31b08eea-d45a-4544-9cc5-8b281b95252f][Rhythm 'n' Gash (]]
+[2024-02-23 Fr 20:13] <- [[id:3fded78c-f44c-4a06-ad23-7147a791c2c4][****]]
+[2024-02-23 Fr 20:03] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 20:03]
+:END:
+*** TODO Sir Spyro
+:PROPERTIES:
+:ID:       319ea6c7-c4c5-4d90-abfb-78f0df9dbcdb
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:28] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][P Money feat. Newham Generals - Sounds of the Sir]]
+[2024-02-23 Fr 20:22] <- [[id:dd0cbde0-eaca-44d6-9989-47c21d9d5f91][Rhythm 'n' Gash ( Remix)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 20:20]
+:END:
+has a show on BBC 1xtra
+*** TODO P Money
+:PROPERTIES:
+:ID:       b2593654-8f13-4730-83e0-38aa0633f801
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][feat. Newham Generals - Sounds of the Sir]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 20:25]
 :END:
 
 ** Albums etc.
@@ -523,13 +821,42 @@ Also included:
 - [[id:d2c64036-da6a-493e-8bda-20d27206780e][Ruff Sqwad - Functions on the Low]]
 - [[id:8b3c9363-7ab5-440a-a4ab-7ca446806203][Ruff Sqwad - Xtra]]
 - [[id:15ebbd03-2d4d-4759-8f6f-1e1acf394871][Ruff Sqwad - Tings in Boots]]
+*** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Boy in the Corner (2003)
+:PROPERTIES:
+:ID:       8ca5a63e-cb56-4adf-855e-c18d2d3890f4
+:END:
+The definite grime album and the international breakthrough for both Dizzee and the genre. Lots of very weird (/pos) beats on here and overall a leftfield and kind of cold atmosphere most grime never was able
+to offer, not even [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]'s [[id:f636658f-a81e-423d-97ef-ee93384a55aa][Eskibeat]] stuff (though of course that very much influenced the album)
+*** [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]] - Disaster Piece (2016)
+:PROPERTIES:
+:ID:       a80695e1-f492-469c-8e05-b03a6646b3f3
+:END:
+great album, lots of amazing grime and dubstep riddims and just a super consistent performance
+included:
+- [[id:d6928c15-d8d9-4b9b-8360-c5ca0669a7ef][Flowdan - Horror Show Style]]
+*** [[id:b4a11e57-425a-4850-8426-443a0ab0be39][Plastician]] - Beg to Differ (2007)
+:PROPERTIES:
+:ID:       4cea25b8-0741-4a7b-9840-b5f09656ef05
+:END:
+feat. [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]], Chronik, [[id:121e6266-0fe2-41b4-881b-89187f4f07f6][Frisco]], [[id:7afc45bc-41b7-4319-9221-51ab4be5f660][Esco]], [[id:e86bd24b-3f6b-4a51-ab64-82b69f979f2a][Tempa T]].
 
+the best plastician work imo, it's more dubstep than it is grime but either way just amazing
+atmosphere and constantly on the edge between the warmth of the melancholic melody bits
+and the cold bass and grime beats
+
+intensive snare has some of xthe worst bars ive ever heard from [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]] though that shits just way too
+goofy for that track
+
+includes:
+- [[id:942ea114-c758-4708-a4f9-1f08a870a4d8][Plastician - Shallow Grave (2004 Edit)]]
 ** Crews
 *** TODO Roll Deep
 :PROPERTIES:
 :ID:       8026c704-3324-4ccf-afa8-ed49e789e6a1
 :END:
 :BACKLINKS:
+[2024-02-23 Fr 19:58] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][When I'm 'ere]]
+[2024-02-23 Fr 18:51] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
 [2024-02-23 Fr 15:38] <- [[id:6992bd51-f4fc-4a96-8a25-62731905726c][Dizzee Rascal - Creeper Freestyle]]
 [2024-02-21 Mi 00:35] <- [[id:50249c49-f85c-400e-b420-cfbd6077f225][- Morgue]]
 :END:
@@ -569,7 +896,39 @@ Also included:
 :LOGBOOK:
 - State "TODO"       from              [2024-02-21 Mi 13:42]
 :END:
-Formed around 2001, pretty influential instrumentals.
+Formed around 2001, pretty influential instrumentals and a couple members that blew up ([[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]] in particular, of course).
+*** TODO Nasty Crew
+:PROPERTIES:
+:ID:       374f1c48-1c39-4e9b-9cdf-1374ae49a679
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:25] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:24]
+:END:
+*** TODO Newham Generals
+:PROPERTIES:
+:ID:       fe6220b2-4960-491f-8bfe-695903761a60
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][P Money feat.  - Sounds of the Sir]]
+[2024-02-23 Fr 18:32] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:30]
+:END:
+*** TODO Pay as U Go Cartel
+:PROPERTIES:
+:ID:       02c395c1-040e-4767-b645-fc9830dbd612
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:51] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:51]
+:END:
+
 ** Styles
 *** TODO 8-bar
 :PROPERTIES:
@@ -587,3 +946,31 @@ Named after its A/B structure with each part 8 bars long which lended itself ver
 :LOGBOOK:
 - State "TODO"       from              [2024-02-21 Mi 14:27]
 :END:
+*** TODO Eskibeat
+:PROPERTIES:
+:ID:       f636658f-a81e-423d-97ef-ee93384a55aa
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:43] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
+[2024-02-23 Fr 18:08] <- [[id:8ca5a63e-cb56-4adf-855e-c18d2d3890f4][Dizzee Rascal - Boy in the Corner]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-23 Fr 18:08]
+:END:
+** Other Terms
+*** Reloads
+:PROPERTIES:
+:ID:       ee996d9c-0fce-4881-acfd-3c84459721d5
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:30] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
+:END:
+when a dj rewinds a [[id:1667fd2b-bc4f-4ced-9107-44665267eaa8][Riddim]] due to the mc spitting too hard, basically
+*** Riddim
+:PROPERTIES:
+:ID:       1667fd2b-bc4f-4ced-9107-44665267eaa8
+:END:
+:BACKLINKS:
+[2024-02-23 Fr 18:30] <- [[id:ee996d9c-0fce-4881-acfd-3c84459721d5][Reloads]]
+:END:
+just what other genres call beats or instrumentals, originates in sound system culture
