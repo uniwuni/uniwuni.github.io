@@ -247,6 +247,21 @@ back from when dizzee was still a part of [[id:8026c704-3324-4ccf-afa8-ed49e789e
 yt:jiF_PQQqSrA
 part of [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][the Sidewinder Promo Mix]]
 kind of captures the vibe of grime very well in ways i cant properly explain
+**** [[id:3e559df9-1167-4221-aff4-bfb3cdfc2b1f][Soloman]] - Bokeh Creeper (~2015)
+:PROPERTIES:
+:ID:       525f7959-73c8-4a97-b58e-5f048be3ba75
+:END:
+yt:DgqaH4k6kHc (ft. [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]], played out by [[id:3f7813d5-5bfc-4b3d-b988-285650ef98eb][Slimzee]])
+crazy thick remix and plate. love what soloman has done in dubstep and this is just next level
+wiley goes hard on this too
+***** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] over Bokeh Creeper (2016)
+:PROPERTIES:
+:ID:       3227adb4-713e-486f-b423-16131d6fe12c
+:END:
+:LOGBOOK:
+- Refiled on [2024-02-24 Sa 21:18]
+:END:
+yt:RL1pucCMVco banger, from [[id:cc593b5c-ed69-4208-bdb0-6b815a26ac0f][Wiley at XOYO (2016)]]
 *** [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]] - Feedback (2003)
 :PROPERTIES:
 :ID:       970ad49c-4f56-4636-b493-a69fcd8044d6
@@ -254,6 +269,8 @@ kind of captures the vibe of grime very well in ways i cant properly explain
 yt:bB2GjLSWRmI
 absurd bass heavyweight. just the most fucked up sustained squares for 4 minutes interrupted by
 occassional orchestral hits and [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]]-ass bass/kick hits.
+
+shares its vibe with [[id:84adfb73-cd63-4987-99b5-2ec477285e74][Dilemma]]
 *** [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]] - Street Fighter Riddim (2010)
 :PROPERTIES:
 :ID:       f3bd4da5-43e9-446d-bd0f-a780fcdf76e3
@@ -379,7 +396,7 @@ yt:LkdEOY0bf4U
 
 one of the biggest riddims of all time and the definite [[id:f636658f-a81e-423d-97ef-ee93384a55aa][Eskibeat]] tune, and rightfully so,
 this fucks in an uncanny way i really like and has one of these super catchy basslines
-**** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] - Eskimo 2 (Devil's Mix)
+**** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] - Eskimo 2 (Devil's Mix) (2002)
 :PROPERTIES:
 :ID:       3f8e2fa6-d30b-4063-b1d3-21fbdc1c44c8
 :END:
@@ -395,7 +412,13 @@ he stopped calling them devils mixes at some point because of it causing bad luc
 :ID:       8346e1c3-7841-47fe-acee-8241e1e73d48
 :END:
 yt:5pxk-EfNQxY
-slgiht variation of the beat, its crazy good though
+slight variation of the beat, its crazy good though
+**** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] - Eskimo 3 (2002)
+:PROPERTIES:
+:ID:       16997959-ec7d-421b-85c3-610d781e35aa
+:END:
+yt:GHq2HWAoTwQ
+another great version, samples [[id:84adfb73-cd63-4987-99b5-2ec477285e74][So Solid Crew - Dilemma]] probably as a jab at them or something
 *** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] - Igloo (2003)
 :PROPERTIES:
 :ID:       64a01c34-8f49-4115-9cdf-abad396bb9ec
@@ -427,6 +450,38 @@ yt:OZ6G7qwjom4
 
 reignited a new grime wave, probably peak temps and an all time classic. great track to work yourself
 into rage, too
+*** [[id:0d708b7a-a488-4829-9a66-ef7653d1739c][Spooky Bizzle]] - Spartan (~2009)
+:PROPERTIES:
+:ID:       667e0f7b-b30c-4cc7-8ba9-6de6781340ad
+:END:
+yt:SnmI49CRDQQ
+
+fire 8 bar beat. love the super fucked up square and the energy
+**** [[id:3e559df9-1167-4221-aff4-bfb3cdfc2b1f][Soloman]] - Spartan Remix (2013)
+:PROPERTIES:
+:ID:       f305a638-2e8b-4190-a5aa-189942dd5e79
+:END:
+yt:UXkSa8L_KVw
+solid one
+**** Kozzie ft Marger, Merky Ace, Rival, Ego, Scrufizzer - Spartan Remix (2011)
+yt:1J1csBsJ6d0
+fire, utilizes the flow of the beat super well, proper battle vibes
+*** [[id:3e559df9-1167-4221-aff4-bfb3cdfc2b1f][Soloman]] - Bokeh (2015)
+:PROPERTIES:
+:ID:       4ad0e77c-c4c7-4d75-807d-c4b744d050b2
+:END:
+yt:sYj_pqKqnB8
+actually a dubstep tune but this shit has to be made for mcs. [[id:f636658f-a81e-423d-97ef-ee93384a55aa][Eskibeat]] style bassline in a modern setting goes hard as fuck
+*** [[id:ca94a0c9-b4c5-43e3-8ac3-d713acd71d36][So Solid Crew]] - Dilemma (2000)
+:PROPERTIES:
+:ID:       84adfb73-cd63-4987-99b5-2ec477285e74
+:END:
+:BACKLINKS:
+[2024-02-24 Sa 22:16] <- [[id:970ad49c-4f56-4636-b493-a69fcd8044d6][Jammer - Feedback (2003)]]
+[2024-02-24 Sa 22:14] <- [[id:16997959-ec7d-421b-85c3-610d781e35aa][Wiley - Eskimo 3 (2002)]]
+:END:
+yt:Tn_bvASWNoA
+another sustain bass tune and kind of pre-grime but fire. the occassional samples and fx do so much
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
@@ -473,12 +528,25 @@ absurd opening. Guy got [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][Shottaz Riddi
 :END:
 yt:EXQgLYs9PuE
 classic, one of the essentials for sure
+*** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] at XOYO (2016)
+:PROPERTIES:
+:ID:       cc593b5c-ed69-4208-bdb0-6b815a26ac0f
+:END:
+:BACKLINKS:
+[2024-02-24 Sa 21:21] <- [[id:3227adb4-713e-486f-b423-16131d6fe12c][Wiley over Bokeh Creeper (2016)]]
+:END:
+yt:1J1csBsJ6d0
+man i wish this guy would be slightly less bad of a person
 ** Artists
 *** Wiley
 :PROPERTIES:
 :ID:       6758cd23-96f2-4de5-9b48-7fbe270e76f2
 :END:
 :BACKLINKS:
+[2024-02-24 Sa 22:12] <- [[id:16997959-ec7d-421b-85c3-610d781e35aa][- Eskimo 3]]
+[2024-02-24 Sa 21:19] <- [[id:cc593b5c-ed69-4208-bdb0-6b815a26ac0f][***]]
+[2024-02-24 Sa 21:18] <- [[id:3227adb4-713e-486f-b423-16131d6fe12c][over Bokeh Creeper (2016)]]
+[2024-02-24 Sa 21:12] <- [[id:525f7959-73c8-4a97-b58e-5f048be3ba75][Soloman - Bokeh Creeper]]
 [2024-02-24 Sa 13:32] <- [[id:e73649f5-5361-45d4-846e-d8f5f086b8b3][- Ground Zero (2001)]]
 [2024-02-24 Sa 13:30] <- [[id:9d2e5cc8-b5cd-4ea0-af48-dd9c9fb5ae97][- Wot Do U Call It]]
 [2024-02-24 Sa 13:29] <- [[id:64a01c34-8f49-4115-9cdf-abad396bb9ec][- Igloo (2003)]]
@@ -567,6 +635,7 @@ quite /that/ bad yet
 :ID:       3f7813d5-5bfc-4b3d-b988-285650ef98eb
 :END:
 :BACKLINKS:
+[2024-02-24 Sa 21:12] <- [[id:525f7959-73c8-4a97-b58e-5f048be3ba75][Soloman - Bokeh Creeper]]
 [2024-02-23 Fr 15:40] <- [[id:befe65c0-dfbf-4d14-93b5-8e01be8e46a7][, Wiley & Dizzee Rascal, Sidewinder Promo Mix (2002)]]
 [2024-02-21 Mi 00:34] <- [[id:cecf3e92-5439-4892-ae83-5da3d7715e3a][Rinse.fm]]
 :END:
@@ -717,6 +786,7 @@ FKA Plasticman, had to change names due to trademark issues. Very influential gu
 :ID:       c4029910-ba36-4700-8ca8-0758764f5bb8
 :END:
 :BACKLINKS:
+[2024-02-24 Sa 20:49] <- [[id:3839c44f-b6d1-4346-a82b-94dbaaf53291][prod. MoreNight - Everything is under Control]]
 [2024-02-23 Fr 19:59] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
 [2024-02-21 Mi 22:34] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, , Flirta D, Sox, Jafro & More (2024)]]
 :END:
@@ -905,6 +975,33 @@ has a show on BBC 1xtra
 :LOGBOOK:
 - State "TODO"       from              [2024-02-24 Sa 13:10]
 :END:
+*** TODO MoreNight
+:LOGBOOK:
+- State "TODO"       from              [2024-02-24 Sa 20:49]
+:END:
+*** TODO Spooky Bizzle
+:PROPERTIES:
+:ID:       0d708b7a-a488-4829-9a66-ef7653d1739c
+:END:
+:BACKLINKS:
+[2024-02-24 Sa 21:08] <- [[id:667e0f7b-b30c-4cc7-8ba9-6de6781340ad][***]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-24 Sa 21:08]
+:END:
+aka Spooky
+*** TODO Soloman
+:PROPERTIES:
+:ID:       3e559df9-1167-4221-aff4-bfb3cdfc2b1f
+:END:
+:BACKLINKS:
+[2024-02-24 Sa 21:15] <- [[id:4ad0e77c-c4c7-4d75-807d-c4b744d050b2][***]]
+[2024-02-24 Sa 21:12] <- [[id:525f7959-73c8-4a97-b58e-5f048be3ba75][****]]
+[2024-02-24 Sa 21:11] <- [[id:f305a638-2e8b-4190-a5aa-189942dd5e79][- Spartan Remix (2013)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-24 Sa 21:11]
+:END:
 
 ** Albums etc.
 *** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] - White Label Classics
@@ -942,11 +1039,16 @@ the best plastician work imo, it's more dubstep than it is grime but either way 
 atmosphere and constantly on the edge between the warmth of the melancholic melody bits
 and the cold bass and grime beats
 
-intensive snare has some of xthe worst bars ive ever heard from [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]] though that shits just way too
+intensive snare has some of the worst bars ive ever heard from [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]] though that shits just way too
 goofy for that track
 
 includes:
 - [[id:942ea114-c758-4708-a4f9-1f08a870a4d8][Plastician - Shallow Grave (2004 Edit)]]
+*** [[id:c4029910-ba36-4700-8ca8-0758764f5bb8][Manga Saint Hilare]] prod. MoreNight - Everything is under Control (2024)
+:PROPERTIES:
+:ID:       3839c44f-b6d1-4346-a82b-94dbaaf53291
+:END:
+pretty great! not necessarily a grime album, it's very much mixed with softer garage and even rnb-ish tunes. good vibes though
 ** Crews
 *** TODO Roll Deep
 :PROPERTIES:
@@ -1026,6 +1128,16 @@ Formed around 2001, pretty influential instrumentals and a couple members that b
 :LOGBOOK:
 - State "TODO"       from              [2024-02-23 Fr 18:51]
 :END:
+*** TODO So Solid Crew
+:PROPERTIES:
+:ID:       ca94a0c9-b4c5-43e3-8ac3-d713acd71d36
+:END:
+:BACKLINKS:
+[2024-02-24 Sa 22:15] <- [[id:84adfb73-cd63-4987-99b5-2ec477285e74][- Dilemma (2000)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-24 Sa 22:15]
+:END:
 
 ** Styles
 *** TODO 8-bar
@@ -1055,6 +1167,7 @@ Named after its A/B structure with each part 8 bars long which lended itself ver
 :ID:       f636658f-a81e-423d-97ef-ee93384a55aa
 :END:
 :BACKLINKS:
+[2024-02-24 Sa 21:16] <- [[id:4ad0e77c-c4c7-4d75-807d-c4b744d050b2][Soloman - Bokeh (2015)]]
 [2024-02-24 Sa 13:13] <- [[id:3ba8fa0d-cdab-48d7-a6dd-f6565cf77ebf][Wiley - Eskimo (2001-2002)]]
 [2024-02-23 Fr 18:43] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
 [2024-02-23 Fr 18:08] <- [[id:8ca5a63e-cb56-4adf-855e-c18d2d3890f4][Dizzee Rascal - Boy in the Corner]]
