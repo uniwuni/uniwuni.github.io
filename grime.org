@@ -7,7 +7,7 @@
 (map! "C-c l l l" #'org-super-links-link)
 (setq! yt-iframe-format
   ;; You may want to change your width and height.
-  (concat "<a href=%s> link </a><br/>"))
+  (concat "<a href=https://www.youtube.com/watch?v=%s> link </a><br/>"))
 
 (org-add-link-type
  "yt"
