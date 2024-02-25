@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>the un i blog</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">the un i blog</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3bc1d9f">1. (d)josm or how i spent several hours with virtual keyboards</a>
+<ul>
+<li><a href="#org6d22cdc">1.1. the baseline</a></li>
+<li><a href="#org20a1596">1.2. midi2input</a></li>
+<li><a href="#org36b11e2">1.3. demo mode</a></li>
+<li><a href="#orgc53f9aa">1.4. sysex in m2i - the alsa part</a></li>
+<li><a href="#orgda74e38">1.5. sysex in m2i - the lua part</a></li>
+<li><a href="#orgd5aab41">1.6. keys</a></li>
+<li><a href="#orge780bcb">1.7. JOSM plugins</a></li>
+<li><a href="#org621bbb4">1.8. what i ended up with</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3bc1d9f" class="outline-2">
+<h2 id="org3bc1d9f"><span class="section-number-2">1.</span> (d)josm or how i spent several hours with virtual keyboards</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org6d22cdc" class="outline-3">
+<h3 id="org6d22cdc"><span class="section-number-3">1.1.</span> the baseline</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+As some of you might know, I&rsquo;m kinda into making music, as in producing electronic music in a DAW, blablabla<br />
+you get the gist of it. And since mixing or DJing or whatever you want to call it tends to be a rather<br />
+important component of what it means to be an &ldquo;&rdquo;&ldquo;EDM&rdquo;&ldquo;&rdquo;&ldquo; artist, roundabout two years ago I bought this<br />
+thing on the used market.<br />
+</p>
+
+<div id="orgf77a341" class="figure">
+<p><img src="img/MixtrackPlatinum_angle_3000x1875_web-624x390.jpg" alt="MixtrackPlatinum_angle_3000x1875_web-624x390.jpg" /><br />
+</p>
+</div>
+
+<p>
+This, as you might have figured, is a DJ controller, in particular a (rather cheap) <a href="https://www.numark.com/product/mixtrack-platinum">Numark Mixtrack Platinum</a>.<br />
+Overall, it&rsquo;s a pretty decent thing, at least feature-wise, though my specific used device has a few issues<br />
+with the sliders and the pots, but whatever, it does its job decently well, and this post is certainly not<br />
+any hardware issues with that thing anyways, so let&rsquo;s just keep it at that.<br />
+</p>
+
+<p>
+After a short while of using it, I discovered a major issue: I was not really good at mixing at all, which<br />
+was, well, not particularly surprising given how little my time investment was, but nonetheless, that lack<br />
+of motivation stopped me from pursuing that particular interest for a while, so this piece of plastic just<br />
+kept catching dust somewhere in a shelf. Fast-forward to August 2022: Over the past year, I had become<br />
+increasingly invested in <a href="https://openstreetmap.org">OpenStreetMap</a>, as one might be able to tell from the several hundred changesets,<br />
+thousands of buildings and dozens of kilometers of roads added from <a href="https://www.openstreetmap.org/user/univalence">my account</a>.<br />
+</p>
+
+<p>
+So I came up with an idea: What if I could use the controller I so shamelessly discarded to ease the mapping<br />
+process by, say, binding shortcuts for presets to the thing&rsquo;s buttons? This is the goal I had in mind, and<br />
+what I spent about a day trying to do.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org20a1596" class="outline-3">
+<h3 id="org20a1596"><span class="section-number-3">1.2.</span> midi2input</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+To figure out how to exactly catch the button presses, of course, one needs to know what protocol the Numark<br />
+actually uses. Unsurprisingly, it uses MIDI, just like literally any device related to electronic music.<br />
+As a MIDI controller, it sends a few bytes of data per button press, and since MIDI was such a common<br />
+protocol, it should be easy to find software that processes these presses and turns them into, in our<br />
+case, keypresses, right?<br />
+</p>
+
+<p>
+Well, kind of. After quite a bit of searching, the only software that seemed at least somewhat useful and,<br />
+equally importantly, ran on Linux, was <a href="https://gitlab.com/enetheru/midi2input">midi2input</a>. This is a fairly great tool actually, and I definitely<br />
+recommend it to anyone with similar plans, however, using it wasn&rsquo;t quite as straightforward as I was hoping for. In order to genuinely use this tool, one has to write a Lua program that has access to a quite limited<br />
+API provided by midi2input while also serving as an event handler of some sort.<br />
+</p>
+<div class="org-src-container">
+<pre class="src src-lua"><span style="color: #51afef;">function</span> <span style="color: #c678dd;">script_init</span>()
+<span style="color: #51afef;">end</span>
+
+<span style="color: #51afef;">function</span> <span style="color: #c678dd;">midi_recv</span>(<span style="color: #dcaeea;">status</span>, <span style="color: #dcaeea;">data1</span>, <span style="color: #dcaeea;">data2</span>)
+    blue_left = <span style="color: #a9a1e1;">false</span>
+    blue_right = <span style="color: #a9a1e1;">false</span>
+    <span style="color: #51afef;">if</span>(status == <span style="color: #da8548; font-weight: bold;">177</span> <span style="color: #51afef;">and</span> data1 == <span style="color: #da8548; font-weight: bold;">6</span>) <span style="color: #51afef;">then</span> <span style="color: #5B6268;">-- </span><span style="color: #5B6268;">177: right controller, 6: jogpad velocity</span>
+      <span style="color: #51afef;">if</span>(data2 &lt; <span style="color: #da8548; font-weight: bold;">65</span> <span style="color: #51afef;">and</span> data2 &gt; <span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #51afef;">then</span> blue_left = <span style="color: #a9a1e1;">true</span> <span style="color: #5B6268;">-- </span><span style="color: #5B6268;">&lt; 65: counter-clockwise</span>
+      <span style="color: #51afef;">else</span> <span style="color: #51afef;">if</span>(data2 &lt; <span style="color: #da8548; font-weight: bold;">126</span> <span style="color: #51afef;">and</span> data2 &gt; <span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #51afef;">then</span> blue_right = <span style="color: #a9a1e1;">true</span>
+      <span style="color: #51afef;">end</span>
+    <span style="color: #51afef;">end</span>
+    <span style="color: #51afef;">end</span>
+    <span style="color: #51afef;">if</span> blue_left <span style="color: #51afef;">then</span>
+       keydown(0x0033)
+    <span style="color: #51afef;">else</span>
+       keyup(0x0033)
+    <span style="color: #51afef;">end</span>
+    <span style="color: #51afef;">if</span> blue_right <span style="color: #51afef;">then</span>
+       keydown(0x0035)
+    <span style="color: #51afef;">else</span>
+       keyup(0x0035)
+    <span style="color: #51afef;">end</span>
+    <span style="color: #51afef;">end</span>
+</pre>
+</div>
+<p>
+Ignoring all the magic numbers in that code, this is relatively straightforward: the function<br />
+<code class="src src-lua">midi_recv</code> is passed a few bytes of data you can process, for example trigger key events. This is<br />
+made slightly easier by the fact that all MIDI events are logged to STDERR, even when unprocessed, so<br />
+figuring out the correct status and data bytes isn&rsquo;t much of a difficult task.<br />
+</p>
+
+<p>
+However, between startup<br />
+of the midi2input tool and actually getting the thing to run, one needs to connect the virtual MIDI input<br />
+given by the program to the MIDI output by the device, and, for whatever reason, there&rsquo;s no way of doing<br />
+this automatically by default. Instead, one has to use <code class="src src-sh">aconnect</code>, a simple shell tool which works<br />
+without any major issues. Since m2i exposes a way to execute shell commands, this can be done within the<br />
+<code class="src src-lua">script_init</code> function, simplifying the whole process by another step.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org36b11e2" class="outline-3">
+<h3 id="org36b11e2"><span class="section-number-3">1.3.</span> demo mode</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Now, in theory I should have been able to write a construct to just process incoming MIDI, use a huge case<br />
+split to figure out what exactly has been pressed, than turn that into a nice little keyboard event. Yet one more thing bugged me: If it is not explicitly turned off, the Numark controller launches into a demo mode by<br />
+default. This does not per se impose any restrictions on processing events, they all register just fine,<br />
+but as the mode consists of flashing lights and rapidly changing numbers and colors all over the machine,<br />
+one might see why it was rather annoying (also, it makes it impossible to change the key lighting by sending<br />
+MIDI events back to the device, but that&rsquo;s besides the point here).<br />
+</p>
+
+<p>
+So, in order to leave that demo mode, a simple three-byte MIDI event is not sufficient, no, one needs to<br />
+send a full 14-byte-long SysEx message. Figuring this out was already hard enough: I had to dig through the<br />
+launch scripts for the specific controller in the <a href="https://mixxx.org/">Mixxx</a> source code, yielding the sequence <code class="src src-lua">{0xF0, 0x00, 0x01, 0x3F, 0x7F, 0x3A, 0x60, 0x00, 0x04, 0x04, 0x01, 0x00, 0x00, 0xF7}</code>, just in case anyone ever needs it.<br />
+</p>
+
+<p>
+Now this was where this whole idea started to become more and more annoying. While midi2input is able to<br />
+send regular old MIDI events like note triggers or control changes, SysEx messages were out of scope.<br />
+<code class="src src-sh">amidi</code> was an option, and indeed I used it for a while, as command-line tools could be easily used<br />
+from within the Lua code. However, this posed issues when you reconnected the device, or came across other<br />
+weird situations in which <code class="src src-sh">amidi</code> was already unable to access the controller as it was connected<br />
+to m2i. So this was an option I ruled out as well, although in hindsight, it would have probably way easier<br />
+to fix the edge cases that made <code class="src src-sh">amidi</code> break instead of, you might have seen this coming, adding<br />
+SysEx-functionality to m2i myself.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc53f9aa" class="outline-3">
+<h3 id="orgc53f9aa"><span class="section-number-3">1.4.</span> sysex in m2i - the alsa part</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+Luckily, at least midi2input is a tool of fairly comprehensible size: After a short investigation, I noticed<br />
+that what I needed to change was the <code class="src src-cpp">AlsaSeq</code> class, whose header looked like the following:<br />
+</p>
+<div class="org-src-container">
+<pre class="src src-cpp"><span style="color: #51afef;">[</span><span style="color: #c678dd;">...</span><span style="color: #51afef;">]</span>
+<span style="color: #51afef;">class</span> AlsaSeq <span style="color: #51afef;">{</span>
+<span style="color: #51afef;">public</span>:
+    AlsaSeq<span style="color: #c678dd;">()</span> = <span style="color: #51afef;">default</span>;
+    <span style="color: #ECBE7B;">int</span> <span style="color: #c678dd;">open</span><span style="color: #c678dd;">()</span>;
+    <span style="color: #ECBE7B;">void</span> <span style="color: #c678dd;">close</span><span style="color: #c678dd;">()</span>;
+
+    <span style="color: #ECBE7B;">int</span> <span style="color: #c678dd;">connect</span><span style="color: #c678dd;">(</span> <span style="color: #51afef;">const</span> <span style="color: #a9a1e1;">std</span>::<span style="color: #ECBE7B;">string</span> &amp;<span style="color: #dcaeea;">client_name</span>, <span style="color: #51afef;">const</span> <span style="color: #a9a1e1;">std</span>::<span style="color: #ECBE7B;">string</span> &amp;<span style="color: #dcaeea;">port_name</span> <span style="color: #c678dd;">)</span>;
+
+    <span style="color: #ECBE7B;">midi_event</span> <span style="color: #c678dd;">event_receive</span><span style="color: #c678dd;">()</span>;
+    <span style="color: #ECBE7B;">int</span> <span style="color: #c678dd;">event_pending</span><span style="color: #c678dd;">()</span>;
+    <span style="color: #ECBE7B;">void</span> <span style="color: #c678dd;">event_send</span><span style="color: #c678dd;">(</span> <span style="color: #51afef;">const</span> <span style="color: #ECBE7B;">midi_event</span> &amp;<span style="color: #dcaeea;">event</span> <span style="color: #c678dd;">)</span>;
+
+    <span style="color: #51afef;">explicit</span> <span style="color: #51afef;">operator</span> <span style="color: #ECBE7B;">bool</span><span style="color: #c678dd;">()</span> <span style="color: #51afef;">const</span> <span style="color: #c678dd;">{</span> <span style="color: #51afef;">return</span> seq; <span style="color: #c678dd;">}</span>
+
+    ~AlsaSeq<span style="color: #c678dd;">()</span>;
+<span style="color: #c678dd;">[</span><span style="color: #c678dd;">...</span><span style="color: #c678dd;">]</span>
+<span style="color: #51afef;">}</span>;
+<span style="color: #51afef;">[</span><span style="color: #c678dd;">...</span><span style="color: #51afef;">]</span>
+</pre>
+</div>
+<p>
+So all it took was adding a function <code class="src src-cpp"><span style="color: #a9a1e1;">AlsaSeq</span>::sysex_send<span style="color: #51afef;">(</span><span style="color: #ECBE7B;">unsigned</span> <span style="color: #ECBE7B;">char</span>* <span style="color: #dcaeea;">data</span>, <span style="color: #ECBE7B;">int</span> <span style="color: #dcaeea;">length</span><span style="color: #51afef;">)</span></code>, which<br />
+made the whole thing seem a little less daunting. Now, how does one do that, exactly? After another few<br />
+minutes of skimming through the ALSA includes, I finally came across a macro <code class="src src-cpp">snd_seq_ev_set_sysex<span style="color: #51afef;">(</span>ev,datalen,dataptr<span style="color: #51afef;">)</span></code>, setting SysEx data for a given MIDI event. Since the<br />
+event metadata itself was fairly uniform among all sorts of MIDI processes, <code class="src src-cpp"><span style="color: #a9a1e1;">AlsaSeq</span>::event_send</code><br />
+looked like a plausible function to copy code from.<br />
+</p>
+<div class="org-src-container">
+<pre class="src src-cpp"><span style="color: #ECBE7B;">void</span>
+<span style="color: #a9a1e1;">AlsaSeq</span>::<span style="color: #c678dd;">event_send</span><span style="color: #51afef;">(</span><span style="color: #51afef;">const</span> <span style="color: #ECBE7B;">midi_event</span> &amp;<span style="color: #dcaeea;">event</span> <span style="color: #51afef;">)</span>
+<span style="color: #51afef;">{</span>
+    <span style="color: #ECBE7B;">snd_seq_event_t</span> <span style="color: #dcaeea;">ev</span>;
+    snd_seq_ev_clear<span style="color: #c678dd;">(</span> &amp;ev <span style="color: #c678dd;">)</span>;
+    snd_seq_ev_set_source<span style="color: #c678dd;">(</span> &amp;ev, oport_id <span style="color: #c678dd;">)</span>;
+    snd_seq_ev_set_subs<span style="color: #c678dd;">(</span> &amp;ev <span style="color: #c678dd;">)</span>;
+    snd_seq_ev_set_direct<span style="color: #c678dd;">(</span> &amp;ev <span style="color: #c678dd;">)</span>;
+   <span style="color: #c678dd;">[</span><span style="color: #a9a1e1;">event</span> data handling<span style="color: #c678dd;">]</span>
+    snd_seq_event_output<span style="color: #c678dd;">(</span> seq, &amp;ev<span style="color: #c678dd;">)</span>;
+    snd_seq_drain_output<span style="color: #c678dd;">(</span> seq <span style="color: #c678dd;">)</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+<p>
+Copy-pasting these lines and utilizing the sysex<sub>send</sub> macro seemed to work out rather well,<br />
+at least after a bunch of type and pointer shenanigans it compiled fine. But I was not quite done with this<br />
+little fix yet, as the Lua API required changes as well. Please prepare for things getting even worse,<br />
+somehow.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgda74e38" class="outline-3">
+<h3 id="orgda74e38"><span class="section-number-3">1.5.</span> sysex in m2i - the lua part</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+In order to make the SysEx functionality available in Lua, I somehow had to transform a <code class="src src-cpp">lua_State*</code><br />
+(thanks for this amazing capitalization, Lua devs) into an int and a char pointer. Anyone familiar with the<br />
+Lua API should probably skip this section unless you&rsquo;re really, really interested in seeing what could go<br />
+wrong when it comes to that piece of software.<br />
+</p>
+
+<p>
+So what we are trying to achieve is to define the C implementation of a function that takes a single Lua<br />
+table as an argument, and sends a SysEx message based on that data.<br />
+While Lua places any arguments you&rsquo;re calling a function with on its own stack accessible through the<br />
+state object, it&rsquo;s surprisingly difficult to actually access the data on that stack in somewhat simple ways.<br />
+To acquire the length of the table argument, the API provides two different methods, namely<br />
+the auxiliary <code class="src src-c">luaL_len</code>, which returns the length of a value on the stack directly, and <code class="src src-c">lua_len</code>,<br />
+which pushes the length back onto the stack. This difference is not at all mentioned in the actual<br />
+documentation, so one has to derive it from the type signature, which, well it could be worse I guess.<br />
+Actually accessing the data within the table wasn&rsquo;t too difficult, still a bunch of (at least<br />
+seemingly) redundant options and a ton of docs that deserve a bunch of clarification, but there&rsquo;s<br />
+definitely been worse issues so far. This is what I ended up with:<br />
+</p>
+<div class="org-src-container">
+<pre class="src src-cpp"><span style="color: #ECBE7B;">int</span>   <span style="color: #c678dd;">lua_sysexsend</span><span style="color: #51afef;">(</span> <span style="color: #ECBE7B;">lua_State</span> *<span style="color: #dcaeea;">L</span> <span style="color: #51afef;">)</span>
+<span style="color: #51afef;">{</span>
+  <span style="color: #ECBE7B;">size_t</span> <span style="color: #dcaeea;">length</span> = luaL_len<span style="color: #c678dd;">(</span>L, -<span style="color: #da8548; font-weight: bold;">1</span><span style="color: #c678dd;">)</span>;
+  <span style="color: #ECBE7B;">unsigned</span> <span style="color: #ECBE7B;">char</span>* <span style="color: #dcaeea;">data</span> = <span style="color: #c678dd;">(</span><span style="color: #ECBE7B;">unsigned</span> <span style="color: #ECBE7B;">char</span>*<span style="color: #c678dd;">)</span> malloc<span style="color: #c678dd;">(</span>length<span style="color: #c678dd;">)</span>;
+  <span style="color: #51afef;">for</span><span style="color: #c678dd;">(</span><span style="color: #ECBE7B;">size_t</span> <span style="color: #dcaeea;">i</span> = <span style="color: #da8548; font-weight: bold;">1</span>; i &lt;= length; i++<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    lua_rawgeti<span style="color: #98be65;">(</span>L, -<span style="color: #da8548; font-weight: bold;">1</span>, i<span style="color: #98be65;">)</span>;
+    <span style="color: #ECBE7B;">unsigned</span> <span style="color: #ECBE7B;">char</span> <span style="color: #dcaeea;">x</span> = <span style="color: #98be65;">(</span><span style="color: #ECBE7B;">unsigned</span> <span style="color: #ECBE7B;">char</span><span style="color: #98be65;">)</span> lua_tointeger<span style="color: #98be65;">(</span>L, -<span style="color: #da8548; font-weight: bold;">1</span><span style="color: #98be65;">)</span>;
+    data<span style="color: #98be65;">[</span>i-<span style="color: #da8548; font-weight: bold;">1</span><span style="color: #98be65;">]</span> = x;
+    lua_pop<span style="color: #98be65;">(</span>L, <span style="color: #da8548; font-weight: bold;">1</span><span style="color: #98be65;">)</span>;
+  <span style="color: #c678dd;">}</span>
+<span style="color: #51afef; font-weight: bold;">  #ifdef</span> <span style="color: #a9a1e1;">WITH_ALSA</span>
+    <span style="color: #51afef;">if</span><span style="color: #c678dd;">(</span> <span style="color: #a9a1e1;">m2i</span>::seq <span style="color: #c678dd;">)</span><span style="color: #a9a1e1;">m2i</span>::seq.sysex_send<span style="color: #c678dd;">(</span>data, length<span style="color: #c678dd;">)</span>;
+<span style="color: #51afef; font-weight: bold;">  #endif</span>
+
+  free<span style="color: #c678dd;">(</span>data<span style="color: #c678dd;">)</span>;
+  <span style="color: #51afef;">return</span> <span style="color: #da8548; font-weight: bold;">0</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+<p>
+Feel free to criticize this pile of garbage, but after about a dozen typos and type errors and only a few<br />
+Lua-stack-induced segfaults, it worked surprisingly well! No unpredictable crashes or issues after restarts,<br />
+just a fairly smooth experience. Finally, a smooth and functional way to press buttons by pressing other<br />
+buttons, now what could go wrong?<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd5aab41" class="outline-3">
+<h3 id="orgd5aab41"><span class="section-number-3">1.6.</span> keys</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+<a href="https://josm.openstreetmap.de/">JOSM</a>, my preferred OpenStreetMap editor and a very feature-rich, maybe slightly bulky piece of software already<br />
+has a bunch of keybinds. So many, actually, that using any keys for my software that I&rsquo;m not 100% sure were<br />
+unused previously felt rather uncomfortable. This is what made me end up at F13-F24. These should be<br />
+pressable just fine - after all, there&rsquo;s still a bunch of keyboards that include them via some convoluted<br />
+shortcut, and JOSM explicitly mentions them in the pressable keys. To figure out what codes I needed to<br />
+use in the <code class="src src-lua">keypress</code> function in order to, well, have the correct keys be pressed, I took another<br />
+look in the m2i examples, and came across this line:<br />
+</p>
+<div class="org-src-container">
+<pre class="src src-lua"><span style="color: #5B6268;">-- </span><span style="color: #5B6268;">look to X11\keysymdef.h for the full list</span>
+XK_space                       = 0x0020  <span style="color: #5B6268;">--</span><span style="color: #5B6268;">/* U+0020 SPACE */</span>
+</pre>
+</div>
+<p>
+This looked fairly promising, and the list included in the mentioned header filewas rather complete, there<br />
+was only one tiny problem: It was entirely wrong. The script referred to X11 keysyms, however, as it sets<br />
+up a virtual <a href="https://en.wikipedia.org/wiki/Evdev">evdev</a> device and thus acts on a way lower level, the X11 codes are entirely irrelevant.<br />
+After quite a bit of searching for different kinds of keycode lists in this setup, at some point I figured<br />
+out I really needed <a href="https://github.com/torvalds/linux/blob/master/include/uapi/linux/input-event-codes.h">the Linux input event codes</a>. And indeed, for regular alphanumeric keys or F1-F12 they<br />
+worked just fine, but with F13-F24 I still had no chance of getting them running in a desktop environment.<br />
+But in yet another surprising turn, they were actually being &ldquo;pressed&rdquo; in some sense: the kernel registered<br />
+the presses just fine and the appropriate events were generated, as one could see using the great <a href="https://gitlab.freedesktop.org/libevdev/evtest">evtest<br />
+tool</a>, but X seemed to refuse to process them. After a solid 30 minutes of googling, a solution was in sight:<br />
+By changing the <code class="src src-sh">.Xmodmap</code> file, one could in some sense activate these keys to be processed by X,<br />
+and this seemed to work decently well, too. Yet whatever I did, I could not get them registered by JOSM,<br />
+although they were offered as options. Something was off here, and I was preparing for yet another round<br />
+of custom hotfixes - maybe change the virtual input device offered by m2i? - when I realised that JOSM was,<br />
+as the name might have spoiled already, written in Java. Once again, a few rounds of searching online and<br />
+I was finally able to make sure that I was not the only person having this problem, Java and F13+ do not<br />
+seem to interact well as somehow, the keybinds chosen by the JDK entirely differ from the &ldquo;real&rdquo; ones .<br />
+</p>
+
+<p>
+This lead to even closer investigation, finally noticing that <a href="https://github.com/openjdk/jdk/blob/739769c8fc4b496f08a92225a12d07414537b6c0/src/java.desktop/unix/classes/sun/awt/X11/XKeysym.java">this file</a> that seems to define the mapping<br />
+from X keycodes to Java key events does not include F13 anywhere, making all of this a rather hopeless task,<br />
+at least as far as I&rsquo;m aware. Honestly though, this makes me wonder why they were included in the JOSM<br />
+config in the first place - are there any other systems where Java maps them to real keys? Whatever the true<br />
+reasons behind all these issues might have been though, I was not ready to give up my precious special keys<br />
+just yet.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge780bcb" class="outline-3">
+<h3 id="orge780bcb"><span class="section-number-3">1.7.</span> JOSM plugins</h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+Given that it is a fairly respectable program, JOSM has a fully fledged plugin API that allows you to<br />
+write your own Java extensions. Now what I was trying to do was nothing less than listen to the kernel-level<br />
+input events directly via <a href="https://github.com/progman32/evdev-java">evdev-java</a>, which would allow me to include whole new layers of functionality instead of only opting for shortcuts.<br />
+After installing <i>Subversion</i> of all things, checking out the JOSM source code and building the entire<br />
+thing, which already took forever, I realized I had no clue how Java build systems work, was left with a<br />
+very fucked up state of Eclipse and ultimately surrendered to the technical difficulties.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org621bbb4" class="outline-3">
+<h3 id="org621bbb4"><span class="section-number-3">1.8.</span> what i ended up with</h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+Finally, I just ended up using Ctrl-Shift-Fn and Ctrl-Alt-Shift-Fn, since these were almost unused<br />
+and not much of a hassle to configure. They&rsquo;ve been quite useful as a shortcut for certain presets and so<br />
+on, so overall it&rsquo;s certainly worth trying this out, especially if you&rsquo;re not opposed to little fixes that<br />
+teach you quite a lot - I was surprised at how simple writing a bit of C actually was, in particularly when<br />
+compared with the hell that is getting Java stuff to even run, as mentioned. Whatever it may be, this whole<br />
+idea has quite a bit of potential - I&rsquo;ve also been using the DJ controller as a game controller for the<br />
+rhythm game <a href="https://github.com/Drewol/unnamed-sdvx-clone">Unnamed SDVC Clone</a>, and so far I&rsquo;ve never experienced any latency issues or anything alike,<br />
+if you got any of these things lying around, try this out too!<br />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2022-09-15 Do 00:00</p>
+</div>
+</body>
+</html>

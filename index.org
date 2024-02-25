@@ -1,0 +1,15 @@
+#+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t
+#+TITLE: the uni blog
+* uni's stash of Weird Stuff
+
+hey i'm uni and this is where i keep documentation of some of the weird technical stuff i worked on.
+** about me
+if youre reading this you might know me from [[http://twitter.com/ununiuniuni][twitter]] or discord (uniwuni#7376), but i might be adding some personal info anyways at some point who knows
+** the posts
+- [[file:djosm.org][(d)josm or how i spent several hours with virtual keyboards]]
+- [[file:ideapad.org][ubuntu on an ideapad flex 5]]
+- [[file:personal-train-tracking.org][me tracking my train routes]]
+- [[file:org-fit.org][another bizarre attempt at tracking when i go outside (in org mode)]]
+- [[file:grime.org][me talking about grime music]]
+** wah
+ wah

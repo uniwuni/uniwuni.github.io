@@ -3,9 +3,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+<!-- 2024-02-25 So 12:31 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>the uni blog</title>
+<title>org-fit or what it means to work on the utterly useless</title>
+<meta name="author" content="uni" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -194,57 +196,129 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">the uni blog</h1>
+<h1 class="title">org-fit or what it means to work on the utterly useless</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgaa5e5c6">1. uni&rsquo;s stash of Weird Stuff</a>
+<li><a href="#org4e3348f">1. background</a></li>
+<li><a href="#org79d57e8">2. idea</a>
 <ul>
-<li><a href="#org02efee3">1.1. about me</a></li>
-<li><a href="#orgaa2dbed">1.2. the posts</a></li>
-<li><a href="#org1f91a7c">1.3. wah</a></li>
+<li><a href="#org8c7edc3">2.1. failed attempt</a></li>
+<li><a href="#org5e22c80">2.2. the two-layer solution</a></li>
 </ul>
 </li>
+<li><a href="#org122fe51">3. result</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaa5e5c6" class="outline-2">
-<h2 id="orgaa5e5c6"><span class="section-number-2">1.</span> uni&rsquo;s stash of Weird Stuff</h2>
+<div id="outline-container-org4e3348f" class="outline-2">
+<h2 id="org4e3348f"><span class="section-number-2">1.</span> background</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-hey i&rsquo;m uni and this is where i keep documentation of some of the weird technical stuff i worked on.<br />
+Over the course of late 2022 and early 2023, I started to integrate more and
+more data of my daily life into org mode. This included <a href="https://github.com/novoid/Memacs/blob/master/docs/memacs_lastfm.org">last.fm scrobbles</a>, <a href="https://github.com/karlicoss/orger/blob/master/modules/youtube.py">my YouTube watch history</a>, <a href="personal-train-tracking.html">train and bus rides</a> and the topic of this entry, <i>going outside</i>, touching grass, even.
 </p>
 </div>
-<div id="outline-container-org02efee3" class="outline-3">
-<h3 id="org02efee3"><span class="section-number-3">1.1.</span> about me</h3>
-<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org79d57e8" class="outline-2">
+<h2 id="org79d57e8"><span class="section-number-2">2.</span> idea</h2>
+<div class="outline-text-2" id="text-2">
 <p>
-if youre reading this you might know me from <a href="http://twitter.com/ununiuniuni">twitter</a> or discord (uniwuni#7376), but i might be adding some personal info anyways at some point who knows<br />
+Despite the questionable consequences for my privacy, I&rsquo;ve been using <a href="https://www.google.com/fit/">Google Fit</a> for a while now,
+though mostly as a basic step counter and movement time tracker. Since I was using the <a href="https://orgmode.org/manual/Clocking-Work-Time.html">org mode clock</a>
+way more extensively back then, my plan was to incorporate the Google Fit activity data into the clock times
+of a specific task.
 </p>
 </div>
-</div>
-<div id="outline-container-orgaa2dbed" class="outline-3">
-<h3 id="orgaa2dbed"><span class="section-number-3">1.2.</span> the posts</h3>
-<div class="outline-text-3" id="text-1-2">
-<ul class="org-ul">
-<li><a href="djosm.html">(d)josm or how i spent several hours with virtual keyboards</a><br /></li>
-<li><a href="ideapad.html">ubuntu on an ideapad flex 5</a><br /></li>
-<li><a href="personal-train-tracking.html">me tracking my train routes</a><br /></li>
-<li><a href="org-fit.html">another bizarre attempt at tracking when i go outside (in org mode)</a><br /></li>
-<li><a href="grime.html">me talking about grime music</a><br /></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org1f91a7c" class="outline-3">
-<h3 id="org1f91a7c"><span class="section-number-3">1.3.</span> wah</h3>
-<div class="outline-text-3" id="text-1-3">
+<div id="outline-container-org8c7edc3" class="outline-3">
+<h3 id="org8c7edc3"><span class="section-number-3">2.1.</span> failed attempt</h3>
+<div class="outline-text-3" id="text-2-1">
 <p>
-wah<br />
+Since this is essentially a tool for Emacs, my first idea was to write the entire thing in Emacs Lisp.
+This most importantly includes the Google API calls and authentification steps, which follow the standard
+<a href="https://oauth.net/2/">OAuth2</a> protocol. Now while there are <a href="https://elpa.gnu.org/packages/oauth2.html">Emacs implementations</a>, I couldn&rsquo;t <a href="https://github.com/uniwuni/elisp-oauth-2">the one of my choice</a> working no matter the effort,
+since some step of the authentification simply failed no matter what I did, it seems to be a problem
+in the flow of the library.
+</p>
+</div>
+</div>
+<div id="outline-container-org5e22c80" class="outline-3">
+<h3 id="org5e22c80"><span class="section-number-3">2.2.</span> the two-layer solution</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+So I instead checked for Haskell implementations of the OAuth2 flow, and indeed found a <a href="https://github.com/pbrisbin/google-oauth2">specific repository</a>
+that addressed the Google API auth flow.
+Because I&rsquo;m absolutely horrible at package management, I decided not to use the package directly, but
+rather just <a href="https://github.com/uniwuni/org-fit-hs">fork the repository</a> and change the example app in a truly cursed act of desperation.
+Getting this to a working state still took quite a lot of effort, so the details of the tool are still
+worth explaining a little.
+After sending the request, a decently fucked up JSON parsing bit is required to simplify the data - in
+both of these steps, the conversion of 3 different date formats (nanoseconds since epoch for the Google API,
+half a dozen of different date datatypes for Haskell, not entirely standard conforming UTC timestamps for
+Org mode) proved to be the most difficult step. From there on, all that the program does is print the
+Org clock lines and ignore activities that are too short or of type 0 (driving), to not clutter the clock
+report.
+</p>
+
+<p>
+Of course this wasn&rsquo;t the end of the story, one still needs an Emacs Lisp layer to actually add the
+generated data to the Org logbooks in question. Enter <a href="https://github.com/uniwuni/org-fit">org-fit</a>, an almost as confusingly named package
+that&rsquo;s not even <i>that</i> hacky and even follows a proper packaging standard, too.
+Its utility to the user is rather limited - it provides the function <a href="org-fit-update">org-fit-update</a>, which by default
+runs the <code>get-fit</code> tool from the Haskell stage and passes the current time as an argument.
+The heading given by the customizable ID is then found using the handy <a href="https://github.com/tkf/org-mode/blob/master/lisp/org-id.el">org-id</a>. If any lines are
+generated by the tool, they&rsquo;re added to the logbook drawer and the tool updates a property indicating
+the time the last update occurred. This is done by jumping to the headline in question, searching for
+the logbook drawer via regexp<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>, then iteratively inserting the data and having org mode update the
+clocking durations, too. In a somewhat early stage, I even tried to add seconds to the clock times (because why
+even bother with data that isn&rsquo;t as exact as it possibly could be, right?), but it turned out Org mode
+does not handle this well, sadly, so I had to resort to minutes.
+</p>
+
+<p>
+As I had no prior experience in writing &ldquo;real&rdquo; Emacs lisp, the whole concept of marker mangling, save and
+buffer excursion strategies took me a while to get used to - it&rsquo;s a
+style of string manipulation that diverges a lot from &ldquo;modern&rdquo; programming, but it turned out to be
+really interesting and definitely worth exploring more.
 </p>
 </div>
 </div>
 </div>
+<div id="outline-container-org122fe51" class="outline-2">
+<h2 id="org122fe51"><span class="section-number-2">3.</span> result</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+This whole setup works out really well - by using <a href="run-with-timer">run-with-timer</a>, the file automatically updates once
+an hour without any problems. However, after a few days of inactivity per computer (which occurs decently
+frequently, since I use both a desktop PC and a notebook), the API credentials run stale and I have to
+manually run <code>get-fit</code> in a terminal to initiate the auth process once again. At least, the update time
+is not changed since <code>org-fit</code> doesn&rsquo;t detect any output, so the data gets retrieved at a later point.
+There&rsquo;s probably a way to do this directly within Emacs, but I honestly can&rsquo;t be bothered.
+</p>
+
+<p>
+The main problem is my recent lack of interest - while it&rsquo;s still nice to collect this data, I tend to use
+the clock function much less than I once did, so it&rsquo;s more of a curiosity than anything else now, then
+again, that seems to be the point of most of my weirdly specific projects to begin with. hm.
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+not to be confused with regex! Emacs regexp is by absolutely no means the same thing and conforms to
+pretty much no standards at all, sadly.
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: uni</p>
+<p class="date">Created: 2024-02-25 So 12:31</p>
 </div>
 </body>
 </html>
