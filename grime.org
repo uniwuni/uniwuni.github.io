@@ -537,12 +537,65 @@ classic, one of the essentials for sure
 :END:
 yt:1J1csBsJ6d0
 man i wish this guy would be slightly less bad of a person
+*** Unknown Artist - 8-bar Special II (2002)
+yt:UlhDRBtczCI
+silly mashup tune
+*** [[id:02c395c1-040e-4767-b645-fc9830dbd612][Pay as U Go Cartel]] - Know We (2000)
+:PROPERTIES:
+:ID:       9422e1a0-4692-4ebb-8ef9-aafdacefb36c
+:END:
+yt:UiCQnQ6xtRQ
+prod. [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]], feat. Wiley, Major Ace, Maxwell D, [[id:53871753-ee16-47b5-957e-15ab851fd68c][God's Gift]].
+still a garage tune but definitely one of the more important steps towards grime
+*** [[id:16fc036f-6500-42b7-bd11-e3a1ffd7539c][Kahn]] - Fierce (2011)
+:PROPERTIES:
+:ID:       3e8f4127-d358-454b-bff1-ea38bfd5ee23
+:END:
+yt:6oE5nT6J04Q
+heavy hitter with lots of distorted kick drums and typical kahn chiptune thingies
+*** Blay Vision - Cammy Riddim (2023)
+yt:yMNhZSHWLnE
+trap-ish modern grime beat that sparked a little freestyle wave, see https://www.youtube.com/playlist?list=PL3HAEVgGJAgpYHuF8mAnf89AMuJ2mXpBn
+**** Cammy Riddim Devil Mix (2023)
+yt:VyAWMNTh1JU
+dont really think this has any reason to exist tbh
+**** Cammy Riddim ([[id:b2593654-8f13-4730-83e0-38aa0633f801][P Money]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       32ad5281-22dd-4a3f-a439-f4114da2bc2e
+:END:
+yt:lsIIdLVxqpA
+one of the coldest ones for sure, not going super hard but that kind of adds to the feel imo
+**** Cammy Riddim ([[id:78a339a9-9900-4a64-9f68-a342819a679b][Sox]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       9f99d751-5318-4134-9a27-39e9c972c8ce
+:END:
+yt:qLlIdZq8ujI
+annoying ass effects but he does his thing super well, havent seen anyone else do spanish and arabic verses in the middle of a tune that shit crazy
+**** Cammy Riddim ([[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       c26dc59b-5d08-469f-a37e-e0ea6d0a29e8
+:END:
+yt:eQ32EcgFBdw
+he pulls out of his ad libs for this one, the phone bit is crazy too
+**** Swammy Riddim ([[id:ab346942-a398-4b2f-935b-787bbfa1a49f][Riko Dan]] Cammy Riddim Freestyle) (2023)
+:PROPERTIES:
+:ID:       9b5631df-8207-424a-be55-02c521cd0000
+:END:
+yt:N7mEw6CVf08
+old school fire
+**** Cammy Riddim ([[id:5b0ef53e-d7b5-4448-9604-c379df79ab06][Trim]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       70dc0a82-67ca-44f4-82e6-bb0d4fe7fca9
+:END:
+yt:euwa_hT1ysE
+tone in his voice kinda carries this but its pretty sick regardless
 ** Artists
 *** Wiley
 :PROPERTIES:
 :ID:       6758cd23-96f2-4de5-9b48-7fbe270e76f2
 :END:
 :BACKLINKS:
+[2024-02-25 So 19:44] <- [[id:9422e1a0-4692-4ebb-8ef9-aafdacefb36c][Pay as U Go Cartel - Know We (2000)]]
 [2024-02-24 Sa 22:12] <- [[id:16997959-ec7d-421b-85c3-610d781e35aa][- Eskimo 3]]
 [2024-02-24 Sa 21:19] <- [[id:cc593b5c-ed69-4208-bdb0-6b815a26ac0f][***]]
 [2024-02-24 Sa 21:18] <- [[id:3227adb4-713e-486f-b423-16131d6fe12c][over Bokeh Creeper (2016)]]
@@ -728,6 +781,7 @@ Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 :ID:       1b9a8b0e-42fa-4044-a62e-f69038ba1a86
 :END:
 :BACKLINKS:
+[2024-02-25 So 20:03] <- [[id:c26dc59b-5d08-469f-a37e-e0ea6d0a29e8][Cammy Riddim (]]
 [2024-02-21 Mi 22:29] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
 [2024-02-21 Mi 14:23] <- [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][- Shottaz Riddim]]
 [2024-02-21 Mi 14:16] <- [[id:ba2b4c13-c11e-4501-8535-2958da840179][- Warp Speed (2004)]]
@@ -960,6 +1014,7 @@ has a show on BBC 1xtra
 :ID:       b2593654-8f13-4730-83e0-38aa0633f801
 :END:
 :BACKLINKS:
+[2024-02-25 So 19:56] <- [[id:32ad5281-22dd-4a3f-a439-f4114da2bc2e][Cammy Riddim (]]
 [2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][feat. Newham Generals - Sounds of the Sir]]
 :END:
 :LOGBOOK:
@@ -970,6 +1025,7 @@ has a show on BBC 1xtra
 :ID:       53871753-ee16-47b5-957e-15ab851fd68c
 :END:
 :BACKLINKS:
+[2024-02-25 So 19:45] <- [[id:9422e1a0-4692-4ebb-8ef9-aafdacefb36c][Pay as U Go Cartel - Know We (2000)]]
 [2024-02-24 Sa 13:10] <- [[id:cd7f6c76-8f71-4df1-8d38-93ce9966288a][Danny Weed, Dizzee Rascal,]]
 :END:
 :LOGBOOK:
@@ -1001,6 +1057,50 @@ aka Spooky
 :END:
 :LOGBOOK:
 - State "TODO"       from              [2024-02-24 Sa 21:11]
+:END:
+*** TODO Kahn
+:PROPERTIES:
+:ID:       16fc036f-6500-42b7-bd11-e3a1ffd7539c
+:END:
+:BACKLINKS:
+[2024-02-25 So 19:48] <- [[id:3e8f4127-d358-454b-bff1-ea38bfd5ee23][Fierce]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-25 So 19:48]
+:END:
+*** TODO Neek
+:LOGBOOK:
+- State "TODO"       from              [2024-02-25 So 19:48]
+:END:
+*** TODO Sox
+:PROPERTIES:
+:ID:       78a339a9-9900-4a64-9f68-a342819a679b
+:END:
+:BACKLINKS:
+[2024-02-25 So 19:59] <- [[id:9f99d751-5318-4134-9a27-39e9c972c8ce][Cammy Riddim (]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-25 So 19:59]
+:END:
+*** TODO Riko Dan
+:PROPERTIES:
+:ID:       ab346942-a398-4b2f-935b-787bbfa1a49f
+:END:
+:BACKLINKS:
+[2024-02-25 So 20:07] <- [[id:9b5631df-8207-424a-be55-02c521cd0000][Swammy Riddim (]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-25 So 20:06]
+:END:
+*** TODO Trim
+:PROPERTIES:
+:ID:       5b0ef53e-d7b5-4448-9604-c379df79ab06
+:END:
+:BACKLINKS:
+[2024-02-25 So 20:11] <- [[id:70dc0a82-67ca-44f4-82e6-bb0d4fe7fca9][Cammy Riddim (]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-25 So 20:11]
 :END:
 
 ** Albums etc.
@@ -1123,6 +1223,7 @@ Formed around 2001, pretty influential instrumentals and a couple members that b
 :ID:       02c395c1-040e-4767-b645-fc9830dbd612
 :END:
 :BACKLINKS:
+[2024-02-25 So 19:44] <- [[id:9422e1a0-4692-4ebb-8ef9-aafdacefb36c][***]]
 [2024-02-23 Fr 18:51] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
 :END:
 :LOGBOOK:
