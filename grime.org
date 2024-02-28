@@ -40,6 +40,7 @@ backlinks with the arrows are a little fucked due to how i automatically insert 
 :ID:       45f6ceee-3145-42da-8afa-4aea5969e23d
 :END:
 :BACKLINKS:
+[2024-02-27 Di 21:27] <- [[id:d23d658e-05e1-451c-914a-f445c669bc81][Killjoy - Let's Go (2022)]]
 [2024-02-23 Fr 18:15] <- [[id:970ad49c-4f56-4636-b493-a69fcd8044d6][Jammer - Feedback (2003)]]
 [2024-02-21 Mi 13:37] <- [[id:f27014c2-4348-4ae3-85db-992f69d7ac38][Mystry - Pulse 8 (~2014)]]
 [2024-02-21 Mi 13:32] <- [[id:7fb00a7e-678b-4567-a3c5-d6242f4e8031][Musical Mob - Pulse XYZ (~2003)]]
@@ -482,6 +483,81 @@ actually a dubstep tune but this shit has to be made for mcs. [[id:f636658f-a81e
 :END:
 yt:Tn_bvASWNoA
 another sustain bass tune and kind of pre-grime but fire. the occassional samples and fx do so much
+*** Unknown Artist - 8-bar Special II (2002)
+yt:UlhDRBtczCI
+silly mashup tune
+*** [[id:02c395c1-040e-4767-b645-fc9830dbd612][Pay as U Go Cartel]] - Know We (2000)
+:PROPERTIES:
+:ID:       9422e1a0-4692-4ebb-8ef9-aafdacefb36c
+:END:
+yt:UiCQnQ6xtRQ
+prod. [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]], feat. Wiley, Major Ace, Maxwell D, [[id:53871753-ee16-47b5-957e-15ab851fd68c][God's Gift]].
+still a garage tune but definitely one of the more important steps towards grime
+*** [[id:16fc036f-6500-42b7-bd11-e3a1ffd7539c][Kahn]] - Fierce (2011)
+:PROPERTIES:
+:ID:       3e8f4127-d358-454b-bff1-ea38bfd5ee23
+:END:
+yt:6oE5nT6J04Q
+heavy hitter with lots of distorted kick drums and typical kahn chiptune thingies
+*** Blay Vision - Cammy Riddim (2023)
+yt:yMNhZSHWLnE
+trap-ish modern grime beat that sparked a little freestyle wave, see https://www.youtube.com/playlist?list=PL3HAEVgGJAgpYHuF8mAnf89AMuJ2mXpBn
+**** Cammy Riddim Devil Mix (2023)
+yt:VyAWMNTh1JU
+dont really think this has any reason to exist tbh
+**** Cammy Riddim ([[id:b2593654-8f13-4730-83e0-38aa0633f801][P Money]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       32ad5281-22dd-4a3f-a439-f4114da2bc2e
+:END:
+yt:lsIIdLVxqpA
+one of the coldest ones for sure, not going super hard but that kind of adds to the feel imo
+**** Cammy Riddim ([[id:78a339a9-9900-4a64-9f68-a342819a679b][Sox]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       9f99d751-5318-4134-9a27-39e9c972c8ce
+:END:
+yt:qLlIdZq8ujI
+annoying ass effects but he does his thing super well, havent seen anyone else do spanish and arabic verses in the middle of a tune that shit crazy
+**** Cammy Riddim ([[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       c26dc59b-5d08-469f-a37e-e0ea6d0a29e8
+:END:
+yt:eQ32EcgFBdw
+he pulls out of his ad libs for this one, the phone bit is crazy too
+**** Swammy Riddim ([[id:ab346942-a398-4b2f-935b-787bbfa1a49f][Riko Dan]] Cammy Riddim Freestyle) (2023)
+:PROPERTIES:
+:ID:       9b5631df-8207-424a-be55-02c521cd0000
+:END:
+yt:N7mEw6CVf08
+old school fire
+**** Cammy Riddim ([[id:5b0ef53e-d7b5-4448-9604-c379df79ab06][Trim]] Freestyle) (2023)
+:PROPERTIES:
+:ID:       70dc0a82-67ca-44f4-82e6-bb0d4fe7fca9
+:END:
+yt:euwa_hT1ysE
+tone in his voice kinda carries this but its pretty sick regardless
+*** Killjoy - Let's Go (2022)
+:PROPERTIES:
+:ID:       d23d658e-05e1-451c-914a-f445c669bc81
+:END:
+yt:YFGqofr2Xvk
+i cant believe its not [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]] (well the groove is totally different but the sound and the energy you know), fire tho.
+[[id:0bfa500b-a50a-408c-92a1-b3b2a7abab48][Neffa-T]] plays this out a lot and its always great
+*** [[id:812a48c1-7fa1-485c-b69a-0fd5ebc682a7][SLK]] - Pull Up Dat (2004?)
+:PROPERTIES:
+:ID:       1d520fca-2487-4123-ab7e-1cb4659e740d
+:END:
+yt:iKI39Gfle-M
+
+feat. ribz, [[id:90eeec79-f4b8-457a-aa3d-d15cacd454ab][Napper]], [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]], shizzle.
+one of their biggest hits i think? slaps but not that hard imo
+*** [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]] - Duppy/Doing It Again (2006)
+:PROPERTIES:
+:ID:       48d755c9-126d-4aa2-b759-0bcf7e30e0d2
+:END:
+yt:5VJnngsZl0g
+prod. skepta, feat. [[id:5b0ef53e-d7b5-4448-9604-c379df79ab06][Trim]], [[id:0fd0eac3-09b8-4b79-a5a8-353c02af24a4][Footsie]], [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]], MC Creed, Bear Man, Bossman Birdie, [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]], [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]].
+
+lyrically very boring but fire and a classic anyways. also one of the few songs the wiley tiger tiger bars are on
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
@@ -537,64 +613,21 @@ classic, one of the essentials for sure
 :END:
 yt:1J1csBsJ6d0
 man i wish this guy would be slightly less bad of a person
-*** Unknown Artist - 8-bar Special II (2002)
-yt:UlhDRBtczCI
-silly mashup tune
-*** [[id:02c395c1-040e-4767-b645-fc9830dbd612][Pay as U Go Cartel]] - Know We (2000)
+*** Roll Deep Rave Footage (2003)
 :PROPERTIES:
-:ID:       9422e1a0-4692-4ebb-8ef9-aafdacefb36c
+:ID:       bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b
 :END:
-yt:UiCQnQ6xtRQ
-prod. [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]], feat. Wiley, Major Ace, Maxwell D, [[id:53871753-ee16-47b5-957e-15ab851fd68c][God's Gift]].
-still a garage tune but definitely one of the more important steps towards grime
-*** [[id:16fc036f-6500-42b7-bd11-e3a1ffd7539c][Kahn]] - Fierce (2011)
-:PROPERTIES:
-:ID:       3e8f4127-d358-454b-bff1-ea38bfd5ee23
-:END:
-yt:6oE5nT6J04Q
-heavy hitter with lots of distorted kick drums and typical kahn chiptune thingies
-*** Blay Vision - Cammy Riddim (2023)
-yt:yMNhZSHWLnE
-trap-ish modern grime beat that sparked a little freestyle wave, see https://www.youtube.com/playlist?list=PL3HAEVgGJAgpYHuF8mAnf89AMuJ2mXpBn
-**** Cammy Riddim Devil Mix (2023)
-yt:VyAWMNTh1JU
-dont really think this has any reason to exist tbh
-**** Cammy Riddim ([[id:b2593654-8f13-4730-83e0-38aa0633f801][P Money]] Freestyle) (2023)
-:PROPERTIES:
-:ID:       32ad5281-22dd-4a3f-a439-f4114da2bc2e
-:END:
-yt:lsIIdLVxqpA
-one of the coldest ones for sure, not going super hard but that kind of adds to the feel imo
-**** Cammy Riddim ([[id:78a339a9-9900-4a64-9f68-a342819a679b][Sox]] Freestyle) (2023)
-:PROPERTIES:
-:ID:       9f99d751-5318-4134-9a27-39e9c972c8ce
-:END:
-yt:qLlIdZq8ujI
-annoying ass effects but he does his thing super well, havent seen anyone else do spanish and arabic verses in the middle of a tune that shit crazy
-**** Cammy Riddim ([[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] Freestyle) (2023)
-:PROPERTIES:
-:ID:       c26dc59b-5d08-469f-a37e-e0ea6d0a29e8
-:END:
-yt:eQ32EcgFBdw
-he pulls out of his ad libs for this one, the phone bit is crazy too
-**** Swammy Riddim ([[id:ab346942-a398-4b2f-935b-787bbfa1a49f][Riko Dan]] Cammy Riddim Freestyle) (2023)
-:PROPERTIES:
-:ID:       9b5631df-8207-424a-be55-02c521cd0000
-:END:
-yt:N7mEw6CVf08
-old school fire
-**** Cammy Riddim ([[id:5b0ef53e-d7b5-4448-9604-c379df79ab06][Trim]] Freestyle) (2023)
-:PROPERTIES:
-:ID:       70dc0a82-67ca-44f4-82e6-bb0d4fe7fca9
-:END:
-yt:euwa_hT1ysE
-tone in his voice kinda carries this but its pretty sick regardless
+yt:hZVAQUhvsoo
+feat. [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]], [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]], [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]], [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]], Sharky Major, [[id:b81f6b81-b8df-4e4a-b2bb-29bc7a7ea3c4][Karnage]] on the decks.
+first 2 minutes are already absurdly hard lmao
 ** Artists
 *** Wiley
 :PROPERTIES:
 :ID:       6758cd23-96f2-4de5-9b48-7fbe270e76f2
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
+[2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-25 So 19:44] <- [[id:9422e1a0-4692-4ebb-8ef9-aafdacefb36c][Pay as U Go Cartel - Know We (2000)]]
 [2024-02-24 Sa 22:12] <- [[id:16997959-ec7d-421b-85c3-610d781e35aa][- Eskimo 3]]
 [2024-02-24 Sa 21:19] <- [[id:cc593b5c-ed69-4208-bdb0-6b815a26ac0f][***]]
@@ -653,6 +686,7 @@ quite /that/ bad yet
 :ID:       d08bf74c-93bc-4cf7-ad7e-6db66f58d409
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-23 Fr 20:00] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
 [2024-02-23 Fr 19:43] <- [[id:d6928c15-d8d9-4b9b-8360-c5ca0669a7ef][- Horror Show Style]]
 [2024-02-23 Fr 19:31] <- [[id:a80695e1-f492-469c-8e05-b03a6646b3f3][- Disaster Piece (2016)]]
@@ -667,6 +701,7 @@ quite /that/ bad yet
 :ID:       35137126-ceaf-41b4-9411-748c987fa834
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-24 Sa 13:10] <- [[id:cd7f6c76-8f71-4df1-8d38-93ce9966288a][Danny Weed,]]
 [2024-02-24 Sa 13:09] <- [[id:2bfdb160-d410-4816-ab9f-7765b0046c8d][over Triplets II (2001)]]
 [2024-02-23 Fr 20:22] <- [[id:31b08eea-d45a-4544-9cc5-8b281b95252f][Rhythm 'n' Gash (Tempa T +]]
@@ -723,6 +758,7 @@ Grime and somehow also riddim dubstep producer
 :ID:       0f87032e-78c4-4123-aa37-4fe7f1b0bd51
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-23 Fr 20:11] <- [[id:c1d1fdfb-a23a-4c68-9878-164caf174ec0][, Skepta - Spaceship (2007)]]
 [2024-02-21 Mi 13:41] <- [[id:147b6914-bf44-4148-be37-8bcb0ceb9fdd][JME - Pulse 8 (2014)]]
 [2024-02-21 Mi 13:39] <- [[id:147b6914-bf44-4148-be37-8bcb0ceb9fdd][- Pulse 8 (2014)]]
@@ -759,6 +795,7 @@ Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 :ID:       24be3842-8c5e-43ad-885e-83925646a5fa
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-23 Fr 18:11] <- [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 [2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
 :END:
@@ -781,6 +818,7 @@ Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 :ID:       1b9a8b0e-42fa-4044-a62e-f69038ba1a86
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 12:02] <- [[id:1d520fca-2487-4123-ab7e-1cb4659e740d][SLK - Pull Up Dat]]
 [2024-02-25 So 20:03] <- [[id:c26dc59b-5d08-469f-a37e-e0ea6d0a29e8][Cammy Riddim (]]
 [2024-02-21 Mi 22:29] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
 [2024-02-21 Mi 14:23] <- [[id:2b86fc13-143a-4620-a4ca-3fde9e1bb310][- Shottaz Riddim]]
@@ -807,6 +845,7 @@ lyrically but definitely one of the most creative and technically impressive MCs
 :ID:       0bfa500b-a50a-408c-92a1-b3b2a7abab48
 :END:
 :BACKLINKS:
+[2024-02-27 Di 21:29] <- [[id:d23d658e-05e1-451c-914a-f445c669bc81][Killjoy - Let's Go (2022)]]
 [2024-02-21 Mi 14:21] <- [[id:22fc4961-511e-44f7-9c52-e45665ed56f5][- Keep Hush Bristol: Dr. Dubplate's Birthday Bash]]
 :END:
 :LOGBOOK:
@@ -875,6 +914,7 @@ One of the dubstep goats for sure
 :ID:       12551dfd-c0c4-45f0-8264-1be2224f090a
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-23 Fr 20:17] <- [[id:c1663fcf-cb65-45d4-b9ac-2fefae20f2e5][Skepta feat.  - I Spy (2007)]]
 [2024-02-23 Fr 18:13] <- [[id:970ad49c-4f56-4636-b493-a69fcd8044d6][Feedback]]
 :END:
@@ -924,6 +964,7 @@ at some point so he had to distinguish himself i guess
 :ID:       0fd0eac3-09b8-4b79-a5a8-353c02af24a4
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][P Money feat. Newham Generals - Sounds of the Sir]]
 [2024-02-23 Fr 18:32] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
 :END:
@@ -945,6 +986,7 @@ at some point so he had to distinguish himself i guess
 :ID:       8220134f-151e-4548-b442-47128ee9e2d3
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][***]]
 [2024-02-23 Fr 20:17] <- [[id:c1663fcf-cb65-45d4-b9ac-2fefae20f2e5][feat. Jammer - I Spy (2007)]]
 [2024-02-23 Fr 20:11] <- [[id:c1d1fdfb-a23a-4c68-9878-164caf174ec0][JME,  - Spaceship (2007)]]
 [2024-02-23 Fr 20:08] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
@@ -1097,10 +1139,32 @@ aka Spooky
 :ID:       5b0ef53e-d7b5-4448-9604-c379df79ab06
 :END:
 :BACKLINKS:
+[2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-25 So 20:11] <- [[id:70dc0a82-67ca-44f4-82e6-bb0d4fe7fca9][Cammy Riddim (]]
 :END:
 :LOGBOOK:
 - State "TODO"       from              [2024-02-25 So 20:11]
+:END:
+*** TODO Napper
+:PROPERTIES:
+:ID:       90eeec79-f4b8-457a-aa3d-d15cacd454ab
+:END:
+:BACKLINKS:
+[2024-02-28 Mi 12:03] <- [[id:1d520fca-2487-4123-ab7e-1cb4659e740d][SLK - Pull Up Dat (2004?)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-28 Mi 12:03]
+:END:
+has the cool oooooh sound
+*** TODO Karnage
+:PROPERTIES:
+:ID:       b81f6b81-b8df-4e4a-b2bb-29bc7a7ea3c4
+:END:
+:BACKLINKS:
+[2024-02-28 Mi 13:06] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-28 Mi 13:05]
 :END:
 
 ** Albums etc.
@@ -1238,6 +1302,16 @@ Formed around 2001, pretty influential instrumentals and a couple members that b
 :END:
 :LOGBOOK:
 - State "TODO"       from              [2024-02-24 Sa 22:15]
+:END:
+*** TODO SLK
+:PROPERTIES:
+:ID:       812a48c1-7fa1-485c-b69a-0fd5ebc682a7
+:END:
+:BACKLINKS:
+[2024-02-28 Mi 12:01] <- [[id:1d520fca-2487-4123-ab7e-1cb4659e740d][- Pull Up Dat]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-02-28 Mi 12:01]
 :END:
 
 ** Styles
