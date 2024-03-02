@@ -40,6 +40,7 @@ backlinks with the arrows are a little fucked due to how i automatically insert 
 :ID:       45f6ceee-3145-42da-8afa-4aea5969e23d
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:59] <- [[id:14b456e7-bf9b-44c7-980d-c60d38389075][DJ Mondie - Straight (2004)]]
 [2024-02-27 Di 21:27] <- [[id:d23d658e-05e1-451c-914a-f445c669bc81][Killjoy - Let's Go (2022)]]
 [2024-02-23 Fr 18:15] <- [[id:970ad49c-4f56-4636-b493-a69fcd8044d6][Jammer - Feedback (2003)]]
 [2024-02-21 Mi 13:37] <- [[id:f27014c2-4348-4ae3-85db-992f69d7ac38][Mystry - Pulse 8 (~2014)]]
@@ -548,8 +549,14 @@ i cant believe its not [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]] (wel
 :END:
 yt:iKI39Gfle-M
 
-feat. ribz, [[id:90eeec79-f4b8-457a-aa3d-d15cacd454ab][Napper]], [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]], shizzle.
+feat. ribz, [[id:90eeec79-f4b8-457a-aa3d-d15cacd454ab][Napper]], [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]], shizzle prod dj mondie.
 one of their biggest hits i think? slaps but not that hard imo
+**** [[id:812a48c1-7fa1-485c-b69a-0fd5ebc682a7][SLK]] - Pull Up Dat ([[id:3878d0ad-dd09-4d94-b905-2db7aeafb75b][Dexplicit]] remix)
+:PROPERTIES:
+:ID:       3a5f2e4d-87e9-4dba-9380-2ec901a00c5e
+:END:
+yt:e0dgbhByihg
+wayyy better beat for their vocals
 *** [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]] - Duppy/Doing It Again (2006)
 :PROPERTIES:
 :ID:       48d755c9-126d-4aa2-b759-0bcf7e30e0d2
@@ -570,6 +577,96 @@ both of them are absolutely cold on this for sure
 :END:
 yt:_J4Mw9QOxHg
 catchy tune, lots of great dubstep and couple bars on the entire ep
+*** [[id:812a48c1-7fa1-485c-b69a-0fd5ebc682a7][SLK]] - North Weezy (2005)
+:PROPERTIES:
+:ID:       d70d96db-7782-4ee9-9930-0cf69ec64a70
+:END:
+yt:G1ZgCkUt7wM
+prod. dj mondie, super catchy hook the rest is alright too i guess
+*** DJ Mondie feat. [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]] - R U Dumb (2005)
+:PROPERTIES:
+:ID:       694284dd-83c9-43a2-9a52-e0989c15ca81
+:END:
+yt:01q2CaBxlMw
+fuuucked up tune theres at least 3 vocal layers on this
+*** [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]] & [[id:8026c704-3324-4ccf-afa8-ed49e789e6a1][Roll Deep]] - Sidewinder (2005)
+:PROPERTIES:
+:ID:       3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d
+:END:
+yt:v=dMj7KI8XiKQ
+crazy 8-bar rave tune prod. [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] feat.
+dirty danger, [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]], [[id:53871753-ee16-47b5-957e-15ab851fd68c][God's Gift]], [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]], [[id:dff70188-c585-4b0b-9010-1cdc16d854cd][Rapid]], Shifty Rhydos, [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]], [[id:3ae5799d-c040-42c0-8749-eaa720b6b831][Slix]], [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]], [[id:5b0ef53e-d7b5-4448-9604-c379df79ab06][Trim]], [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]].
+also has the wiley "gettin em hyper" verse i love so much but with some weird pronounciation thingies sadly
+*** Geeneus - Thunder (2002)
+yt:2XLhVWhGD9k
+cowbell type tune with a goofy melody but has something to it
+*** DJ Mondie - Straight (2004)
+:PROPERTIES:
+:ID:       14b456e7-bf9b-44c7-980d-c60d38389075
+:END:
+yt:1QcCn0H2x6A
+made by the [[id:812a48c1-7fa1-485c-b69a-0fd5ebc682a7][SLK]] DJ it mostly feels like another [[id:45f6ceee-3145-42da-8afa-4aea5969e23d][Pulse X]] style tune but its alright. theres lots of dubs of this (see discogs i guess) but most of them are kinda mid
+**** DJ Mondie - Straight ([[id:53871753-ee16-47b5-957e-15ab851fd68c][God's Gift]] dub)
+:PROPERTIES:
+:ID:       af3e365c-8de2-46cf-b3bc-208a9006919c
+:END:
+yt:MiK2f9w_Ymo
+def one of the better ones, raw af
+*** [[id:e8d8655b-c8fd-4e82-884f-3be78bc07da1][Lethal Bizzle]] - Pow (Forward!) (2004)
+:PROPERTIES:
+:ID:       3f4eefd5-f0a5-402a-9035-03cb0b62e196
+:END:
+yt:60lMDCXFblc
+prod. [[id:3878d0ad-dd09-4d94-b905-2db7aeafb75b][Dexplicit]] feat. [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]], [[id:88c6b419-94d4-449a-8b07-b9a9f2f1d503][Demon]], [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]], Forcer, Fumin, Jamaka B, [[id:90eeec79-f4b8-457a-aa3d-d15cacd454ab][Napper]], Neeko, Ozzie B.
+
+the definite 8-bar rave tune, unbelievable energy. some clubs banned it due to fights occurring and so on, they also cut an entire verse which was basically Hotshot listing gun types and screaming "shoot it" into the mic a dozen times which radio stations didnt really like for some reason (see yt:fa5_YS0z_2Y)
+
+it also lead to the amazing headline [[https://www.theguardian.com/commentisfree/2006/jun/08/davidcameronisadonut][David Cameron is a donut]] which was an opinion piece by [[id:e8d8655b-c8fd-4e82-884f-3be78bc07da1][Lethal Bizzle]] about
+tories etc demonizing grime
+**** [[id:e8d8655b-c8fd-4e82-884f-3be78bc07da1][Lethal Bizzle]] - Forward Riddim 2
+:PROPERTIES:
+:ID:       792548e3-c4a9-43ac-9482-4d92afc2c895
+:END:
+yt:vYsOegx59Ag
+prod. [[id:3878d0ad-dd09-4d94-b905-2db7aeafb75b][Dexplicit]] feat [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]], [[id:97781db0-13ac-4726-936c-714396ac36f1][Ghetts]], [[id:1b9a8b0e-42fa-4044-a62e-f69038ba1a86][Flirta D]], Scampz, [[id:8edcfe9f-52c6-43d9-9865-942f64700189][Kano]], Bruza.
+
+cant match the original of course but it comes as close as you can get
+**** [[id:e8d8655b-c8fd-4e82-884f-3be78bc07da1][Lethal Bizzle]] - Pow 2011 (2010)
+:PROPERTIES:
+:ID:       1bc1cf40-c117-4698-b063-3809dcff45b3
+:END:
+yt:FzU5Q4uI3iw
+prod. [[id:028114f3-15a2-425e-9dff-e5cbe5ad800d][Silencer]], feat. [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]], [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]], [[id:09e25032-cf60-4117-8fb3-f82959bb98ca][Chip]], Face, [[id:b2593654-8f13-4730-83e0-38aa0633f801][P Money]], [[id:97781db0-13ac-4726-936c-714396ac36f1][Ghetts]], [[id:8edcfe9f-52c6-43d9-9865-942f64700189][Kano]].
+
+the original is way better, so many legends on this but all of their verses are kinda mid (which i guess also applies to the original but it had more texture and feel to it somehow)
+*** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Sittin Here (2002)
+:PROPERTIES:
+:ID:       3fe6c05e-6790-4d17-b356-9fb8d4776987
+:END:
+yt:UlAvh1GpVKw
+great introspective tune, one of my newfound favorites on [[id:8ca5a63e-cb56-4adf-855e-c18d2d3890f4][Boy in the Corner]]. gives me some kind of anxiety i did
+not really know i could feel.
+**** Fekky & [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Still Sittin Here (2014)
+:PROPERTIES:
+:ID:       b1748e55-6fda-438c-91bb-033331accc9f
+:END:
+yt:QMzx-OzYICs
+prod. Splurgeboys. annoying hook and i dont like the drilly bits but dizzee absolutely murders this jesus
+***** Fekky - Still Sittin Here Remix (2014)
+:PROPERTIES:
+:ID:       768fc244-2234-4c1b-ace1-16570435f864
+:END:
+yt:IgL6AcixfuA
+feat. [[id:e86bd24b-3f6b-4a51-ab64-82b69f979f2a][Tempa T]], [[id:8220134f-151e-4548-b442-47128ee9e2d3][Skepta]], [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]], [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]], [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]], [[id:09e25032-cf60-4117-8fb3-f82959bb98ca][Chip]], [[id:121e6266-0fe2-41b4-881b-89187f4f07f6][Frisco]], [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]], [[id:8edcfe9f-52c6-43d9-9865-942f64700189][Kano]], [[id:a19abcae-0ee1-477c-8caa-1b81629d7ee4][Meridian Dan]].
+the sirens are super annoying but theres a lot of great verses on this, 5:03 in particular is insane
+
+also why is there a DFB-Elf cap in this video whats up with that
+*** [[id:b2593654-8f13-4730-83e0-38aa0633f801][P Money]] x [[id:028114f3-15a2-425e-9dff-e5cbe5ad800d][Silencer]] - Stuttering (2021)
+:PROPERTIES:
+:ID:       c5c93ea4-ff59-45ba-8f11-f95cfd1058f4
+:END:
+yt:seZmlnTDa2w
+feat. [[id:09e25032-cf60-4117-8fb3-f82959bb98ca][Chip]], [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]], [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]]. good track from beginning to end but dizzee man how does he do it
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
@@ -642,6 +739,9 @@ first 2 minutes are already absurdly hard lmao
 :ID:       6758cd23-96f2-4de5-9b48-7fbe270e76f2
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:21] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][Lethal Bizzle - Pow 2011 (2011)]]
+[2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
+[2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Nasty Crew & Roll Deep - Sidewinder (2005)]]
 [2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-25 So 19:44] <- [[id:9422e1a0-4692-4ebb-8ef9-aafdacefb36c][Pay as U Go Cartel - Know We (2000)]]
@@ -702,6 +802,8 @@ quite /that/ bad yet
 :ID:       d08bf74c-93bc-4cf7-ad7e-6db66f58d409
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:09] <- [[id:3f4eefd5-f0a5-402a-9035-03cb0b62e196][Lethal Bizzle - Pow (Forward!) (2004)]]
+[2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Nasty Crew & Roll Deep - Sidewinder (2005)]]
 [2024-03-02 Sa 21:53] <- [[id:b3461a05-41c6-47f0-8053-6eb54a598b85][Meridian Dan,]]
 [2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-23 Fr 20:00] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
@@ -718,6 +820,9 @@ quite /that/ bad yet
 :ID:       35137126-ceaf-41b4-9411-748c987fa834
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:37] <- [[id:c5c93ea4-ff59-45ba-8f11-f95cfd1058f4][P Money x Silencer - Stuttering (2022)]]
+[2024-03-03 So 00:29] <- [[id:b1748e55-6fda-438c-91bb-033331accc9f][Fekky &  - Still Sittin Here (2015)]]
+[2024-03-03 So 00:27] <- [[id:3fe6c05e-6790-4d17-b356-9fb8d4776987][***]]
 [2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-24 Sa 13:10] <- [[id:cd7f6c76-8f71-4df1-8d38-93ce9966288a][Danny Weed,]]
 [2024-02-24 Sa 13:09] <- [[id:2bfdb160-d410-4816-ab9f-7765b0046c8d][over Triplets II (2001)]]
@@ -775,6 +880,9 @@ Grime and somehow also riddim dubstep producer
 :ID:       0f87032e-78c4-4123-aa37-4fe7f1b0bd51
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
+[2024-03-03 So 00:22] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][Lethal Bizzle - Pow 2011 (2011)]]
+[2024-03-03 So 00:17] <- [[id:792548e3-c4a9-43ac-9482-4d92afc2c895][Lethal Bizzle - Forward Riddim 2]]
 [2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-23 Fr 20:11] <- [[id:c1d1fdfb-a23a-4c68-9878-164caf174ec0][, Skepta - Spaceship (2007)]]
 [2024-02-21 Mi 13:41] <- [[id:147b6914-bf44-4148-be37-8bcb0ceb9fdd][JME - Pulse 8 (2014)]]
@@ -788,6 +896,7 @@ Grime and somehow also riddim dubstep producer
 :ID:       dff70188-c585-4b0b-9010-1cdc16d854cd
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
 [2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
 [2024-02-21 Mi 13:47] <- [[id:ffe993e6-d8ae-4a0c-a0ae-f3e01b177be7][Ruff Sqwad - Pied Piper]]
 :END:
@@ -800,6 +909,7 @@ Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 :ID:       3ae5799d-c040-42c0-8749-eaa720b6b831
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
 [2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
 :END:
 :LOGBOOK:
@@ -812,6 +922,8 @@ Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 :ID:       24be3842-8c5e-43ad-885e-83925646a5fa
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
+[2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
 [2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-23 Fr 18:11] <- [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 [2024-02-21 Mi 14:05] <- [[id:20a31a00-54a2-4695-a17f-2184a307927f][Ruff Sqwad - Tings in Boots (vocal ver)]]
@@ -835,6 +947,8 @@ Member of [[id:17fa50df-855c-4f29-ae5d-cfe318908dec][Ruff Sqwad]]
 :ID:       1b9a8b0e-42fa-4044-a62e-f69038ba1a86
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:18] <- [[id:792548e3-c4a9-43ac-9482-4d92afc2c895][Lethal Bizzle - Forward Riddim 2]]
+[2024-03-02 Sa 23:45] <- [[id:694284dd-83c9-43a2-9a52-e0989c15ca81][DJ Mondie feat.]]
 [2024-02-28 Mi 12:02] <- [[id:1d520fca-2487-4123-ab7e-1cb4659e740d][SLK - Pull Up Dat]]
 [2024-02-25 So 20:03] <- [[id:c26dc59b-5d08-469f-a37e-e0ea6d0a29e8][Cammy Riddim (]]
 [2024-02-21 Mi 22:29] <- [[id:475ff64d-7f36-4663-99ce-630f737cc0e1][Oblig with Big Zuu, Manga, Flirta D, Sox, Jafro & More (2024)]]
@@ -931,6 +1045,8 @@ One of the dubstep goats for sure
 :ID:       12551dfd-c0c4-45f0-8264-1be2224f090a
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
+[2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
 [2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-23 Fr 20:17] <- [[id:c1663fcf-cb65-45d4-b9ac-2fefae20f2e5][Skepta feat.  - I Spy (2007)]]
 [2024-02-23 Fr 18:13] <- [[id:970ad49c-4f56-4636-b493-a69fcd8044d6][Feedback]]
@@ -943,6 +1059,9 @@ One of the dubstep goats for sure
 :ID:       02dda295-8f4e-4830-9578-5aae422feac3
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:37] <- [[id:c5c93ea4-ff59-45ba-8f11-f95cfd1058f4][P Money x Silencer - Stuttering (2022)]]
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
+[2024-03-03 So 00:09] <- [[id:3f4eefd5-f0a5-402a-9035-03cb0b62e196][Lethal Bizzle - Pow (Forward!) (2004)]]
 [2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][P Money feat. Newham Generals - Sounds of the Sir]]
 [2024-02-23 Fr 18:34] <- [[id:1a6e5545-9b76-48a9-b85d-8088ed09b1a5][***]]
 [2024-02-23 Fr 18:18] <- [[id:f3bd4da5-43e9-446d-bd0f-a780fcdf76e3][- Street Fighter Riddim (2010)]]
@@ -1003,6 +1122,9 @@ at some point so he had to distinguish himself i guess
 :ID:       8220134f-151e-4548-b442-47128ee9e2d3
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
+[2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
+[2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
 [2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][***]]
 [2024-02-23 Fr 20:17] <- [[id:c1663fcf-cb65-45d4-b9ac-2fefae20f2e5][feat. Jammer - I Spy (2007)]]
 [2024-02-23 Fr 20:11] <- [[id:c1d1fdfb-a23a-4c68-9878-164caf174ec0][JME,  - Spaceship (2007)]]
@@ -1028,6 +1150,7 @@ at some point so he had to distinguish himself i guess
 :ID:       121e6266-0fe2-41b4-881b-89187f4f07f6
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
 [2024-02-23 Fr 20:03] <- [[id:4cea25b8-0741-4a7b-9840-b5f09656ef05][Plastician - Beg to Differ (2007)]]
 :END:
 :LOGBOOK:
@@ -1048,6 +1171,7 @@ at some point so he had to distinguish himself i guess
 :ID:       e86bd24b-3f6b-4a51-ab64-82b69f979f2a
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
 [2024-02-24 Sa 13:36] <- [[id:ff2d39ad-0ccd-4560-9633-031969dbab86][Next Hype (2009)]]
 [2024-02-23 Fr 20:22] <- [[id:31b08eea-d45a-4544-9cc5-8b281b95252f][Rhythm 'n' Gash (]]
 [2024-02-23 Fr 20:13] <- [[id:3fded78c-f44c-4a06-ad23-7147a791c2c4][****]]
@@ -1073,6 +1197,8 @@ has a show on BBC 1xtra
 :ID:       b2593654-8f13-4730-83e0-38aa0633f801
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:36] <- [[id:c5c93ea4-ff59-45ba-8f11-f95cfd1058f4][x Silencer - Stuttering (2022)]]
+[2024-03-03 So 00:22] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][Lethal Bizzle - Pow 2011 (2011)]]
 [2024-02-25 So 19:56] <- [[id:32ad5281-22dd-4a3f-a439-f4114da2bc2e][Cammy Riddim (]]
 [2024-02-23 Fr 20:26] <- [[id:54571c43-3dd8-4666-a4f8-b779feb9be73][feat. Newham Generals - Sounds of the Sir]]
 :END:
@@ -1084,6 +1210,8 @@ has a show on BBC 1xtra
 :ID:       53871753-ee16-47b5-957e-15ab851fd68c
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:01] <- [[id:af3e365c-8de2-46cf-b3bc-208a9006919c][DJ Mondie - Straight ( dub)]]
+[2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Nasty Crew & Roll Deep - Sidewinder (2005)]]
 [2024-02-25 So 19:45] <- [[id:9422e1a0-4692-4ebb-8ef9-aafdacefb36c][Pay as U Go Cartel - Know We (2000)]]
 [2024-02-24 Sa 13:10] <- [[id:cd7f6c76-8f71-4df1-8d38-93ce9966288a][Danny Weed, Dizzee Rascal,]]
 :END:
@@ -1156,6 +1284,7 @@ aka Spooky
 :ID:       5b0ef53e-d7b5-4448-9604-c379df79ab06
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
 [2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
 [2024-02-25 So 20:11] <- [[id:70dc0a82-67ca-44f4-82e6-bb0d4fe7fca9][Cammy Riddim (]]
 :END:
@@ -1167,6 +1296,7 @@ aka Spooky
 :ID:       90eeec79-f4b8-457a-aa3d-d15cacd454ab
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:10] <- [[id:3f4eefd5-f0a5-402a-9035-03cb0b62e196][Lethal Bizzle - Pow (Forward!) (2004)]]
 [2024-02-28 Mi 12:03] <- [[id:1d520fca-2487-4123-ab7e-1cb4659e740d][SLK - Pull Up Dat (2004?)]]
 :END:
 :LOGBOOK:
@@ -1188,6 +1318,7 @@ has the cool oooooh sound
 :ID:       a19abcae-0ee1-477c-8caa-1b81629d7ee4
 :END:
 :BACKLINKS:
+[2024-03-03 So 00:32] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
 [2024-03-02 Sa 21:52] <- [[id:b3461a05-41c6-47f0-8053-6eb54a598b85][***]]
 :END:
 :LOGBOOK:
@@ -1202,6 +1333,87 @@ has the cool oooooh sound
 :END:
 :LOGBOOK:
 - State "TODO"       from              [2024-03-02 Sa 21:56]
+:END:
+*** TODO Lethal Bizzle
+:PROPERTIES:
+:ID:       e8d8655b-c8fd-4e82-884f-3be78bc07da1
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:21] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][****]]
+[2024-03-03 So 00:16] <- [[id:792548e3-c4a9-43ac-9482-4d92afc2c895][****]]
+[2024-03-03 So 00:14] <- [[id:3f4eefd5-f0a5-402a-9035-03cb0b62e196][Lethal Bizzle - Pow (Forward!) (2004)]]
+[2024-03-03 So 00:09] <- [[id:3f4eefd5-f0a5-402a-9035-03cb0b62e196][***]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-03 So 00:08]
+:END:
+*** TODO Demon
+:PROPERTIES:
+:ID:       88c6b419-94d4-449a-8b07-b9a9f2f1d503
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:09] <- [[id:3f4eefd5-f0a5-402a-9035-03cb0b62e196][Lethal Bizzle - Pow (Forward!) (2004)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-03 So 00:08]
+:END:
+*** TODO Dexplicit
+:PROPERTIES:
+:ID:       3878d0ad-dd09-4d94-b905-2db7aeafb75b
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:17] <- [[id:792548e3-c4a9-43ac-9482-4d92afc2c895][Lethal Bizzle - Forward Riddim 2]]
+[2024-03-03 So 00:09] <- [[id:3a5f2e4d-87e9-4dba-9380-2ec901a00c5e][SLK - Pull Up Dat ( remix)]]
+[2024-03-03 So 00:09] <- [[id:3f4eefd5-f0a5-402a-9035-03cb0b62e196][Lethal Bizzle - Pow (Forward!) (2004)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-03 So 00:09]
+:END:
+*** TODO Ghetts
+:PROPERTIES:
+:ID:       97781db0-13ac-4726-936c-714396ac36f1
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:22] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][Lethal Bizzle - Pow 2011 (2011)]]
+[2024-03-03 So 00:17] <- [[id:792548e3-c4a9-43ac-9482-4d92afc2c895][Lethal Bizzle - Forward Riddim 2]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-03 So 00:17]
+:END:
+*** TODO Kano
+:PROPERTIES:
+:ID:       8edcfe9f-52c6-43d9-9865-942f64700189
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
+[2024-03-03 So 00:22] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][Lethal Bizzle - Pow 2011 (2011)]]
+[2024-03-03 So 00:18] <- [[id:792548e3-c4a9-43ac-9482-4d92afc2c895][Lethal Bizzle - Forward Riddim 2]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-03 So 00:18]
+:END:
+*** TODO Chip
+:PROPERTIES:
+:ID:       09e25032-cf60-4117-8fb3-f82959bb98ca
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:37] <- [[id:c5c93ea4-ff59-45ba-8f11-f95cfd1058f4][P Money x Silencer - Stuttering (2022)]]
+[2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
+[2024-03-03 So 00:22] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][Lethal Bizzle - Pow 2011 (2011)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-03 So 00:22]
+:END:
+*** TODO Silencer
+:PROPERTIES:
+:ID:       028114f3-15a2-425e-9dff-e5cbe5ad800d
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:37] <- [[id:1bc1cf40-c117-4698-b063-3809dcff45b3][Lethal Bizzle - Pow 2011 (2010)]]
+[2024-03-03 So 00:37] <- [[id:c5c93ea4-ff59-45ba-8f11-f95cfd1058f4][P Money x  - Stuttering (2022)]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-03 So 00:37]
 :END:
 
 ** Albums etc.
@@ -1220,6 +1432,9 @@ Also included:
 *** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Boy in the Corner (2003)
 :PROPERTIES:
 :ID:       8ca5a63e-cb56-4adf-855e-c18d2d3890f4
+:END:
+:BACKLINKS:
+[2024-03-03 So 00:28] <- [[id:3fe6c05e-6790-4d17-b356-9fb8d4776987][Dizzee Rascal - Sittin Here (2002)]]
 :END:
 The definite grime album and the international breakthrough for both Dizzee and the genre. Lots of very weird (/pos) beats on here and overall a leftfield and kind of cold atmosphere most grime never was able
 to offer, not even [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]'s [[id:f636658f-a81e-423d-97ef-ee93384a55aa][Eskibeat]] stuff (though of course that very much influenced the album)
@@ -1256,6 +1471,7 @@ pretty great! not necessarily a grime album, it's very much mixed with softer ga
 :ID:       8026c704-3324-4ccf-afa8-ed49e789e6a1
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Nasty Crew &]]
 [2024-02-23 Fr 19:58] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][When I'm 'ere]]
 [2024-02-23 Fr 18:51] <- [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]]
 [2024-02-23 Fr 15:38] <- [[id:6992bd51-f4fc-4a96-8a25-62731905726c][Dizzee Rascal - Creeper Freestyle]]
@@ -1280,6 +1496,7 @@ pretty great! not necessarily a grime album, it's very much mixed with softer ga
 :ID:       17fa50df-855c-4f29-ae5d-cfe318908dec
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][& Roll Deep - Sidewinder (2005)]]
 [2024-02-21 Mi 14:10] <- [[id:3c90393f-e5e0-431a-a280-1a9124c9e785][Misty Cold]]
 [2024-02-21 Mi 14:09] <- [[id:ff56cbfe-87ea-4a8f-8e6b-e7856abc8116][- Misty Cold (~2003)]]
 [2024-02-21 Mi 14:05] <- [[id:24be3842-8c5e-43ad-885e-83925646a5fa][Tinchy Stryder]]
@@ -1303,6 +1520,7 @@ Formed around 2001, pretty influential instrumentals and a couple members that b
 :ID:       374f1c48-1c39-4e9b-9cdf-1374ae49a679
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][***]]
 [2024-02-23 Fr 18:25] <- [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]]
 :END:
 :LOGBOOK:
@@ -1345,6 +1563,9 @@ Formed around 2001, pretty influential instrumentals and a couple members that b
 :ID:       812a48c1-7fa1-485c-b69a-0fd5ebc682a7
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 23:59] <- [[id:14b456e7-bf9b-44c7-980d-c60d38389075][DJ Mondie - Straight (2004)]]
+[2024-03-02 Sa 23:41] <- [[id:d70d96db-7782-4ee9-9930-0cf69ec64a70][- North Weezy]]
+[2024-03-02 Sa 23:25] <- [[id:3a5f2e4d-87e9-4dba-9380-2ec901a00c5e][****]]
 [2024-02-28 Mi 12:01] <- [[id:1d520fca-2487-4123-ab7e-1cb4659e740d][- Pull Up Dat]]
 :END:
 :LOGBOOK:
