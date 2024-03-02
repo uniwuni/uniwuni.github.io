@@ -558,6 +558,18 @@ yt:5VJnngsZl0g
 prod. skepta, feat. [[id:5b0ef53e-d7b5-4448-9604-c379df79ab06][Trim]], [[id:0fd0eac3-09b8-4b79-a5a8-353c02af24a4][Footsie]], [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]], MC Creed, Bear Man, Bossman Birdie, [[id:0f87032e-78c4-4123-aa37-4fe7f1b0bd51][JME]], [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]].
 
 lyrically very boring but fire and a classic anyways. also one of the few songs the wiley tiger tiger bars are on
+*** [[id:a19abcae-0ee1-477c-8caa-1b81629d7ee4][Meridian Dan]], [[id:d08bf74c-93bc-4cf7-ad7e-6db66f58d409][Flowdan]] - London in the Rain (2019)
+:PROPERTIES:
+:ID:       b3461a05-41c6-47f0-8053-6eb54a598b85
+:END:
+yt:hUtOMUb6rxk
+both of them are absolutely cold on this for sure
+*** Enigma Dubz ft. [[id:4f3e70d7-0d66-439a-8d4f-d8c9a5a01f5f][Snowy]] - Lost It (2023)
+:PROPERTIES:
+:ID:       2752bc65-56c9-42a5-a43c-b3cbee41595f
+:END:
+yt:_J4Mw9QOxHg
+catchy tune, lots of great dubstep and couple bars on the entire ep
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
@@ -588,6 +600,10 @@ kind of low quality and not the very best mc work of those two but some crazy ga
 [2024-02-24 Sa 13:11] <- [[id:2bfdb160-d410-4816-ab9f-7765b0046c8d][Dizzee Rascal over Triplets II (2001)]]
 :END:
 no source for this sadly
+**** N-Type + Various - N-Type 20 Year Anniversary Show - 01 March 2024
+https://soundcloud.com/rinsefm/n-type-20-year-anniversary-show-01-march-2024?si=4da3572453d748babe6c31491a1d42ae&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+actually dubstep but a lot of awesome grime bits
+
 ** Misc. Sets
 *** [[id:0bfa500b-a50a-408c-92a1-b3b2a7abab48][Neffa-T]] - Keep Hush Bristol: Dr. Dubplate's Birthday Bash (2022)
 :PROPERTIES:
@@ -686,6 +702,7 @@ quite /that/ bad yet
 :ID:       d08bf74c-93bc-4cf7-ad7e-6db66f58d409
 :END:
 :BACKLINKS:
+[2024-03-02 Sa 21:53] <- [[id:b3461a05-41c6-47f0-8053-6eb54a598b85][Meridian Dan,]]
 [2024-02-28 Mi 13:05] <- [[id:bbfa24b2-8b07-4d20-98f6-eef5bbbc4e3b][Roll Deep Rave Footage (2003)]]
 [2024-02-23 Fr 20:00] <- [[id:22d757b7-f824-42be-9650-f60706f9fbca][Roll Deep - When I'm 'ere]]
 [2024-02-23 Fr 19:43] <- [[id:d6928c15-d8d9-4b9b-8360-c5ca0669a7ef][- Horror Show Style]]
@@ -1165,6 +1182,26 @@ has the cool oooooh sound
 :END:
 :LOGBOOK:
 - State "TODO"       from              [2024-02-28 Mi 13:05]
+:END:
+*** TODO Meridian Dan
+:PROPERTIES:
+:ID:       a19abcae-0ee1-477c-8caa-1b81629d7ee4
+:END:
+:BACKLINKS:
+[2024-03-02 Sa 21:52] <- [[id:b3461a05-41c6-47f0-8053-6eb54a598b85][***]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-02 Sa 21:52]
+:END:
+*** TODO Snowy
+:PROPERTIES:
+:ID:       4f3e70d7-0d66-439a-8d4f-d8c9a5a01f5f
+:END:
+:BACKLINKS:
+[2024-03-02 Sa 21:56] <- [[id:2752bc65-56c9-42a5-a43c-b3cbee41595f][Enigma Dubz ft.]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-02 Sa 21:56]
 :END:
 
 ** Albums etc.
