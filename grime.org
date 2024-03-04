@@ -235,12 +235,18 @@ yt:Ok4UHXhA9Gc
 Relatively early eskibeat tune, danny weeds first track and an absolute banger. apparently this just kind
 of came to life while wiley was teaching him how to produce. great bassline and weird ass atomosphere
 just how i like it
+**** [[id:53871753-ee16-47b5-957e-15ab851fd68c][God's Gift]], [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]], Breeze - Creeper
+:PROPERTIES:
+:ID:       559d3f0b-7f22-45a9-aca2-66fe226115a2
+:END:
+yt:VQKKgZoodgY
 **** [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Creeper Freestyle
 :PROPERTIES:
 :ID:       6992bd51-f4fc-4a96-8a25-62731905726c
 :END:
 yt:ctuFC0FNVwI
 scholar in the english scholar in the math
+
 back from when dizzee was still a part of [[id:8026c704-3324-4ccf-afa8-ed49e789e6a1][Roll Deep]]
 **** [[id:6758cd23-96f2-4de5-9b48-7fbe270e76f2][Wiley]] & [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]] - Creeper Freestyle (2002)
 :PROPERTIES:
@@ -667,6 +673,18 @@ also why is there a DFB-Elf cap in this video whats up with that
 :END:
 yt:seZmlnTDa2w
 feat. [[id:09e25032-cf60-4117-8fb3-f82959bb98ca][Chip]], [[id:02dda295-8f4e-4830-9578-5aae422feac3][D Double E]], [[id:35137126-ceaf-41b4-9411-748c987fa834][Dizzee Rascal]]. good track from beginning to end but dizzee man how does he do it
+*** [[id:27261308-6b79-4f94-9909-cb61f1fbd0e9][Curzed]] & [[id:ccf06db5-6b59-4486-bb65-dd093facc38d][Kromestar]] - Signs (2011)
+:PROPERTIES:
+:ID:       388ca4b5-4fcd-4144-acec-fbe992f6833d
+:END:
+yt:9aG8N7EJK0E
+suuper hard early riddim track
+**** Skinzmann & [[id:e5e96bd5-d8ba-491a-ab33-a4ed5dfbc809][Devilman]] over Signs on [[id:5a1edb0c-10f1-41ca-a769-371cdf0687f1][Big City Radio]]
+:PROPERTIES:
+:ID:       32f92aa6-4e16-489e-9340-266d25331441
+:END:
+https://soundcloud.com/andyskitz/signs-clip-big-city-radio-89-1
+sick
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
@@ -700,6 +718,16 @@ no source for this sadly
 **** N-Type + Various - N-Type 20 Year Anniversary Show - 01 March 2024
 https://soundcloud.com/rinsefm/n-type-20-year-anniversary-show-01-march-2024?si=4da3572453d748babe6c31491a1d42ae&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 actually dubstep but a lot of awesome grime bits
+*** TODO Big City Radio
+:PROPERTIES:
+:ID:       5a1edb0c-10f1-41ca-a769-371cdf0687f1
+:END:
+:BACKLINKS:
+[2024-03-04 Mon 18:27] <- [[id:32f92aa6-4e16-489e-9340-266d25331441][Skinzmann & Devilman over Signs on]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-04 Mon 18:27]
+:END:
 
 ** Misc. Sets
 *** [[id:0bfa500b-a50a-408c-92a1-b3b2a7abab48][Neffa-T]] - Keep Hush Bristol: Dr. Dubplate's Birthday Bash (2022)
@@ -820,6 +848,7 @@ quite /that/ bad yet
 :ID:       35137126-ceaf-41b4-9411-748c987fa834
 :END:
 :BACKLINKS:
+[2024-03-04 Mon 13:43] <- [[id:559d3f0b-7f22-45a9-aca2-66fe226115a2][God's Gift,]]
 [2024-03-03 So 00:37] <- [[id:c5c93ea4-ff59-45ba-8f11-f95cfd1058f4][P Money x Silencer - Stuttering (2022)]]
 [2024-03-03 So 00:29] <- [[id:b1748e55-6fda-438c-91bb-033331accc9f][Fekky &  - Still Sittin Here (2015)]]
 [2024-03-03 So 00:27] <- [[id:3fe6c05e-6790-4d17-b356-9fb8d4776987][***]]
@@ -1210,6 +1239,7 @@ has a show on BBC 1xtra
 :ID:       53871753-ee16-47b5-957e-15ab851fd68c
 :END:
 :BACKLINKS:
+[2024-03-04 Mon 13:43] <- [[id:559d3f0b-7f22-45a9-aca2-66fe226115a2][****]]
 [2024-03-03 So 00:01] <- [[id:af3e365c-8de2-46cf-b3bc-208a9006919c][DJ Mondie - Straight ( dub)]]
 [2024-03-02 Sa 23:50] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Nasty Crew & Roll Deep - Sidewinder (2005)]]
 [2024-02-25 So 19:45] <- [[id:9422e1a0-4692-4ebb-8ef9-aafdacefb36c][Pay as U Go Cartel - Know We (2000)]]
@@ -1414,6 +1444,36 @@ has the cool oooooh sound
 :END:
 :LOGBOOK:
 - State "TODO"       from              [2024-03-03 So 00:37]
+:END:
+*** TODO Kromestar
+:PROPERTIES:
+:ID:       ccf06db5-6b59-4486-bb65-dd093facc38d
+:END:
+:BACKLINKS:
+[2024-03-04 Mon 18:26] <- [[id:388ca4b5-4fcd-4144-acec-fbe992f6833d][Curzed &]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-04 Mon 18:25]
+:END:
+*** TODO Curzed
+:PROPERTIES:
+:ID:       27261308-6b79-4f94-9909-cb61f1fbd0e9
+:END:
+:BACKLINKS:
+[2024-03-04 Mon 18:26] <- [[id:388ca4b5-4fcd-4144-acec-fbe992f6833d][***]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-04 Mon 18:26]
+:END:
+*** TODO Devilman
+:PROPERTIES:
+:ID:       e5e96bd5-d8ba-491a-ab33-a4ed5dfbc809
+:END:
+:BACKLINKS:
+[2024-03-04 Mon 18:27] <- [[id:32f92aa6-4e16-489e-9340-266d25331441][Skinzmann &]]
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-03-04 Mon 18:27]
 :END:
 
 ** Albums etc.
