@@ -1,0 +1,720 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://uniwuni.github.io/archive-ontology/"
+     xml:base="http://uniwuni.github.io/archive-ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:opla-sd="http://ontologydesignpatterns.org/opla-sd#"
+     xmlns:archive-ontology="http://uniwuni.github.io/archive-ontology#">
+    <owl:Ontology rdf:about="http://uniwuni.github.io/archive-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#informationIsFrom -->
+
+    <owl:AnnotationProperty rdf:about="http://uniwuni.github.io/archive-ontology#informationIsFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#containsDescription -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#containsDescription">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsWork"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Text"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#containsItem -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#containsItem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#containsMainPart -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#containsMainPart">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsWork"/>
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#isBuiltFrom"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#containsPartOfWork -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#containsPartOfWork">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#containsThumbnail -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#containsThumbnail">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsWork"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#containsWork -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#containsWork">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsPartOfWork"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#AbstractAgent"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasPathOnDevice -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasPathOnDevice">
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#LocalPath"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#StorageDevice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isAssociatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isAssociatedWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology/Term"/>
+        <rdfs:comment>Used for &quot;tagging&quot; things that, for example, cannot be distinguished by other means like their title.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isBuiltFrom -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isBuiltFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:comment>When a work is so reliant on another that it could not exist or would look completely different without it. Examples are reviews of media or main parts of compound works.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isClipOf -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isClipOf">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsPartOfWork"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#TemporalWork"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#TemporalWork"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isCopyOf -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isCopyOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isCreatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isCreatedBy">
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isDefinedBy -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isDefinedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#AbstractAgent"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#DigitalLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isPermanentlyMountedOn -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isPermanentlyMountedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#StorageDevice"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#StorageMounter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isRemixOf -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isRemixOf">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsPartOfWork"/>
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#isVersionOf"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Song"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Song"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isVersionOf -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isVersionOf">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#isBuiltFrom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isVocalVersionOf -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#isVocalVersionOf">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsPartOfWork"/>
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#isVersionOf"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Music"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Song"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#playsInPerformance -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#playsInPerformance">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#containsPartOfWork"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#LivePerformance"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Song"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#represents -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#represents">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://uniwuni.github.io/archive-ontology#isCopyOf"/>
+            <rdf:Description rdf:about="http://uniwuni.github.io/archive-ontology#represents"/>
+        </owl:propertyChainAxiom>
+        <rdfs:comment>An item represents a work if it is the physical or digital manifestation of its idea. This is a relatively strict notion since we consider many works inequal that are the same in other concepts of works.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#storedAt -->
+
+    <owl:ObjectProperty rdf:about="http://uniwuni.github.io/archive-ontology#storedAt">
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#DigitalItem"/>
+        <rdfs:range rdf:resource="http://uniwuni.github.io/archive-ontology#DigitalLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#absolutePathGivenBy -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#absolutePathGivenBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Path"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#containsContent -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#containsContent">
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#SelfContainedItem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#createdAt -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#createdAt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#InformationEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasAlternativeTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasAlternativeTitle">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#hasTitle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasDuration -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasDuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#TemporalWork"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasMainTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasMainTitle">
+        <rdfs:subPropertyOf rdf:resource="http://uniwuni.github.io/archive-ontology#hasTitle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasMountpoint -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasMountpoint">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#StorageDevice"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://uniwuni.github.io/archive-ontology#isPermanentlyMountedOn"/>
+                <owl:someValuesFrom rdf:resource="http://uniwuni.github.io/archive-ontology#StorageMounter"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#hasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#hasTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#InformationEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#isInLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#isInLanguage">
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#InformationEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#relativePathGivenBy -->
+
+    <owl:DatatypeProperty rdf:about="http://uniwuni.github.io/archive-ontology#relativePathGivenBy">
+        <rdfs:domain rdf:resource="http://uniwuni.github.io/archive-ontology#Path"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#AbstractAgent -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#AbstractAgent">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Agent -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Agent"/>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#CompoundWork -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#CompoundWork">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+        <rdfs:comment>A work that does not exist outside of its components, for example the conglomerate of video, thumbnail, and description of an online video.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#ComputerGame -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#ComputerGame">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Game"/>
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Program"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#DJMix -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#DJMix">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#LivePerformance"/>
+        <owl:disjointWith rdf:resource="http://uniwuni.github.io/archive-ontology#Song"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Data -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Data">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#DigitalItem -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#DigitalItem">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#DigitalLocation -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#DigitalLocation"/>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Game -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Game">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Image -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Image">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#InformationEntity -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#InformationEntity"/>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#InternetPath -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#InternetPath">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Path"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Item -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Item">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#InformationEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#LivePerformance -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#LivePerformance">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#LocalItem -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#LocalItem">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#DigitalItem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#LocalPath -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#LocalPath">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Path"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Metadata -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Metadata">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Music -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Music">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Sound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#MusicLiveFootage -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#MusicLiveFootage">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Video"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#MusicVideo -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#MusicVideo">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Video"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Path -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Path">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#DigitalLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Person -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Person">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#PhysicalItem -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#PhysicalItem">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Item"/>
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#PhysicalObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#PhysicalObject -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#PhysicalObject"/>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Program -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Program">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#RemoteItem -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#RemoteItem">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#DigitalItem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#SelfContainedItem -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#SelfContainedItem">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#DigitalItem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Song -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Song">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Sound -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Sound">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#TemporalWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#StorageDevice -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#StorageDevice">
+        <rdfs:comment xml:lang="en">Represents &quot;things that can be mounted&quot;, e.g. partitions or single-partition storage devices.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#StorageMounter -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#StorageMounter"/>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#TemporalWork -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#TemporalWork">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Text -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Text">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Video -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Video">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#TemporalWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology#Work -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology#Work">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#InformationEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology/Term -->
+
+    <owl:Class rdf:about="http://uniwuni.github.io/archive-ontology/Term">
+        <rdfs:subClassOf rdf:resource="http://uniwuni.github.io/archive-ontology#InformationEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology/data#desktopcomputer -->
+
+    <owl:NamedIndividual rdf:about="http://uniwuni.github.io/archive-ontology/data#desktopcomputer">
+        <rdf:type rdf:resource="http://uniwuni.github.io/archive-ontology#StorageMounter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://uniwuni.github.io/archive-ontology/data#12tbdrive -->
+
+    <owl:NamedIndividual rdf:about="http://uniwuni.github.io/archive-ontology/data#12tbdrive">
+        <rdf:type rdf:resource="http://uniwuni.github.io/archive-ontology#StorageDevice"/>
+        <archive-ontology:isPermanentlyMountedOn rdf:resource="http://uniwuni.github.io/archive-ontology/data#desktopcomputer"/>
+        <archive-ontology:hasMountpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">file://run/media/uni/Neoproterozoikum</archive-ontology:hasMountpoint>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
