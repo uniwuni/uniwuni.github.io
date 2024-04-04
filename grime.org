@@ -685,6 +685,17 @@ suuper hard early riddim track
 :END:
 https://soundcloud.com/andyskitz/signs-clip-big-city-radio-89-1
 sick
+*** [[id:e86bd24b-3f6b-4a51-ab64-82b69f979f2a][Tempa T]] - Swing (2007)
+:PROPERTIES:
+:ID:       049150d5-9e95-4fe2-9463-5e2727b5aa9e
+:END:
+yt:2GJL1Y2XVRc
+*** [[id:12551dfd-c0c4-45f0-8264-1be2224f090a][Jammer]] - Mystical
+:PROPERTIES:
+:ID:       bf3ec591-cbc7-4be8-ae35-51dc96df4bce
+:END:
+yt:V9Zxenj_0FI
+pretty descriptive title, feels more like a dubstep track its just chill and vibes
 ** Radio
 *** Rinse.fm
 :PROPERTIES:
@@ -1074,6 +1085,7 @@ One of the dubstep goats for sure
 :ID:       12551dfd-c0c4-45f0-8264-1be2224f090a
 :END:
 :BACKLINKS:
+[2024-03-05 Tue 21:03] <- [[id:bf3ec591-cbc7-4be8-ae35-51dc96df4bce][- Mystical]]
 [2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
 [2024-03-02 Sa 23:51] <- [[id:3a6fd9db-80d9-4b9b-a7ce-2a843d5f0a9d][Ruff Sqwad & Roll Deep - Sidewinder (2005)]]
 [2024-02-28 Mi 13:02] <- [[id:48d755c9-126d-4aa2-b759-0bcf7e30e0d2][Skepta - Duppy/Doing It Again (2006)]]
@@ -1200,6 +1212,7 @@ at some point so he had to distinguish himself i guess
 :ID:       e86bd24b-3f6b-4a51-ab64-82b69f979f2a
 :END:
 :BACKLINKS:
+[2024-03-05 Tue 19:32] <- [[id:049150d5-9e95-4fe2-9463-5e2727b5aa9e][- Swing (2007)]]
 [2024-03-03 So 00:31] <- [[id:768fc244-2234-4c1b-ace1-16570435f864][Fekky - Still Sittin Here Remix (2014)]]
 [2024-02-24 Sa 13:36] <- [[id:ff2d39ad-0ccd-4560-9633-031969dbab86][Next Hype (2009)]]
 [2024-02-23 Fr 20:22] <- [[id:31b08eea-d45a-4544-9cc5-8b281b95252f][Rhythm 'n' Gash (]]

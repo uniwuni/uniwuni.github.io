@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@base <https://uniwuni.github.com/me#>
+
+<me>
+    a foaf:Person ;
+    foaf:name "Uni Marx" ;
+    foaf:mbox <mailto:uniwuni@protonmail.com> ;
+    foaf:weblog <https://uniwuni.github.io> ;
+    foaf:gender "silly; pronouns they/it" ;
+    foaf:account <https://twitter.com/ununiuniuni> ;
+    foaf:based_near <there> .
+
+<this>
+    a foaf:PersonalProfileDocument ;
+    foaf:maker <me> .
+
+<https://twitter.com/ununiuniuni>
+    a foaf:OnlineAccount ;
+    foaf:accountName "ununiuniuni" ;
+    foaf:accountServiceHomepage <https://twitter.com> .
+
+<https://bsky.app/profile/uniwuni.bsky.social>
+    a foaf:OnlineAccount ;
+    foaf:accountName "uniwuni.bsky.social" ;
+    foaf:accountServiceHomepage <https://bsky.app> .
+
+<https://github.com/uniwuni>
+    a foaf:OnlineAccount ;
+    foaf:accountName "uniwuni" ;
+    foaf:accountServiceHomepage <https://github.com> .
+
+<https://www.openstreetmap.org/user/univalence>
+    a foaf:OnlineAccount ;
+    foaf:accountName "univalence" ;
+    foaf:accountServiceHomepage <https://www.openstreetmap.org> .
+
+<there>
+    a geo:Point ;
+    geo:lat "49.4521" ;
+    geo:long "11.0767" .
