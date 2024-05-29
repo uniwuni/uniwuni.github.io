@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@base <https://uniwuni.github.com/me#>
+@base <https://uniwuni.github.com/me#> .
 
 <me>
     a foaf:Person ;
@@ -10,7 +10,14 @@
     foaf:mbox <mailto:uniwuni@protonmail.com> ;
     foaf:weblog <https://uniwuni.github.io> ;
     foaf:gender "silly; pronouns they/it" ;
-    foaf:account <https://twitter.com/ununiuniuni> ;
+    foaf:account <https://twitter.com/ununiuniuni> ,
+				 <https://www.openstreetmap.org/user/univalence> ,
+                 <https://bsky.app/profile/uniwuni.bsky.social> ,
+				 <https://meta.wikimedia.org/wiki/User:Uniwah> ,
+				 <https://deadinsi.de/@uniwuni> ,
+	   			 <https://www.discogs.com/user/univalence>,
+				 <https://soundcloud.com/unununi>,
+			     <https://rateyourmusic.com/~univalence>;
     foaf:based_near <there> .
 
 <this>
@@ -27,6 +34,11 @@
     foaf:accountName "uniwuni.bsky.social" ;
     foaf:accountServiceHomepage <https://bsky.app> .
 
+<https://www.discogs.com/user/univalence>
+    a foaf:OnlineAccount ;
+    foaf:accountName "univalence" ;
+    foaf:accountServiceHomepage <https://discogs.com> .
+
 <https://github.com/uniwuni>
     a foaf:OnlineAccount ;
     foaf:accountName "uniwuni" ;
@@ -36,6 +48,27 @@
     a foaf:OnlineAccount ;
     foaf:accountName "univalence" ;
     foaf:accountServiceHomepage <https://www.openstreetmap.org> .
+
+<https://meta.wikimedia.org/wiki/User:Uniwah>
+    a foaf:OnlineAccount ;
+    foaf:accountName "Uniwah" ;
+    foaf:accountServiceHomepage <https://meta.wikimedia.org> .
+
+<https://deadinsi.de/@uniwuni>
+    a foaf:OnlineAccount ;
+    foaf:accountName "uniwuni" ;
+    foaf:accountServiceHomepage <https://deadinsi.de> .
+
+<https://rateyourmusic.com/~univalence>
+    a foaf:OnlineAccount ;
+    foaf:accountName "univalence" ;
+    foaf:accountServiceHomepage <https://rateyourmusic.com> .
+
+<https://soundcloud.com/unununi>
+    a foaf:OnlineAccount ;
+    foaf:accountName "unununi" ;
+    foaf:accountServiceHomepage <https://soundcloud.com> .
+
 
 <there>
     a geo:Point ;
