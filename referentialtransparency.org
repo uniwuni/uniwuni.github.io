@@ -1,0 +1,18 @@
+#+TITLE: the un i blog
+#+date: <2024-06-06 Do>
+* Referential transparency
+There's a couple of variations of the notion of referential transparency that seem quite useful in expressing properties of some functional languages:
+
+** Let transparency
+Call a language /let-transparent/ if for all well-typed terms src_haskell{a}, src_haskell{b} such that src_haskell{x} does not appear freely in src_haskell{a}, the terms
+src_haskell{a} and src_haskell{let x = b in a} behave identically. In particular, this property implies lazy evaluation for src_haskell{let}.
+
+** Soft let transparency
+Call a language /soft let-transparent/ if for all well-typed terms src_haskell{a :: Bool} (or int, or any sufficiently ,,pure'' type), src_haskell{b} such that src_haskell{x} does not appear freely in src_haskell{a} /and src_haskell{a} has a normal form/ the terms
+src_haskell{a} and src_haskell{let x = b in a} behave identically. This still implies somewhat lazy src_haskell{let} if your language allows for non-terminating programs, but this laziness does not have to hold for side-effect-inducing terms assuming some kind of type coloring.
+
+** Softest let transparency
+Call a language /softest let-transparent/ if for all well-typed terms src_haskell{a :: Bool} (or int, or any sufficiently ,,pure'' type), src_haskell{b} such that src_haskell{x} does not appear freely in src_haskell{a} /and src_haskell{a}, src_haskell{b} both have normal forms/ the terms
+src_haskell{a} and src_haskell{let x = b in a} behave identically. This does not imply lazy evaluation in any case!
+
+idk really what these notions are useful for but i came up with them last night when trying to sleep so idk

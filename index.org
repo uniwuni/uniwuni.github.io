@@ -13,5 +13,6 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 - [[file:grime.org][me talking about grime music]]
 - [[file:archive-ontology/index.html][the ontology for my personal archives]] (outdated)
 - [[file:me][contact data via rdf/turtle!!!]]
+- [[file:referentialtransparency.org][a couple weaker notions of referential transparency]]
 ** wah
  wah
