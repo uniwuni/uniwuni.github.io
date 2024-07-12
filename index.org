@@ -4,7 +4,7 @@
 
 hey i'm uni and this is where i keep documentation of some of the weird technical stuff i worked on.
 ** about me
-if youre reading this you might know me from [[http://twitter.com/ununiuniuni][twitter]] or discord (uniwuni#7376), but i might be adding some personal info anyways at some point who knows
+if youre reading this you might know me from [[http://twitter.com/ununiuniuni][twitter]] or discord (@uniwuni), but i might be adding some personal info anyways at some point who knows
 ** the posts
 - [[file:djosm.org][(d)josm or how i spent several hours with virtual keyboards]]
 - [[file:ideapad.org][ubuntu on an ideapad flex 5]]
@@ -16,3 +16,41 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 - [[file:referentialtransparency.org][a couple weaker notions of referential transparency]]
 ** wah
  wah
+
+
+* things i care about at the moment ([2024-07-12 Fr])
+- gay people (especially the cute ones who i love and even more especially the cutest one i love the absolute most)
+- mathematics
+  - like algebra stuff in particular, from [2024-08-01] to like uhh hopefully [2025-04-01] at most ill be writing a bachelor thesis probably about the basics of algebraic geometry or maybe algebraic groups or whatever. its not quite clear ill maybe update this maybe!!! im currently reading hartshorne!!
+  - love myself some commutative algebra especially idk why actually
+  - category theory is cool too
+  - proof theory and model theory but both to a degree where i can avoid the ugly proofs
+- knowledge representation
+  - i got like 3 semesters worth of math notes with every defined term linked to its origin but theyre in german and they also suck so im not going to put them here. theyre very cursed though
+    - i've been trying to look into this semantic version of latex called [[https://github.com/slatex/sTeX][stex]] and also the corresponding somewhat more formal [[https://uniformal.github.io/][mmt]] tool but it's so much work and hard to set up. seems cool though i need to get into it
+  - a couple proof assistants, like ive contributed a bit to [[https://leanprover-community.github.io/mathlib4_docs/][lean mathlib]], wrote my own stuff about [[https://github.com/uniwuni/arithmetics][weak arithmetic systems]] and did a couple nice things in agda in the past
+    - i actually kind of got into math from a functional programming -> dependent types -> type theory angle which is pretty cool imo
+  - [[https://wikidata.org][wikidata]] the goat. i improved a bunch of data for ~1000 geographical entities, added a ton of tram stations, did a lots of stuff with mathematical items, added metadata for music and so on. participated in a contest so the wikimedia foundation gifted me a voucher (big up wikimedia foundation austria) and im responsible for [[https://www.wikidata.org/wiki/Property:P12888][this property !!!]]
+  - im archiving all the youtube videos i watch and many more and put the metadata into a apache jena-based semantic web ass database its very cool though not really useful. 70 days worth of video though
+    - did this with soundcloud too for a while but i need to rewrite the tool im using for that to work
+    - i want to improve on the artist/uploader and video/song distinction for music and similar issues but that requires a ton of manual work for each video and some proper ui and i dont want to write code for ui that shit sucks sadly
+  - need to get into library sciences honestly
+  - not really knowledge representation but checkout paperless-ngx. great tool for document management, probably the best open source one
+- maps
+  - im like. worlds biggest by which i mean not even close to biggest fan of openstreetmap. got like 120000 changes and 2000 changesets. love that little thing they got going for them just lots of fun to add buildings and roads and manholes and street lighting and individual trees and entrances and wikidata relationships and islet coastlines. love that
+  - the cool personal map where i track where ive gone outside and where i have been by train see that one post!!!!
+  - i want to at some point combine the youtube video thing into a more general "artistic work" thingy where i add georeferenced pictures and metadata for every sticker (or at least a lot of them) i see in public. would be a cool project i  think
+- music
+  - big fan of dubstep like the og dubstep shit like [[https://www.youtube.com/watch?v=QWXAPA3evhE][pinch - qawwali vip]] the best song ever but also the riddim shit like [[https://www.youtube.com/watch?v=HkMep2LkFLs][subfiltronik feat skullion shadez - passout]] but also the new artistic stuff like if youre going to listen to anything i tell you to listen to syzy - the weight of the world. great album loved that
+  - go listen to grime too no genre goes harder listen to pow listen to all the stuff on my website
+  - i also enjoy some hardcore (like the "edm" subgenre not hardcore punk or whatever) [[https://www.youtube.com/watch?v=W7W2-aVpjm0][ophidian - running on empty]] might be the second best song ever for example. i usually dont really fw all the weird overhyped uptempo stuff thats been popping up though sadly
+  - so much more i listen to dub nowadays i listen to dnb (go listen to imanu and current value) and occassional minimal techno, brazilian funk (like [[https://www.youtube.com/watch?v=aSv1LhwUdco][this banger]]), fusion jazz, rhythmic noise, uk garage, hard trance, footwork, gqom, singeli (you probably dont even know this but [[https://www.youtube.com/watch?v=U_xwfU-StIE][it goes so hard]]), speedcore, idk man !!! if it has some bass theres a decent chance you can make me like it and if it doesnt you ought to put some work in but then ill probably like it even more
+  - i also make music which mostly sucks but theres a bit of cool dubstep and techno ish stuff its all on my soundcloud youre gonna figure it out if you really care sorry
+    - big up renoise and vital great software
+  - i go to a decent amount of raves in the area but like need to go to more honestly went to rampage open air this year it was pretty fun
+  - shoutout music
+- emacs
+  - this whole website is written in emacs using org mode love that little piece of software i use it for so much stuff
+  - used to do mail and so on in emacs too but that turned out to kind of suck
+- going outside and touching grass
+  - i do that occassionally unbeknownst to some but i dont do it enough as of recent idk
