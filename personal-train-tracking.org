@@ -57,4 +57,4 @@ Now I use [[https://travelynx.de][Travelynx]] instead due to better integration 
 [fn:2] There might be a way to automate this, but I really don't
 think it's worth the time honestly.
 
-[fn:1] I actually subscribed to the premium version - the app is probably the best GPS tracker I know of, and the OSM/Mapbox background map is definitely 70 cents a month.
+[fn:1] I actually subscribed to the premium version - the app is probably the best GPS tracker I know of, and the OSM/Mapbox background map is definitely worth 70 cents a month.
