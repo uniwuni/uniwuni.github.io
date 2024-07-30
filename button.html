@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>the un i blog</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">the un i blog</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgaebaca4">1. THE BUTTON - short summary of tonight&rsquo;s efforts</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaebaca4" class="outline-2">
+<h2 id="orgaebaca4"><span class="section-number-2">1.</span> THE BUTTON - short summary of tonight&rsquo;s efforts</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+i just acquired a IRIScan™ Desk 5 Pro book scanner and it comes with an extra button. like, not within the scanner, another whole USB device. Just a single button it&rsquo;s very funny.<br />
+but none of this formally supports linux in any shape or capacity so i had to make it work myself. The end results are on <a href="https://github.com/uniwuni/the-button">github</a>!!<br />
+</p>
+
+<p>
+of course the first thing you try is pressing the button. expectedly, it does absolutely nothing.<br />
+running yields something marginally useful, namely a vendor id and a product id, but a, uh, rather interesting name:<br />
+</p>
+<pre class="example" id="org2ef43b9">
+...
+Bus 001 Device 002: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
+...
+Bus 001 Device 056: ID 2e5a:2015
+...
+</pre>
+<p>
+So actually, the button is not only functionally useless so far, it is also nameless!<br />
+</p>
+
+<p>
+There&rsquo;s a couple standard things you check with new usb devices on linux - <code>/dev/input/by-id/</code> is a classic, but it does not show up there. Neither does it just appear to be one of the <code>/dev/input/event*</code> devices - at least that&rsquo;s what libinput told me, and libinput is my friend who would never lie to me!!!!<br />
+So there&rsquo;s not really much left, eventually I arrive at <code>/dev/usb</code> and finally, two previously undiscovered devices appear - <code>/dev/usb/hiddev0</code> and <code>/dev/usb/hiddev1</code>. Even after a lot of looking up various stuff, I&rsquo;m not quite sure what the first one is, but it appears to be my keyboard. Anyways, that gives us a decent chance at doing <i>something</i>, and indeed, spews out some meaningless garbage every time I press the button. It also showed me that the polling rate of this thing is about 3 Hz. Anyways, it&rsquo;s always the same 512 bytes:<br />
+</p>
+<pre class="example" id="orgb09a494">
+0000000 0002 ff00 0000 0000 0002 ff00 0001 0000
+0000010 0002 ff00 0002 0000 0002 ff00 0003 0000
+0000020 0002 ff00 0004 0000 0002 ff00 0005 0000
+0000030 0002 ff00 0006 0000 0002 ff00 0007 0000
+0000040 0002 ff00 0008 0000 0002 ff00 0009 0000
+0000050 0002 ff00 000a 0000 0002 ff00 000b 0000
+0000060 0002 ff00 000c 0000 0002 ff00 000d 0000
+0000070 0002 ff00 000e 0000 0002 ff00 000f 0000
+0000080 0002 ff00 0010 0000 0002 ff00 0011 0000
+0000090 0002 ff00 0012 0000 0002 ff00 0013 0000
+00000a0 0002 ff00 0014 0000 0002 ff00 0015 0000
+00000b0 0002 ff00 0016 0000 0002 ff00 0017 0000
+00000c0 0002 ff00 0018 0000 0002 ff00 0019 0000
+00000d0 0002 ff00 001a 0000 0002 ff00 001b 0000
+00000e0 0002 ff00 001c 0000 0002 ff00 001d 0000
+00000f0 0002 ff00 001e 0000 0002 ff00 001f 0000
+0000100 0002 ff00 0020 0000 0002 ff00 0021 0000
+0000110 0002 ff00 0022 0000 0002 ff00 0023 0000
+0000120 0002 ff00 0024 0000 0002 ff00 0025 0000
+0000130 0002 ff00 0026 0000 0002 ff00 0027 0000
+0000140 0002 ff00 0028 0000 0002 ff00 0029 0000
+0000150 0002 ff00 002a 0000 0002 ff00 002b 0000
+0000160 0002 ff00 002c 0000 0002 ff00 002d 0000
+0000170 0002 ff00 002e 0000 0002 ff00 002f 0000
+0000180 0002 ff00 0030 0000 0002 ff00 0031 0000
+0000190 0002 ff00 0032 0000 0002 ff00 0033 0000
+00001a0 0002 ff00 0034 0000 0002 ff00 0035 0000
+00001b0 0002 ff00 0036 0000 0002 ff00 0037 0000
+00001c0 0002 ff00 0038 0000 0002 ff00 0039 0000
+00001d0 0002 ff00 003a 0000 0002 ff00 003b 0000
+00001e0 0002 ff00 003c 0000 0002 ff00 003d 0000
+00001f0 0002 ff00 003e 0000 0002 ff00 003f 0000
+</pre>
+<p>
+No idea whether there&rsquo;s any significance to them, I doubt it, but it&rsquo;s nice to have something to rely on.<br />
+</p>
+
+<p>
+The first thing I had to figure out was how to make the button more permanent - <code>/dev/usb/hiddev1</code> is a fairly volatile spot for anything to be on, and it might not last a reboot. This was fairly easy to achieve with a symlinking udev rule:<br />
+</p>
+<pre class="example">
+ACTION=="add", ATTRS{idVendor}=="2e5a", ATTRS{idProduct}=="2015", SYMLINK+="button", MODE="0666"
+</pre>
+
+<p>
+Storing this in <code>/etc/udev/rules.d/50-button.service</code> was sufficient to turn <code>/dev/button</code> into a more permanent and easily readable outlet for your favorite 2<sup>17</sup> bits.<br />
+</p>
+
+<p>
+Actually waiting for the button to be pressed was a little more annoying though and made me turn to C (side note: during the whole development process, not a single segfault occurred i hope youre proud of me&#x2026;..).<br />
+</p>
+
+<p>
+First I tried just reading 512 bytes and more or less repeating if there wasn&rsquo;t anything to be read. But this is not very efficient obviously so eventually I turned to <code>poll</code>, a decently nice syscall that tells you when there&rsquo;s new stuff to be read and waits for a certain while. But not all bytes are sent at the exact same point in time, so I have to wait a slight bit until I can read 512 at once.<br />
+</p>
+
+<p>
+At some point I got that more or less figured out, despite some struggles with finding the right thing to call and the right options to <code>open</code> and so on. Yet every time I pressed the button a couple times in a row, the program would hang and only read further when I sent SIGINT or something. Why was that? Well, since I actually want to stuff with the button presses, after every successful read I call a program via <code>system("~/.local/bin/button-pressed")</code>. Oops, turned out that <code>system</code> is blocking and starting a shell and launching a KDE notification (which is was that script did at the time) takes a decent bit such that the events kind of queue up.<br />
+Nonetheless, this was decently easy to fix by just asynchronously calling the thing.<br />
+</p>
+
+<p>
+So, at some point I got a tool that worked sufficiently well at detecting these button presses and calling <i>something</i>. Following the same laws of thought as every person who would write 80 lines of C for their button, I wasn&rsquo;t quite satisfied yet and felt the need to automate some stuff further. So I turned to a systemd service. There was the easy option of just enabling and autorestarting it, and that worked fairly well, well, unless I disconnect the button (also it would waste performance by restarting the thing every idk 20 seconds), in which case reconnecting it would introduce delay until the autorestart and just feel kinda ugly either way.<br />
+</p>
+
+<p>
+So I turned to the even sillier alternative and changed my udev rule:<br />
+</p>
+<pre class="example">
+ACTION=="add", ATTRS{idVendor}=="2e5a", ATTRS{idProduct}=="2015", SYMLINK+="button", MODE="0666", TAG+="systemd", ENV{SYSTEMD_USER_WANTS}="the-button.service"
+</pre>
+
+<p>
+With this rule, the service is enabled as long as the device is connected. But this yielded even more mysterious issues: every time I connected the thing, the instance of the program started immediately after would even immediatelier crash due to receiving a 64 byte long message on the first button press (every button press takes 512 bytes, remember?). But if I were to restart the service with or without pressing the button in the meantime, the new instance would work just fine.<br />
+</p>
+
+<p>
+It took me another half an hour to figure that out, but the problem was fairly simple all along - <code>/dev/button</code> seems to behave differently the first couple milliseconds after the service gets started, so while for some reason it detects the button presses anyways, it probably reads something different? I&rsquo;m not entirely sure, but there was a pretty easy fix - adding 300 ms of delay before opening the file seems to work fine and it&rsquo;s not like you were gonna press it that quickly anyways.<br />
+</p>
+
+<p>
+so yeah, now it works fairly well, and I guess I&rsquo;ll use it to speed up the scanning process or something, which probably deserves another entry uhh thank you<br />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2024-07-30 Di 00:00</p>
+</div>
+</body>
+</html>
