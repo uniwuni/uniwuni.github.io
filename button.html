@@ -195,19 +195,22 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">the un i blog</h1>
-<div id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#orgaebaca4">1. THE BUTTON - short summary of tonight&rsquo;s efforts</a></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgaebaca4" class="outline-2">
-<h2 id="orgaebaca4"><span class="section-number-2">1.</span> THE BUTTON - short summary of tonight&rsquo;s efforts</h2>
+<div id="outline-container-org92bd242" class="outline-2">
+<h2 id="org92bd242"><span class="section-number-2">1.</span> THE BUTTON - short summary of tonight&rsquo;s efforts</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 i just acquired a IRIScan™ Desk 5 Pro book scanner and it comes with an extra button. like, not within the scanner, another whole USB device. Just a single button it&rsquo;s very funny.<br />
+</p>
+
+
+<div id="org7be0545" class="figure">
+<p><img src="./img/button.jpg" alt="button.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 1: </span>i took this image with the scanner using ffmpeg i feel like making this work properly might take a while still</p>
+</div>
+
+
+<p>
 but none of this formally supports linux in any shape or capacity so i had to make it work myself. The end results are on <a href="https://github.com/uniwuni/the-button">github</a>!!<br />
 </p>
 
@@ -215,7 +218,7 @@ but none of this formally supports linux in any shape or capacity so i had to ma
 of course the first thing you try is pressing the button. expectedly, it does absolutely nothing.<br />
 running yields something marginally useful, namely a vendor id and a product id, but a, uh, rather interesting name:<br />
 </p>
-<pre class="example" id="org2ef43b9">
+<pre class="example" id="org6d08969">
 ...
 Bus 001 Device 002: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
 ...
@@ -230,7 +233,7 @@ So actually, the button is not only functionally useless so far, it is also name
 There&rsquo;s a couple standard things you check with new usb devices on linux - <code>/dev/input/by-id/</code> is a classic, but it does not show up there. Neither does it just appear to be one of the <code>/dev/input/event*</code> devices - at least that&rsquo;s what libinput told me, and libinput is my friend who would never lie to me!!!!<br />
 So there&rsquo;s not really much left, eventually I arrive at <code>/dev/usb</code> and finally, two previously undiscovered devices appear - <code>/dev/usb/hiddev0</code> and <code>/dev/usb/hiddev1</code>. Even after a lot of looking up various stuff, I&rsquo;m not quite sure what the first one is, but it appears to be my keyboard. Anyways, that gives us a decent chance at doing <i>something</i>, and indeed, spews out some meaningless garbage every time I press the button. It also showed me that the polling rate of this thing is about 3 Hz. Anyways, it&rsquo;s always the same 512 bytes:<br />
 </p>
-<pre class="example" id="orgb09a494">
+<pre class="example" id="orga5b8dfa">
 0000000 0002 ff00 0000 0000 0002 ff00 0001 0000
 0000010 0002 ff00 0002 0000 0002 ff00 0003 0000
 0000020 0002 ff00 0004 0000 0002 ff00 0005 0000

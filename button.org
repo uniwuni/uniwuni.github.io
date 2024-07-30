@@ -1,9 +1,14 @@
 #+date: <2024-07-30 Di>
 #+LATEX_CLASS: koma-book
-#+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t
+#+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t toc:nil
 #+TITLE: the un i blog
 * THE BUTTON - short summary of tonight's efforts
 i just acquired a IRIScan™ Desk 5 Pro book scanner and it comes with an extra button. like, not within the scanner, another whole USB device. Just a single button it's very funny.
+
+#+CAPTION: i took this image with the scanner using ffmpeg i feel like making this work properly might take a while still
+[[./img/button.jpg]]
+
+
 but none of this formally supports linux in any shape or capacity so i had to make it work myself. The end results are on [[https://github.com/uniwuni/the-button][github]]!!
 
 of course the first thing you try is pressing the button. expectedly, it does absolutely nothing.
