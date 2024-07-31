@@ -80,3 +80,22 @@ With this rule, the service is enabled as long as the device is connected. But t
 It took me another half an hour to figure that out, but the problem was fairly simple all along - ~/dev/button~ seems to behave differently the first couple milliseconds after the service gets started, so while for some reason it detects the button presses anyways, it probably reads something different? I'm not entirely sure, but there was a pretty easy fix - adding 300 ms of delay before opening the file seems to work fine and it's not like you were gonna press it that quickly anyways.
 
 so yeah, now it works fairly well, and I guess I'll use it to speed up the scanning process or something, which probably deserves another entry uhh thank you
+* THE GLOWING BUTTON - summary of day two's efforts
+turns out the button also has a red LED and when I run the company's software with wine (for which I needed to use 7zip to extract the data from the self-extracting setup because that setup wouldn't work but it's only a setup for multiple setups and the individual setups all work), the LED starts glowing. how does that work? well I had no clue so I googled something like "linux monitor usb" until I eventually arrived at ~usbmon~, a kernel feature that allows you to do exactly that. By enabling the kernel module, doing a bunch of stuff and eventually running the program while watching the ~usbmnon~ output for the right interface, I figured out the LED gets enabled by the following 32 bytes:
+#+begin_example
+0x30, 0x31, 0x30, 0x30,
+0x30, 0x30, 0x30, 0x30,
+0x30, 0x30, 0x30, 0x30,
+0x30, 0x30, 0x30, 0x30,
+0x00, 0x3e, 0x00, 0x0d,
+0x00, 0xa0, 0x00, 0x20,
+0x00, 0x20, 0x00, 0x3c,
+0x00, 0x21, 0x00, 0x2d
+#+end_example
+As I later figured out by messing around a bit, exchanging the first 0x31 for a 0x30 disables it.
+
+So how do I actually send these bytes to the device? there's obviously no particularly user-friendly interface to do that, since neither the average developer nor the average person with a lot of time on their hands needs to write USB drivers (or something like them) on the regular. Nonetheless I quickly arrived at ~libusb~, which came the closest to user-friendly this stuff gets I suppose.
+
+By a lot of googling (and honestly some LLM help i'm sorry it's a bit embarassing but just way faster and i proof readall of it trust me please), i wrote a program that just sends these 32 bytes to the right interface and the right endpoint!! the latter is also very important but at least it appears in both ~lsusb -v~ output and the ~usbmon~ output. nonetheless, it wouldn't work immediately - since the button is also treated as a HID device, there's already a driver loaded for it which blocks ~libusb~ from properly acquiring the interface, luckily, it provides a function to temporarily detach and reattach the driver. Finally, I was able to just run ~button-light on~ and ~button-light off~, and have it work.
+
+But this caused a couple other issues, since the other program to watch the button presses breaks in the meantime because the file descriptor to ~/dev/button/~ becomes invalidated due to the driver being unloaded blah blah blah. This doesn't seem easily fixable and I'm not super inclined on reopening the file within the program because of a lot of decently fucked up race conditions and so on, so I took the substantially more cursed route of only processing one input per run of ~button~: It waits for a single button press, runs ~button-pressed~, which turns the light on and off, then uses ~exec~ to launch itself again, avoiding any of these mishaps. This works well and while it obviously leaks PIDs, as far as I know it shouldn't cause any permanent issues.
