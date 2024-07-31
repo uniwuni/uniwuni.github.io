@@ -12,7 +12,7 @@ i just acquired a IRIScan™ Desk 5 Pro book scanner and it comes with an extra 
 but none of this formally supports linux in any shape or capacity so i had to make it work myself. The end results are on [[https://github.com/uniwuni/the-button][github]]!!
 
 of course the first thing you try is pressing the button. expectedly, it does absolutely nothing.
-running src_bash{lsusb} yields something marginally useful, namely a vendor id and a product id, but a, uh, rather interesting name:
+running ~lsusb~ yields something marginally useful, namely a vendor id and a product id, but a, uh, rather interesting name:
 #+begin_example
 ...
 Bus 001 Device 002: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
@@ -23,7 +23,7 @@ Bus 001 Device 056: ID 2e5a:2015
 So actually, the button is not only functionally useless so far, it is also nameless!
 
 There's a couple standard things you check with new usb devices on linux - ~/dev/input/by-id/~ is a classic, but it does not show up there. Neither does it just appear to be one of the ~/dev/input/event*~ devices - at least that's what libinput told me, and libinput is my friend who would never lie to me!!!!
-So there's not really much left, eventually I arrive at ~/dev/usb~ and finally, two previously undiscovered devices appear - ~/dev/usb/hiddev0~ and ~/dev/usb/hiddev1~. Even after a lot of looking up various stuff, I'm not quite sure what the first one is, but it appears to be my keyboard. Anyways, that gives us a decent chance at doing /something/, and indeed, src_bash{sudo cat /dev/usb/hiddev1} spews out some meaningless garbage every time I press the button. It also showed me that the polling rate of this thing is about 3 Hz. Anyways, it's always the same 512 bytes:
+So there's not really much left, eventually I arrive at ~/dev/usb~ and finally, two previously undiscovered devices appear - ~/dev/usb/hiddev0~ and ~/dev/usb/hiddev1~. Even after a lot of looking up various stuff, I'm not quite sure what the first one is, but it appears to be my keyboard. Anyways, that gives us a decent chance at doing /something/, and indeed, ~sudo cat /dev/usb/hiddev1~ spews out some meaningless garbage every time I press the button. It also showed me that the polling rate of this thing is about 3 Hz. Anyways, it's always the same 512 bytes:
 #+begin_example
 0000000 0002 ff00 0000 0000 0002 ff00 0001 0000
 0000010 0002 ff00 0002 0000 0002 ff00 0003 0000
