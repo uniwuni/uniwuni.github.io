@@ -19,10 +19,10 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
  wah
 
 
-* things i care about at the moment ([2024-07-12 Fr])
+* things i care about at the moment ([2024-07-12 Fr], [2024-08-24 Sat])
 - gay people (especially the cute ones who i love,,,,)
 - mathematics
-  - like algebra stuff in particular, from [2024-08-01] to like uhh hopefully [2025-04-01] at most ill be writing a bachelor thesis probably about the basics of algebraic geometry or maybe algebraic groups or whatever. its not quite clear ill maybe update this maybe!!! im currently reading hartshorne!!
+  - like algebra stuff in particular, from [2024-08-01] to like uhh hopefully [2025-04-01] at most ill be writing a bachelor thesis probably about the basics of algebraic geometry or maybe algebraic groups or whatever. its not quite clear ill maybe update this maybe!!! im currently reading hartshorne!! (update [2024-08-24 Sat] im currently reading vakil's [[http://math.stanford.edu/~vakil/216blog/FOAGjul2724public.pdf][rising sea]] instead because it seems to suck less)
   - love myself some commutative algebra especially idk why actually
   - category theory is cool too
   - proof theory and model theory but both to a degree where i can avoid the ugly proofs
@@ -31,7 +31,7 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
     - i've been trying to look into this semantic version of latex called [[https://github.com/slatex/sTeX][stex]] and also the corresponding somewhat more formal [[https://uniformal.github.io/][mmt]] tool but it's so much work and hard to set up. seems cool though i need to get into it
   - a couple proof assistants, like ive contributed a bit to [[https://leanprover-community.github.io/mathlib4_docs/][lean mathlib]], wrote my own stuff about [[https://github.com/uniwuni/arithmetics][weak arithmetic systems]] and did a couple nice things in agda in the past
     - i actually kind of got into math from a functional programming -> dependent types -> type theory angle which is pretty cool imo
-  - [[https://wikidata.org][wikidata]] the goat. i improved a bunch of data for ~1000 geographical entities, added a ton of tram stations, did a lots of stuff with mathematical items, added metadata for music and so on. participated in a contest so the wikimedia foundation gifted me a voucher (big up wikimedia foundation austria) and im responsible for [[https://www.wikidata.org/wiki/Property:P12888][this property !!!]]
+  - [[https://wikidata.org][wikidata]] the goat. i improved a bunch of data for ~1000 geographical entities, added a ton of tram stations, did a lots of stuff with mathematical items, added metadata for music and so on. participated in a contest so the wikimedia foundation gifted me a voucher (big up wikimedia foundation austria) and im responsible for [[https://www.wikidata.org/wiki/Property:P12888][this property !!!]] and [[https://www.wikidata.org/wiki/Property:P12934][this one!!]]
   - im archiving all the youtube videos i watch and many more and put the metadata into a apache jena-based semantic web ass database its very cool though not really useful. 70 days worth of video though
     - did this with soundcloud too for a while but i need to rewrite the tool im using for that to work
     - i want to improve on the artist/uploader and video/song distinction for music and similar issues but that requires a ton of manual work for each video and some proper ui and i dont want to write code for ui that shit sucks sadly
