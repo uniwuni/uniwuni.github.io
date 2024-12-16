@@ -112,6 +112,7 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 [[https://wwwcip.cs.fau.de/~za08gywo/][@@html:<img src="https://wwwcip.cs.fau.de/~za08gywo/img/buttons/nova-button.gif" title="waow check out the coolest person on the web :3333" />@@]]
 [[https://irifea.de]]
 [[https://friz64.de]]
+[[https://sny.sh/]]
 TAke a look, y'all::
 #+begin_src html
 <a href="https://uniwuni.github.io/"> <img src="https://uniwuni.github.io/uni.gif" /> </a>
