@@ -110,6 +110,8 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 [[https://danii.fi][@@html:<img src="https://danii.fi/daniifi8831.gif"/ />@@]]
 @@html:<iframe src="https://sophiecomputer.neocities.org/button.html" width="88px" height="31px" style="border:none" scrolling="no"></iframe>@@
 [[https://wwwcip.cs.fau.de/~za08gywo/][@@html:<img src="https://wwwcip.cs.fau.de/~za08gywo/img/buttons/nova-button.gif" title="waow check out the coolest person on the web :3333" />@@]]
+[[https://irifea.de]]
+[[https://friz64.de]]
 TAke a look, y'all::
 #+begin_src html
 <a href="https://uniwuni.github.io/"> <img src="https://uniwuni.github.io/uni.gif" /> </a>
