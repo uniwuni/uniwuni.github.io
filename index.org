@@ -15,6 +15,7 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 - [[file:me][contact data via rdf/turtle!!!]]
 - [[file:referentialtransparency.org][a couple weaker notions of referential transparency]]
 - [[file:button.org][the button (making a usb button work on linux)]]
+- [[https://uniw.university/bourbakilean-docs/index.html][bourbaki book lean docs]]
 ** wah
  wah
 
@@ -82,7 +83,6 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
   - made so much music too like on my soundcloud for example and im sitting on so much unreleased stuff
     - making some impossibly cringe cloud rap that feels kind of dear to me idk
 - personal stuff!
-  - im on estrogen love it
   - breakup but it was ok!!! wish we would talk more on a friendship ting but like its alright
   - overall trying harder with the whole living thing, meeting decently many new people, going to concerts&events, buying clothes and actually putting some slight amount of work into transitioning its insane
   - made some friends in a hacker space some of which i kinda like and some of which quite honestly get on my nerves. probably not you though if you read this
