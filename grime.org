@@ -2,6 +2,7 @@
 #+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="grime_style.css" />
 #+INFOJS_OPT: view:info toc:nil
+#+HTML_DOCTYPE: xhtml5
 #+begin_src emacs-lisp :exports none
 (map! "C-c l n l" #'org-super-links-store-link)
 (map! "C-c l l l" #'org-super-links-link)

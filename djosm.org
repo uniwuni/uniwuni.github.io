@@ -2,6 +2,7 @@
 #+LATEX_CLASS: koma-book
 #+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t
 #+TITLE: the un i blog
+#+HTML_DOCTYPE: xhtml5
 * (d)josm or how i spent several hours with virtual keyboards
 ** the baseline
 As some of you might know, I'm kinda into making music, as in producing electronic music in a DAW, blablabla

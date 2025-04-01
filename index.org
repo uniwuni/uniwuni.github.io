@@ -1,5 +1,6 @@
-#+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t
+#+OPTIONS: timestamp:nil author:nil todo:t H:6 \n:t html5-fancy:t
 #+TITLE: the uni blog
+#+HTML_DOCTYPE: xhtml5
 * uni's stash of Weird Stuff
 
 hey i'm uni and this is where i keep documentation of some of the weird technical stuff i worked on.
@@ -112,9 +113,8 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 [[https://wwwcip.cs.fau.de/~za08gywo/][@@html:<img src="https://wwwcip.cs.fau.de/~za08gywo/img/buttons/nova-button.gif" title="waow check out the coolest person on the web :3333" />@@]]
 [[https://irifea.de]]
 [[https://friz64.de]]
-[[https://sny.sh/]]
-https://tacohitbox.com
+[[https://sny.sh][@@html:<img src=https://sny.sh/images/button.gif />@@]]
 TAke a look, y'all::
 #+begin_src html
-<a href="https://uniwuni.github.io/"> <img src="https://uniwuni.github.io/uni.gif" /> </a>
+<a href="https://uniw.university/"> <img src="https://uniw.university/uni.gif" /> </a>
 #+end_src

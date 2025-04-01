@@ -1,5 +1,6 @@
 #+date: <2022-09-16 Fr>
 #+title: th the weblog uni un
+#+HTML_DOCTYPE: xhtml5
 * ubuntu on an ideapad flex 5
 ** what is this about
 A few weeks ago, I bought an [[https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Flex_5_14ARE05/IdeaPad_Flex_5_14ARE05_Spec.pdf][Lenovo Ideapad Flex 5 14ARE05]] for university use, basically a
