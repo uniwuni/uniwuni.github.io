@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-04-15 Tue 23:49 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>uni uni uni blog blog blog</title>
+<meta name="author" content="Uni" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">uni uni uni blog blog blog</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orge8557a1">1. bunny wanted to know what a cohomology ring is</a>
+<ul>
+<li><a href="#orge071f59">1.1. singular chain complex</a></li>
+<li><a href="#org50ef88f">1.2. singular homology!!!!</a></li>
+<li><a href="#orgdb76f33">1.3. basic stuff on homology</a></li>
+<li><a href="#org085d49f">1.4. cohomology???</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge8557a1" class="outline-2">
+<h2 id="orge8557a1"><span class="section-number-2">1.</span> bunny wanted to know what a cohomology ring is</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orge071f59" class="outline-3">
+<h3 id="orge071f59"><span class="section-number-3">1.1.</span> singular chain complex</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+\(\newcommand\ZZ{\mathbb Z} \newcommand\RR{\mathbb R}\)
+if we are given a topological space \(X\) (you can imagine a subset of \(\RR^{n}\)), we might want to study its holeyness. this is what the stereotype of topology about and indeed it kind of pays off to keep this going when you study homology.
+</p>
+
+<p>
+how do you study holeyness? well, what&rsquo;s a hole to begin with? to topologists, its more or less a circle that cannot be filled up in the space, e.g. that isnt the boundary of a disk lying in the space.
+</p>
+
+<p>
+but defining boundary in a way that makes this work is, while possible, a little inconvenient. that&rsquo;s why instead of circles (and spheres, higher analogues) we consider simplices and possible embeddings in \(X\):
+</p>
+
+<p>
+the <i>standard \(n\)-simplex</i> \(\Delta^{n}\) is a subset of \(\RR^{n}\) that is defined as the complex hull of the 0-point as well as all the unit vectors \((1,0,\dots,0), \dots, (0,\dots,0,1)\). for \(n=0\), this yields a point, for \(n=1\) the unit interval, for \(n = 2\) a right triangle, for \(n=3\) basically a corner of a cube, and so on. note that these are &ldquo;solid&rdquo; and not just the boundaries.
+we can use other vectors in \(\RR^{n}\) instead of the zero and unit vectors too - this just possibly rotates moves and stretches the simplex, such that its not standard. then, its usually denoted by \([v_0,\dots,v_n]\) where the \(v\) are the corners. In particular, the standard n-simplex equals \([0, e_1, \dots, e_n]\).
+</p>
+
+<p>
+As discussed, every simplex has a <i>boundary</i>. by taking a look at the shapes of the standard n-simplices, you can see that their boundary consists of \(n+1\) different \(n-1\)-simplices - for example, \([0,e_1]\) has as its boundary the points \([0], [e_1]\), \([0,e_1,e_2,e_3]\) has the triangles \([0,e_1,e_2],[0,e_1,e_3],[0,e_2,e_3],[e_1,e_2,e_3]\). so to acquire all the boundary simplices, we need to leave each of the endpoints out one by one. Hence, there are embeddings \(f^i : \Delta^n \to \Delta^{n+1}\) for \(0 \le i \le n\) that just map \(\Delta^n\) onto the i-th face of \(\Delta^{n+1}\) respectively, we call them the <i>face maps</i>.
+</p>
+
+<p>
+to talk about simplices lying in \(X\), we just consider continuous functions \(\Delta^n \to X\). note that we pose no injectivity requirements such that the map can map the entire simplex to e.g. a single point. that is why we call it <i>singular</i> homology, as you will see sooner or later.
+</p>
+
+<p>
+this yields a reasonable definition, but its unclear how to work with it. in particular, what mathematical object should our hole-analyzing subjects be? by some fairly involved historical considerations, it has turned out that <i>abelian groups</i> or more generally modules over a ring tend to be the easiest framework to analyze holiness in. in particular, they allow us to define a good notion of boundary operator.
+</p>
+
+<p>
+how do we turn our set of simplices in \(X\) into an abelian group? there is no obvious group structure on \(\Delta^n \to X\) (this notation is meant to imply continuity btw), so instead, we just use it as a generating set for a free abelian group - so define the abelian group \(S^n(X)\) of <i>n-chains</i> in \(X\) as \(\langle \Delta^{n} \to X \rangle\). This means that elements of \(S^n(X)\) are just linear combinations of simplices with coefficients in \(\ZZ\). there is no relations imposed - even if we e.g. reverse an interval, we dont get the same or a negative simplex, its just another basis element. this is usually a huge group given that its basis is uncountable a lot of the time.
+</p>
+
+<p>
+from here on, we can define a <i>boundary operator</i> \(d^{n} : S^n(X) \to S^{n-1}(X)\) (index often omitted) that turns n-chains into \(n-1\)-chains. this should be a group homomorphism, but since \(S^n(X)\) is free, it suffices to specify its actions on \(n\)-chains \(\sigma\).
+we define
+\[d \sigma = \sum_{i=0}^{n} (-1)^i (\sigma \circ f^i).\]
+this is well-defined: \(d\sigma\) must embed an \(n-1\) simplex in \(X\). so to do that, we embed that n-1-simplex in our n-simplex instead using all the possible face maps. next we apply the given embdding \(\sigma\) on each of the given faces, basically.
+for example, if we are given a 1-simplex \(p \in S_1(X)\), e.g. a map \([0,1] \to X\), then \(dp = p(1) - p(0)\) (since points are 0-simplices).
+</p>
+
+<p>
+the sign of \((-1)^i\) has a geometrical meaning (it more or less orients the boundary of the simplex too lazy to explain), but more importantly it yields \(d^n \circ d^{n+1} = 0\) (relatively easy but annoying to compute, its due to some equalities of compositions of face maps).
+</p>
+</div>
+</div>
+<div id="outline-container-org50ef88f" class="outline-3">
+<h3 id="org50ef88f"><span class="section-number-3">1.2.</span> singular homology!!!!</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+so now we have a method to associate to each space a sequence with \(d \circ d = 0\), (a so called <i>chain complex</i>, that is just abelian groups indexed by natural or integer numbers and \(d^{n}\) that fulfill the equation)
+\[\dots \overset {d^{n+2}} \to S_{n+1}(X) \overset {d^{n+1}} \to S_n(X) \overset {d^{n}} \to \dots \to S_0(X) \to 0 \to \dots\]
+ so it may come to no surprise that given a continuous map \(f : X \to Y\), we can find maps \(S_n(f) : S_n(X) \to S_n(Y)\) such that the arising grid commutes. In general, commuting families of maps \(S_n(X) \to S_n(Y)\) are called <i>chain maps</i>.
+</p>
+
+<p>
+indeed we can go further - if two continuous functions are homotopic, there is also a so called <i>chain homotopy</i> between their induced chain maps, but that will not play a major role here.
+</p>
+
+<p>
+now given such a chain complex (without even knowing how \(d\) functions), we can take a closer look at the subobjects induced by \(d\). indeed, every \(d^n\) defines two of these, namely \(\ker d^n \subseteq S_n(X)\) and \(\operatorname{im} d^n \subseteq S_{n+1} (X)\). we got \(\operatorname{im} d^n \subseteq \ker d^{n-1}\), since \(d^{n-1} \circ d^n = 0\) (very small exercise).
+</p>
+
+<p>
+we usually call \(\ker d^n\) the group of \(n\)-cycles - for example, take the circle line \(S^1\) and define an element of \(S_1(S^1)\) (unfortunate overlap) as \(f+g\), where \(f\) maps the interval onto one semicircle, while \(g\) maps it onto the other starting where \(f\) left off (basically like the recycling symbol but with two instead of three maps). then \(f(1) = g(0), g(1) = f(0)\) and \(d(f+g) = df + dg = f(1) - f(0) + g(1) - g(0) = 0\). hence \(f+g\) is a 1-cycle.
+</p>
+
+<p>
+we also usually call \(\operatorname{im} d^{n+1}\) the group of \(n\)-boundaries because they are, well, boundaries of other larger simplices. \(f+g\) is not a boundary since we cannot &ldquo;fill the circle&rdquo; without leaving the line. this suggests that the relationship betwen cycles and boundaries defines the holeyness!!!
+</p>
+
+<p>
+define the <i>\(n\)-th singular homology group</i> \(H_n(X)\) of \(X\) as \(\ker d^{n-1}/\operatorname{im} d^n\). unlike the groups of chains this is usually fairly manageably sized and yields some interesting results!!!
+</p>
+
+<p>
+in a sense it measures how non-exact the chain complex is - it is called exact if \(\ker d^{n-1} = \operatorname{im} d^n\) for all \(n\), such that the homology groups are all 0.
+</p>
+
+<p>
+theres some basic stuff on exact sequences:
+if \(0 \to A \to B \to 0\) is exact, that means that the \(A \to B\) map is an isomorphism.
+if \(0 \to A \to B \to C \to 0\) is exact, that means the \(A \to B\) map is injective, and the \(B \to C\) map is surjective having its kernel given by the image of \(A \to B\). in particular, \(C\) is isomorphic to \(B/A\) in that case.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdb76f33" class="outline-3">
+<h3 id="orgdb76f33"><span class="section-number-3">1.3.</span> basic stuff on homology</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+(not going to ponder on this for too long just a couple examples to see how this works)
+</p>
+<ul class="org-ul">
+<li>\(H_0(X)\) is just a free group generated by the path components of \(X\): clearly \(\ker d^0\) is the entire group of chains (e.g. points), and the image is generated by all \(y-x\) where \(x,y\) are connected by a path, hence in the same path component. so for path connected spaces, it equals \(\ZZ\).</li>
+<li>homology is homotopy invariant. doesnt matter what that means - the important part: if a space is contractible, its homology is that of the point, e.g. \(H_0(X) = \ZZ, H_n(x) = 0\) otherwise. this applies to \(\RR^{n}\) as well as filled out disks and so on.</li>
+<li><p>
+let \(U_1, U_2\) be open subsets of \(X\). then there is an exact sequence
+\[\dots \to H_n(U_1 \cap U_2) \to_{x \mapsto (x,-x)} H_n(U_1) \oplus H_n(U_2) \to_{(x,y) \to x+y} \to H_n(U_1 \cup U_2) \to H_{n-1}(U_{1} \cap U_{2}) \to \dots.\]
+this (the so called mayer-vietoris sequence) allows you to compute homology from homologies of an open cover.
+in particular, let \(X\) be a \(n\)-sphere and \(U_i\) the two hemispheres. then \(U_1 \cap U_2\) is a \(n-1\)-sphere and the \(U_i\) are contractible so we get something like
+</p>
+
+<p>
+\[\dots \to 0 \to_{x \mapsto (x,-x)} 0 \oplus 0 \to_{(x,y) \to x+y} \to H_n(S^{n}) \to \ZZ \to 0 \to \dots.\]
+This means that \(H_n(S^n)\) must be \(\ZZ\) and by more computation we can see that for \(k \ge 1\), \(H_n(S^k)\) is \(\ZZ\) if \(n=k\) or \(n = 0\) (path component!), else 0.
+</p></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org085d49f" class="outline-3">
+<h3 id="org085d49f"><span class="section-number-3">1.4.</span> cohomology???</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+ok this is low key a little hard to motivate but now we are given our little chain complex
+\[\dots \overset {d^{n+2}} \to S_{n+1}(X) \overset {d^{n+1}} \to S_n(X) \overset {d^{n}} \to \dots \to S_0(X) \to 0 \to \dots\]
+right&#x2026; now what if&#x2026;. we replaced \(S_{n}(X)\) by \(S^{n}(X) = \operatorname{Hom}(S_n(X), R)\) for some fixed abelian group and in particular commutative ring \(R\) right&#x2026; wouldnt that be crazy?? indeed it would be, and it yields us a new map too: from our existing boundary maps we get new ones \(d_n : S^n(X) \to S^{n+1}(X), d_n(f) = f \circ d^{n+1}\) (check that this is well defined!) with \(d_{n+1} \circ d_n = 0\) and a so called cochain complex
+\[\dots \overset {d^{n+1}} \leftarrow S^{n+1}(X) \overset {d^{n}} \leftarrow S^n(X) \overset {d^{n-1}} \leftarrow \dots \leftarrow S^0(X) \leftarrow 0 \leftarrow \dots\]
+now guess what we can do homology on this thing too - indeed we define the <i>n-th singular cohomology group</i> \(H^n(X)\) of \(X\) as \(\ker d^n/\operatorname{im}d^{n-1}\). this is nice and silly and basically just the same thing as you can see, just with a bunch of dual groups tucked on.
+</p>
+
+<p>
+surprisingly enough these can be computed from the regular homology groups quite easily in a matter most wonderful, it just requires extra Ext groups which im not willing to go into really.
+</p>
+
+<p>
+however theres some extra structure and thats crazy innit. reconsider simplices again - \(\Delta^{n+m}\) kind of &ldquo;contains&rdquo; \(\Delta^n\) via \([0,\dots,e_n]\) and \(\Delta^m\) via \([e_n, \dots, e_{n+m}]\), such that there are maps \(f : \Delta^n \to \Delta^{n+m}, b \Delta^m \to \Delta^{n+m}\). So if you are given \(c \in S^n(X), d \in S^m(X)\) and \(x \in S_{m+n}(X)\), you can compose these (<i>front</i> and <i>back</i> maps) with \(x\) yielding elements of \(S_n(x), S_m(x)\), on which we can apply \(c,d\) for elements of \(R\) that we can multiply for a new one.
+So define a multiplication operator \(S^{n}(X) \times S^m(X) \to S^{n+m}(X)\) via
+\((c,d) \mapsto (x \mapsto c(f \circ x) \cdot d(g \circ x))\).
+</p>
+
+<p>
+Interestingly, this also induces a multiplication operator on the cohomology groups (to show this we need to show it respects inclusion and quotient blablablka it does!!!). this yields the <i>cohomology ring</i> - by taking the direct sum of all the \(H^n(X)\), we get an abelian group on which this multiplication (the <i>cup product</i>) is actually associative n so on. it is also graded commutative (e.g. \(xy = (-1)^n yx\) where the sign depends on the degrees of \(x,y\)) and a bunch of other nice stuff. isnt that cool.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Uni</p>
+<p class="date">Created: 2025-04-15 Tue 23:49</p>
+</div>
+</body>
+</html>
