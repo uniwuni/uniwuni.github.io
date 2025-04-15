@@ -1,4 +1,5 @@
 #+title: org-fit or what it means to work on the utterly useless
+#+HTML_DOCTYPE: xhtml5
 * background
 Over the course of late 2022 and early 2023, I started to integrate more and
 more data of my daily life into org mode. This included [[https://github.com/novoid/Memacs/blob/master/docs/memacs_lastfm.org][last.fm scrobbles]], [[https://github.com/karlicoss/orger/blob/master/modules/youtube.py][my YouTube watch history]], [[file:personal-train-tracking.org][train and bus rides]] and the topic of this entry, /going outside/, touching grass, even.

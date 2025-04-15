@@ -1,4 +1,5 @@
 #+TITLE: uni uni uni blog blog blog
+#+HTML_DOCTYPE: xhtml5
 * reasons for 2 to not exist
 ** uni what the fuck are you talking about
 In mathematics, there's a bunch of ways infinities can be large. Usually, the existence of these
