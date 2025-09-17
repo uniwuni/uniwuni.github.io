@@ -18,6 +18,8 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 - [[file:button.org][the button (making a usb button work on linux)]]
 - [[https://uniw.university/bourbakilean-docs/index.html][bourbaki book lean docs]]
 - [[file:cohomology.org][homology stuff idk!!!]]
+- [[file:books.org][books i read]]
+
 ** wah
  wah
 

@@ -189,6 +189,61 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<style>
+               a:link { color: #211d94 }
+               a:visited { color: #312da4 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+:target {
+  position: relative;
+}
+:target::before {
+  content: "🐇";
+  position: absolute;
+  left: -0.5em; transform: translateX(-100%);
+}
+div.tag-proof::after{
+
+  content: '□';
+  line-height: 100%;
+  position: absolute;
+  display: inline;
+  right: 0;
+  bottom: 0;
+}
+div.tag-definition { padding: 10px; border: 2px solid green; margin: 5px; background-color: #cfc; border-radius: 12px; }
+div.tag-notation { padding: 10px; border: 2px solid gray; margin: 5px; background-color: #ccc; border-radius: 12px; }
+div.tag-proposition { padding: 10px; border: 2px solid blue; margin: 5px;background-color: #ccf; border-radius: 12px; }
+div.tag-remark { padding: 10px; border: 2px solid red; margin: 5px; background-color: #eae; border-radius: 12px; }
+div.tag-example { padding: 10px; border: 2px solid red; margin: 5px; background-color: #e9a; border-radius: 12px; }
+div.tag-theorem { padding: 10px; border: 2px solid yellow; margin: 5px; background-color: #eea; border-radius: 12px; }
+div.tag-lemma { padding: 10px; border: 2px solid orange; margin: 5px; background-color: #fcc; border-radius: 12px; }
+div.tag-proof, div.tag-proofsketch { position: relative; padding: 10px; border: 1px solid grey; background-color: rgba(255,255,255, 0.5) }
+h1.tag-proof,  h2.tag-proof,  h3.tag-proof,  h4.tag-proof,  h5.tag-proof,  h6.tag-proof,  h7.tag-proof,  h8.tag-proof,  h1.tag-proofsketch,  h2.tag-proofsketch,  h3.tag-proofsketch,  h4.tag-proofsketch,  h5.tag-proofsketch,  h6.tag-proofsketch,  h7.tag-proofsketch, h8.tag-proofsketch {
+  font-variant-caps: small-caps;
+}
+.quiver-embed {margin: auto; display: block}
+.backlink-details[open] {max-height: 200px; overflow-y: auto;}
+.backlink-details > summary {line-height: 100%}
+.backlink-details[open] > summary {margin-bottom: 0.3em}
+.backlink-details {max-height: auto; margin-bottom: 0.3em}
+.backlink-details > p {font-size: 80%; display: inline-block; margin: 0}
+.backlink-details > p:nth-child(-n+3) {display: none}
+.backlink-details > p:nth-child(n+4)::before { content: ' • '; color: grey }
+               </style>
 </head>
 <body>
 <div id="content" class="content">
@@ -198,39 +253,39 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org16ba4f1">1. uni&rsquo;s stash of Weird Stuff</a>
+<li><a href="#orga70a90b">1. uni&rsquo;s stash of Weird Stuff</a>
 <ul>
-<li><a href="#org7ba5ebe">1.1. about me</a></li>
-<li><a href="#orge5a8753">1.2. the posts</a></li>
-<li><a href="#org632363a">1.3. wah</a></li>
+<li><a href="#org7a8ba8f">1.1. about me</a></li>
+<li><a href="#orgb0ad3d2">1.2. the posts</a></li>
+<li><a href="#org9d9f81e">1.3. wah</a></li>
 </ul>
 </li>
-<li><a href="#orga2974b1">2. things i care about at the moment (<span class="timestamp-wrapper"><span class="timestamp">[2024-07-12 Fri]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2024-08-24 Sat]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2025-01-16 Thu]</span></span>)</a>
+<li><a href="#org787b1bc">2. things i care about at the moment (<span class="timestamp-wrapper"><span class="timestamp">[2024-07-12 Fr]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2024-08-24 Sa]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2025-01-16 Do]</span></span>)</a>
 <ul>
-<li><a href="#org1f027b9">2.1. update <span class="timestamp-wrapper"><span class="timestamp">[2024-10-03 Thu]</span></span></a></li>
+<li><a href="#org41f3341">2.1. update <span class="timestamp-wrapper"><span class="timestamp">[2024-10-03 Do]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orge3f7c12">3. my friends and my button</a></li>
+<li><a href="#org6e0355a">3. my friends and my button</a></li>
 </ul>
 </div>
 </nav>
-<div id="outline-container-org16ba4f1" class="outline-2">
-<h2 id="org16ba4f1"><span class="section-number-2">1.</span> uni&rsquo;s stash of Weird Stuff</h2>
+<div id="outline-container-orga70a90b" class="outline-2 ">
+<h2 id="orga70a90b" class=""><span class="section-number-2">1.</span> uni&rsquo;s stash of Weird Stuff</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 hey i&rsquo;m uni and this is where i keep documentation of some of the weird technical stuff i worked on.<br />
 </p>
 </div>
-<div id="outline-container-org7ba5ebe" class="outline-3">
-<h3 id="org7ba5ebe"><span class="section-number-3">1.1.</span> about me</h3>
+<div id="outline-container-org7a8ba8f" class="outline-3 ">
+<h3 id="org7a8ba8f" class=""><span class="section-number-3">1.1.</span> about me</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 if youre reading this you might know me from <a href="http://twitter.com/ununiuniuni">twitter</a> or discord (@uniwuni), but i might be adding some personal info anyways at some point who knows<br />
 </p>
 </div>
 </div>
-<div id="outline-container-orge5a8753" class="outline-3">
-<h3 id="orge5a8753"><span class="section-number-3">1.2.</span> the posts</h3>
+<div id="outline-container-orgb0ad3d2" class="outline-3 ">
+<h3 id="orgb0ad3d2" class=""><span class="section-number-3">1.2.</span> the posts</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
 <li><a href="djosm.html">(d)josm or how i spent several hours with virtual keyboards</a><br /></li>
@@ -244,11 +299,12 @@ if youre reading this you might know me from <a href="http://twitter.com/ununiun
 <li><a href="button.html">the button (making a usb button work on linux)</a><br /></li>
 <li><a href="https://uniw.university/bourbakilean-docs/index.html">bourbaki book lean docs</a><br /></li>
 <li><a href="cohomology.html">homology stuff idk!!!</a><br /></li>
+<li><a href="books.html">books i read</a><br /></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org632363a" class="outline-3">
-<h3 id="org632363a"><span class="section-number-3">1.3.</span> wah</h3>
+<div id="outline-container-org9d9f81e" class="outline-3 ">
+<h3 id="org9d9f81e" class=""><span class="section-number-3">1.3.</span> wah</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 wah<br />
@@ -256,14 +312,14 @@ wah<br />
 </div>
 </div>
 </div>
-<div id="outline-container-orga2974b1" class="outline-2">
-<h2 id="orga2974b1"><span class="section-number-2">2.</span> things i care about at the moment (<span class="timestamp-wrapper"><span class="timestamp">[2024-07-12 Fri]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2024-08-24 Sat]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2025-01-16 Thu]</span></span>)</h2>
+<div id="outline-container-org787b1bc" class="outline-2 ">
+<h2 id="org787b1bc" class=""><span class="section-number-2">2.</span> things i care about at the moment (<span class="timestamp-wrapper"><span class="timestamp">[2024-07-12 Fr]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2024-08-24 Sa]</span></span>, <span class="timestamp-wrapper"><span class="timestamp">[2025-01-16 Do]</span></span>)</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li>gay people (especially the cute ones who i love,,,, (hi pretty bunny this is now updated to mention yoou love you))<br /></li>
 <li>mathematics<br />
 <ul class="org-ul">
-<li>like algebra stuff in particular, from <span class="timestamp-wrapper"><span class="timestamp">[2024-08-01 Thu] </span></span> to like uhh hopefully <span class="timestamp-wrapper"><span class="timestamp">[2025-04-01 Tue] </span></span> at most ill be writing a bachelor thesis probably about the basics of algebraic geometry or maybe algebraic groups or whatever. its not quite clear ill maybe update this maybe!!! im currently reading hartshorne!! (update <span class="timestamp-wrapper"><span class="timestamp">[2024-08-24 Sat] </span></span> im currently reading vakil&rsquo;s <a href="http://math.stanford.edu/~vakil/216blog/FOAGjul2724public.pdf">rising sea</a> instead because it seems to suck less)<br /></li>
+<li>like algebra stuff in particular, from <span class="timestamp-wrapper"><span class="timestamp">[2024-08-01 Do] </span></span> to like uhh hopefully <span class="timestamp-wrapper"><span class="timestamp">[2025-04-01 Di] </span></span> at most ill be writing a bachelor thesis probably about the basics of algebraic geometry or maybe algebraic groups or whatever. its not quite clear ill maybe update this maybe!!! im currently reading hartshorne!! (update <span class="timestamp-wrapper"><span class="timestamp">[2024-08-24 Sa] </span></span> im currently reading vakil&rsquo;s <a href="http://math.stanford.edu/~vakil/216blog/FOAGjul2724public.pdf">rising sea</a> instead because it seems to suck less)<br /></li>
 <li>love myself some commutative algebra especially idk why actually<br /></li>
 <li>category theory is cool too<br /></li>
 <li>proof theory and model theory but both to a degree where i can avoid the ugly proofs<br /></li>
@@ -317,8 +373,8 @@ wah<br />
 </ul></li>
 </ul>
 </div>
-<div id="outline-container-org1f027b9" class="outline-3">
-<h3 id="org1f027b9"><span class="section-number-3">2.1.</span> update <span class="timestamp-wrapper"><span class="timestamp">[2024-10-03 Thu]</span></span></h3>
+<div id="outline-container-org41f3341" class="outline-3 ">
+<h3 id="org41f3341" class=""><span class="section-number-3">2.1.</span> update <span class="timestamp-wrapper"><span class="timestamp">[2024-10-03 Do]</span></span></h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li>sooooooooooo much more music<br />
@@ -386,8 +442,8 @@ i dont really talk too much anymore but some of their closest friends i interact
 </div>
 </div>
 </div>
-<div id="outline-container-orge3f7c12" class="outline-2">
-<h2 id="orge3f7c12"><span class="section-number-2">3.</span> my friends and my button</h2>
+<div id="outline-container-org6e0355a" class="outline-2 ">
+<h2 id="org6e0355a" class=""><span class="section-number-2">3.</span> my friends and my button</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 <a href="https://uniwuni.github.io"><img src="uni.gif" /></a><br />

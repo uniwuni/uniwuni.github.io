@@ -1,0 +1,35 @@
+#+TITLE: uni uni uni blog blog blog
+* things i read this year
+mostly german but i'll talk about it in english anyways, vaguely in order. of course theres plenty more stuff in mathematics too and so on but its not the same kind of reading at all, so its hard to count
+** Draußen vor der Tür
+(Wolfgang Borchert, 1947)
+
+heavy post-WW2 drama about reintegration, war, morality and guilt. worth a read though a very german perspective that one should not necessarily fuck with
+** Wackelkontakt
+(Wolf Haas, 2025)
+
+Escherian "braided" novel with two interacting plots of crime and personal drama (though its not a detective novel or anything) each containing the other as a piece of in-universe fiction. very well executed, humorous but not too light, good read for a hospital stay
+** Tractatus logico-philosophicus
+(Ludwig Wittgenstein, 1922)
+
+he applies some decent analysis from my unknowing point of view but some of his views about, say, equality, are a bit bizarre and were revised at some point from what i remember. in particular the whole conclusions about philosophy are rather strange to me
+** Gratis-Prophezeiungen
+(Umberto Eco, 2003)
+
+collection of newspaper columns about societal changes in the new millenium. some of them turned out rather accurate some i found a bit obnoxious idk i honestly dont remember much
+** Identity and Necessity
+(Saul Kripke, 1971)
+
+lecture notes on contingency vs necessity, a priori vs a posteriori identity judgements leading to a refutation of a particular theory of consciousness. surprisingly accessible and worth a read, enjoyed it a lot
+** Die Diversität der Ausbeutung
+(Eleonora Roldán Mendívil & Bafta Sarbo et al, 2023)
+
+Marxist perspectives on racism in contemporary germany as well as coloniality, gender relations, etc. each essay is a great read, highly acclaimed and rightfully so. if you speak german read this
+** Escrache - Aktionen nichtstaatlicher Gerechtigkeit in Argentinien
+(Colectivo Situationes, 2004)
+
+the /escrache/ were (are? unclear) a surprisingly successful movement and type of protest in argentina to identify, and (not a bad thing!) harass officials of the junta a solid 20 years after the fact. this book contains reflections and dialogues about their aims and methods as well as the new political dynamics this yielded. i have no idea whether theres a spanish original or english translation but i gained a lot from reading this both with regards to argentina in particular and political tactics in general
+** Queer-feministische Positionen
+(Verónica Orsi et al, 2024)
+
+Latin american feminist perspectives from diaspora in german speaking countries. some intriguing essays and short stories here and there, though not quite as interesting as i expected it to be idk
