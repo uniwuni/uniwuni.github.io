@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-09-22 Mo 20:27 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Uni Marx" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<style>
+               a:link { color: #211d94 }
+               a:visited { color: #312da4 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+:target {
+  position: relative;
+}
+:target::before {
+  content: "🐇";
+  position: absolute;
+  left: -0.5em; transform: translateX(-100%);
+}
+div.tag-proof::after{
+
+  content: '□';
+  line-height: 100%;
+  position: absolute;
+  display: inline;
+  right: 0;
+  bottom: 0;
+}
+div.tag-definition { padding: 10px; border: 2px solid green; margin: 5px; background-color: #cfc; border-radius: 12px; }
+div.tag-notation { padding: 10px; border: 2px solid gray; margin: 5px; background-color: #ccc; border-radius: 12px; }
+div.tag-proposition { padding: 10px; border: 2px solid blue; margin: 5px;background-color: #ccf; border-radius: 12px; }
+div.tag-remark { padding: 10px; border: 2px solid red; margin: 5px; background-color: #eae; border-radius: 12px; }
+div.tag-example { padding: 10px; border: 2px solid red; margin: 5px; background-color: #e9a; border-radius: 12px; }
+div.tag-theorem { padding: 10px; border: 2px solid yellow; margin: 5px; background-color: #eea; border-radius: 12px; }
+div.tag-lemma { padding: 10px; border: 2px solid orange; margin: 5px; background-color: #fcc; border-radius: 12px; }
+div.tag-proof, div.tag-proofsketch { position: relative; padding: 10px; border: 1px solid grey; background-color: rgba(255,255,255, 0.5) }
+h1.tag-proof,  h2.tag-proof,  h3.tag-proof,  h4.tag-proof,  h5.tag-proof,  h6.tag-proof,  h7.tag-proof,  h8.tag-proof,  h1.tag-proofsketch,  h2.tag-proofsketch,  h3.tag-proofsketch,  h4.tag-proofsketch,  h5.tag-proofsketch,  h6.tag-proofsketch,  h7.tag-proofsketch, h8.tag-proofsketch {
+  font-variant-caps: small-caps;
+}
+.quiver-embed {margin: auto; display: block}
+.backlink-details[open] {max-height: 200px; overflow-y: auto;}
+.backlink-details > summary {line-height: 100%}
+.backlink-details[open] > summary {margin-bottom: 0.3em}
+.backlink-details {max-height: auto; margin-bottom: 0.3em}
+.backlink-details > p {font-size: 80%; display: inline-block; margin: 0}
+.backlink-details > p:nth-child(-n+3) {display: none}
+.backlink-details > p:nth-child(n+4)::before { content: ' • '; color: grey }
+               </style>
+</head>
+<body>
+<div id="content" class="content">
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orge24d39e">1. the future of music</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-orge24d39e" class="outline-2 ">
+<h2 id="orge24d39e" class=""><span class="section-number-2">1.</span> the future of music</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+i think the main two forces driving developments in music are essentially waves of nostalgia and scenes in which entirely new things emerge. im going to be mostly talking about hip hop and electronic music because thats where i Know stuff i guess
+a couple of mostly nostalgia driven things as of recent seem to be driven by the standard 20-25 year cycle, like the y2k jungle and trance revival, bloghouse/00s dance pop (see charlie xcx for example), this is not necessarily bad but its hard to call it the &ldquo;music of the future&rdquo; no matter what
+</p>
+
+<p>
+then theres stuff that is essentially completely new, though obviously based on things that have existed before. i think in rap music theres a lot of that currently though most of it fairly short lived (because the trend cycles become shorter and shorter), but i would call stuff like pluggnb, jerk and stepteam productions relatively innovative after all and at most slightly based on &ldquo;nostalgia bait&rdquo;.
+on the electronic side there&rsquo;s like, i dont know really! the spread of what is called &ldquo;raptor house&rdquo; through more countries in latin america, new waves of brazilian funk intertwining with drift phonk and reaching viral fame (not that i think the latter usually makes for great music, but it was something new for sure), maybe dariacore? and a new wave of high brow techno, dubstep, idm and drum &rsquo;n&rsquo; bass by people like gyrofield, skee mask, aya, tim reaper&#x2026; but all of that seems to be essentially &ldquo;done&rdquo; already and i&rsquo;m frustrated about my curiosity for what is next.
+</p>
+
+<p>
+of course there is some inherent issue here and there is no proper way to figure out what will form into a coherent scene or genre before it has already materialized as such and it seems impossible to come up with something <b>entirely</b> new. but yet things i would count as entirely new emerge all the time so this is evidently false.
+</p>
+
+<p>
+anyways there&rsquo;s a couple predictions that are easy to make:
+</p>
+
+<p>
+i think (mostly hope?) the dek bass soundsysteme scene from rural india will gain a bit of publicity in the west by the way of &ldquo;outsider labels&rdquo; like nyege nyege tapes who already popularized stuff like the extreme kinds of funk mandelao or singeli. maybe the same will hold for some scenes even more people are completely unaware of, i hope so at least!
+</p>
+
+<p>
+there will be some 2010s nostalgia waves (indeed we are already moving towards them with dariacore brostep vibes, jerk music and frutiger aero aesthetics and so on), difficult to say how that will materialize though. a possibility may be the k-popification of 2010s edm trap that has already been devloping for a while.
+</p>
+
+<p>
+the uk rap underground will blow up more than it already has with artists like fakemink, esdeekid, yt, lancey foux rising to the top of what is possible in one-level-below-mainstream hip hop in the uk. rap of this level of popularity might become even noisier in general, they are already working on it by all means possible.
+</p>
+
+<p>
+the electroacoustics, idm, synthesis, improvisation avantgarde will keep doing its thing, but about as much if not way more of what is new will come from completely different usually unexpected sources. as it has been for a while now
+</p>
+
+<p>
+i think a lot of the few people reading this will not be familiar with most of the stuff mentioned here. a lot of it is googlable but also feel free to ask i just didnt wanna give a billion sources and examples in advance,.,
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Uni Marx</p>
+<p class="date">Created: 2025-09-22 Mo 20:27</p>
+</div>
+</body>
+</html>

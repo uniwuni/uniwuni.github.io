@@ -20,6 +20,7 @@ if youre reading this you might know me from [[http://twitter.com/ununiuniuni][t
 - [[file:cohomology.org][homology stuff idk!!!]]
 - [[file:books.org][books i read]]
 - [[file:beyond.org][thoughts beyond]]
+- [[file:music.org][music and the future]]
 
 
 ** wah
