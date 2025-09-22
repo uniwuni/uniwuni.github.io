@@ -7,20 +7,20 @@ hey i'm uni and this is where i keep documentation of some of the weird technica
 ** about me
 if youre reading this you might know me from [[http://twitter.com/ununiuniuni][twitter]] or discord (@uniwuni), but i might be adding some personal info anyways at some point who knows
 ** the posts
-- [[file:djosm.org][(d)josm or how i spent several hours with virtual keyboards]]
-- [[file:ideapad.org][ubuntu on an ideapad flex 5]]
-- [[file:personal-train-tracking.org][me tracking my train routes]]
-- [[file:org-fit.org][another bizarre attempt at tracking when i go outside (in org mode)]]
-- [[file:grime.org][me talking about grime music]]
+- [[file:djosm.html][(d)josm or how i spent several hours with virtual keyboards]]
+- [[file:ideapad.html][ubuntu on an ideapad flex 5]]
+- [[file:personal-train-tracking.html][me tracking my train routes]]
+- [[file:org-fit.html][another bizarre attempt at tracking when i go outside (in org mode)]]
+- [[file:grime.html][me talking about grime music]]
 - [[file:archive-ontology/index.html][the ontology for my personal archives]] (outdated)
 - [[file:me][contact data via rdf/turtle!!!]]
-- [[file:referentialtransparency.org][a couple weaker notions of referential transparency]]
-- [[file:button.org][the button (making a usb button work on linux)]]
+- [[file:referentialtransparency.html][a couple weaker notions of referential transparency]]
+- [[file:button.html][the button (making a usb button work on linux)]]
 - [[https://uniw.university/bourbakilean-docs/index.html][bourbaki book lean docs]]
-- [[file:cohomology.org][homology stuff idk!!!]]
-- [[file:books.org][books i read]]
-- [[file:beyond.org][thoughts beyond]]
-- [[file:music.org][music and the future]]
+- [[file:cohomology.html][homology stuff idk!!!]]
+- [[file:books.html][books i read]]
+- [[file:beyond.html][thoughts beyond]]
+- [[file:music.html][music and the future]]
 
 
 ** wah
